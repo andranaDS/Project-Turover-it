@@ -1,0 +1,56 @@
+<div class="mb-2">
+    {% if field.value %}
+        <ul class="list-group">
+            <li class="list-group-item field-boolean">
+                <b>Accepte de recevoir par mail les actualité tech de Free-Work</b>
+                {% if field.value.marketingNewsletter == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+            <li class="list-group-item field-boolean">
+                <b>Recevoir un e-mail à chaque réponse d’un sujet créé</b>
+                {% if field.value.forumTopicReply == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+            <li class="list-group-item field-boolean">
+                <b>Recevoir un e-mail à chaque réponse d’un sujet créé mis en favoris</b>
+                {% if field.value.forumTopicFavorite == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+            <li class="list-group-item field-boolean">
+                <b>Recevoir un e-mail à chaque commentaire lié un post publié</b>
+                {% if field.value.forumPostReply == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+            <li class="list-group-item field-boolean">
+                <b>Recevoir un e-mail à chaque like lié un post publié</b>
+                {% if field.value.forumPostLike == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+            <li class="list-group-item field-boolean">
+                <b>Recevoir un e-mail à chaque nouveau message reçu dans la messagerie</b>
+                {% if field.value.messagingNewMessage == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+        </ul>
+    {% else %}
+        <span class="badge badge-secondary">Aucun(e)</span>
+    {% endif %}
+</div>

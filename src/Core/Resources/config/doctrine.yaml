@@ -1,0 +1,11 @@
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    AppCore:
+                        is_bundle: false
+                        type: annotation
+                        dir: '%kernel.project_dir%/src/Core/Entity'
+                        prefix: 'App\Core\Entity'
+                        alias: AppCore

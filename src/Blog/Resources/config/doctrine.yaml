@@ -1,0 +1,11 @@
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    AppBlog:
+                        is_bundle: false
+                        type: annotation
+                        dir: '%kernel.project_dir%/src/Blog/Entity'
+                        prefix: 'App\Blog\Entity'
+                        alias: AppBlog

@@ -1,0 +1,21 @@
+{# @var ea \EasyCorp\Bundle\EasyAdminBundle\Context\AdminContext #}
+{# @var field \EasyCorp\Bundle\EasyAdminBundle\Dto\FieldDto #}
+{# @var entity \EasyCorp\Bundle\EasyAdminBundle\Dto\EntityDto #}
+{% if field.value|length > 0 %}
+    {% for userLanguage in field.value %}
+        <div class="mb-2">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <b>Langue: </b>
+                    {{ ('app_user_enum_language_language_' ~ userLanguage.language)|trans([], 'enums') }}
+                </li>
+                <li class="list-group-item">
+                    <b>Niveau: </b>
+                    {{ ('app_user_enum_language_level_' ~ userLanguage.languageLevel)|trans([], 'enums') }}
+                </li>
+            </ul>
+        </div>
+    {% endfor %}
+{% else %}
+    <span class="badge badge-secondary">Aucun(e)</span>
+{% endif %}

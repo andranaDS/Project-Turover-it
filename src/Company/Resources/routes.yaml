@@ -1,0 +1,3 @@
+app_company_controllers:
+    resource: ../Controller/
+    type: annotation

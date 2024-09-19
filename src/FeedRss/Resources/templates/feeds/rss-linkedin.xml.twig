@@ -1,0 +1,40 @@
+<job>
+    <partnerJobId><![CDATA[{{ jobPosting.partnerJobId }}]]></partnerJobId>
+    <company><![CDATA[{{ jobPosting.company|raw }}]]></company>
+    <title><![CDATA[{{ jobPosting.title|raw }}]]></title>
+    <description><![CDATA[{{ jobPosting.description|raw }}]]></description>
+    <applyUrl><![CDATA[{{ jobPosting.applyUrl | raw }}]]></applyUrl>
+    {% if jobPosting.location is not null %}
+        <location><![CDATA[{{ jobPosting.location|raw }}]]></location>
+    {% endif %}
+
+    {% if jobPosting.city is not null %}
+        <city><![CDATA[{{ jobPosting.city|raw }}]]></city>
+    {% endif %}
+    <state><![CDATA[{{ jobPosting.state|raw }}]]></state>
+    <country><![CDATA[{{ jobPosting.country|raw }}]]></country>
+    {% if jobPosting.postalCode is not null %}
+        <postalCode><![CDATA[{{ jobPosting.postalCode }}]]></postalCode>
+    {% endif %}
+    <experienceLevel><![CDATA[{{ jobPosting.experienceLevel|raw }}]]></experienceLevel>
+    <salaries>
+        <salary>
+            {% if jobPosting.salaryHighEndAmount is not null %}
+                <highEnd>
+                    <amount><![CDATA[{{ jobPosting.salaryHighEndAmount }}]]></amount>
+                    <currencyCode><![CDATA[{{ jobPosting.salaryCurrency|raw }}]]></currencyCode>
+                </highEnd>
+            {% endif %}
+            {% if jobPosting.salaryLowEndAmount is not null %}
+                <lowEnd>
+                    <amount><![CDATA[{{ jobPosting.salaryLowEndAmount }}]]></amount>
+                    <currencyCode><![CDATA[{{ jobPosting.salaryCurrency|raw }}]]></currencyCode>
+                </lowEnd>
+            {% endif %}
+            <period><![CDATA[{{ jobPosting.salaryPeriod|raw }}]]></period>
+            <type>![CDATA[BASE_SALARY]]</type>
+        </salary>
+    </salaries>
+    <workplaceTypes><![CDATA[{{ jobPosting.workplaceTypes|raw }}]]></workplaceTypes>
+    <jobtype><![CDATA[{{ jobPosting.jobType|raw }}]]></jobtype>
+</job>

@@ -1,0 +1,38 @@
+.phpunit:
+  stage: tests
+  # Bring in any services we need http://docs.gitlab.com/ee/ci/docker/using_docker_images.html#what-is-a-service
+  # See http://docs.gitlab.com/ee/ci/services/README.html for examples.
+  services:
+    - name: docker.elastic.co/elasticsearch/elasticsearch:7.9.2
+      alias: elasticsearch
+      command: [ "bin/elasticsearch", "-Ediscovery.type=single-node" ]
+    - name: mariadb:10.4
+      alias: database
+  variables:
+    MYSQL_ROOT_PASSWORD: gV3^6KkS8!
+    MYSQL_USER: freework
+    MYSQL_PASSWORD: 5Dzv#3W#Ed
+    MYSQL_DATABASE: api
+  before_script:
+    - composer install
+  script:
+    - export HRFLOW_SOURCE_KEY=$HRFLOW_SOURCE_KEY
+    - export HRFLOW_API_KEY=$HRFLOW_API_KEY
+    - export MJ_APIKEY_PUBLIC=$MJ_APIKEY_PUBLIC
+    - export MJ_APIKEY_PRIVATE=$MJ_APIKEY_PRIVATE
+    - php bin/console doctrine:database:drop --force --connection=default --if-exists --env=test -q
+    - php bin/console doctrine:database:create --if-not-exists --env=test -q
+    - php bin/console doctrine:migration:migrate -n --env=test -q
+    - php bin/console doctrine:fixtures:load -n --env=test -q
+    - php bin/console fos:elastica:populate -n --env=test -q
+    - failed="0"
+    - php -d memory_limit=-1 bin/phpunit --log-junit "phpunit.xml" --coverage-cobertura=phpunit-coverage.xml --coverage-text --testsuite $TESTSUITES || exit_code=$?
+    - if [ $exit_code -ne "0" ]; then failed="1"; fi;
+    - if [ $failed -ne "0" ]; then exit 1; fi;
+  coverage: '/^\s*Lines:\s*(\d+(?:\.\d+)?%)/'
+  artifacts:
+    reports:
+      junit:
+        - phpunit.xml
+#      cobertura:
+#        - phpunit-coverage.xml

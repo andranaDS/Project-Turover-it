@@ -1,0 +1,24 @@
+.linting:
+  stage: tests
+  before_script:
+    - php bin/console cache:clear
+  script:
+    - failed="0"
+    # Cs fixer
+    - mkdir -p .php-cs-fixer && php vendor/bin/php-cs-fixer fix --cache-file=.php-cs-fixer/.php_cs.cache --verbose --diff --dry-run --format=junit > php-cs-fixer.xml || exit_code=$?
+    - if [ $exit_code -ne "0" ]; then failed="1"; fi;
+    # PHPStan
+    - php vendor/bin/phpstan analyse src --memory-limit=-1 --error-format=gitlab --no-progress > phpstan.json || exit_code=$?
+    - if [ $exit_code -ne "0" ]; then failed="1"; fi;
+    - if [ $failed -ne "0" ]; then exit 1; fi;
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+        - .php-cs-fixer
+        - .tmp
+  artifacts:
+    reports:
+      junit:
+        - php-cs-fixer.xml
+      codequality:
+        - phpstan.json

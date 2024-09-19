@@ -1,0 +1,75 @@
+parameters:
+    turnover_front_scheme: '%env(TURNOVER_FRONT_SCHEME)%'
+    turnover_front_base_url: '%env(TURNOVER_FRONT_BASE_URL)%'
+    candidates_scheme: '%env(CANDIDATES_SCHEME)%'
+    candidates_base_url: '%env(CANDIDATES_BASE_URL)%'
+    api_free_work_scheme: '%env(API_SCHEME)%'
+    api_free_work_base_url: '%env(API_BASE_URL)%'
+    api_free_work_pattern_base_url: '#^(%env(API_BASE_URL)%|%env(API_INTERNAL_BASE_URL)%)$#'
+    api_free_work_pattern_base_url_security: '^(%env(API_BASE_URL)%|%env(API_INTERNAL_BASE_URL)%)$'
+    api_turnover_pattern_base_url: '#^(%env(API_TURNOVER_BASE_URL)%|%env(API_INTERNAL_BASE_URL)%)$#'
+    api_turnover_pattern_base_url_security: '^(%env(API_TURNOVER_BASE_URL)%|%env(API_INTERNAL_BASE_URL)%)$'
+    api_turnover_scheme: '%env(API_TURNOVER_SCHEME)%'
+    api_turnover_base_url: '%env(API_TURNOVER_BASE_URL)%'
+    admin_scheme: '%env(ADMIN_SCHEME)%'
+    admin_base_url: '%env(ADMIN_BASE_URL)%'
+    google_recaptcha_site_key: '%env(GOOGLE_RECAPTCHA_SITE_KEY)%'
+
+services:
+    Predis\Client: '@snc_redis.session'
+    Predis\ClientInterface: '@Predis\Client'
+
+    Gedmo\IpTraceable\IpTraceableListener:
+        class: Gedmo\IpTraceable\IpTraceableListener
+        public: false
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }
+        calls:
+            - [ setAnnotationReader, [ '@annotation_reader' ] ]
+
+    app.aws_s3.client:
+        class: Aws\S3\S3Client
+        factory: [ Aws\S3\S3Client, 'factory' ]
+        arguments:
+            -   version: '%env(AMAZON_S3_VERSION)%'
+                region: '%env(AMAZON_S3_REGION)%'
+                endpoint: '%env(AMAZON_S3_PREFIX)%'
+                use_path_style_endpoint: true
+                credentials:
+                    key: '%env(AMAZON_S3_KEY)%'
+                    secret: '%env(AMAZON_S3_SECRET)%'
+
+    Greg0ire\Enum\Bridge\Twig\Extension\EnumExtension:
+        arguments: [ '@translator' ]
+        tags:
+            - { name: twig.extension }
+
+    Symfony\Component\HttpFoundation\Session\Storage\Handler\RedisSessionHandler:
+        arguments: ['@snc_redis.session']
+
+    app.imagine.cache.resolver.aws_s3_resolver:
+        class: Liip\ImagineBundle\Imagine\Cache\Resolver\AwsS3Resolver
+        arguments:
+            - "@app.aws_s3.client"
+            - "%env(AMAZON_S3_BUCKET)%"
+        tags:
+            - { name: "liip_imagine.cache.resolver", resolver: "aws_s3_resolver" }
+
+
+    app.imagine.cache.resolver.format_extension:
+        class: Liip\ImagineBundle\Imagine\Cache\Resolver\FormatExtensionResolver
+        arguments:
+            - "@app.imagine.cache.resolver.aws_s3_resolver"
+            - "@liip_imagine.filter.configuration"
+        tags:
+            - { name: "liip_imagine.cache.resolver", resolver: "format_extension" }
+
+    app.imagine.cache.resolver.proxy:
+        class: App\Core\Liip\ProxyResolver
+        arguments:
+            - "@app.imagine.cache.resolver.format_extension"
+            - [ '%env(AMAZON_S3_CLOUDFRONT)%' ]
+            - "%env(AMAZON_S3_BUCKET)%"
+        tags:
+            - { name: "liip_imagine.cache.resolver", resolver: "proxy" }
+

@@ -1,0 +1,3 @@
+app_notification_controllers:
+    resource: ../Controller/
+    type: annotation

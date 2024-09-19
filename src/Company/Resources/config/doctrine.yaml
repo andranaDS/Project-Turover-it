@@ -1,0 +1,11 @@
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    AppCompany:
+                        is_bundle: false
+                        type: annotation
+                        dir: '%kernel.project_dir%/src/Company/Entity'
+                        prefix: 'App\Company\Entity'
+                        alias: AppCompany

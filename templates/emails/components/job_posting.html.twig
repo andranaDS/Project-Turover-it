@@ -1,0 +1,30 @@
+<ul>
+    {% for jobPosting in jobPostings %}
+        {% set data = [
+            jobPosting.title,
+            jobPosting.contracts|map((value, key) =>  value|enum_label('App\\JobPosting\\Enum\\Contract', 'enums'))|join(', ')
+        ] %}
+
+        {% if jobPosting.duration is not null %}
+            {% set data = data|merge([
+                'user.alert_missions.content.job.duration'|trans({'%months%': jobPosting.duration}, 'emails')|nl2br
+            ]) %}
+        {% endif %}
+
+        {% set data = data|merge([jobPosting.location.label]) %}
+
+        <li>
+            <a href="{{ url('candidates_job_posting', {'JobSlug': jobPosting.job.slug, 'jobPostingSlug': jobPosting.slug}) ~ urlTag|default('') }}">
+                {{ data|join(' - ') }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+
+
+
+
+
+
+
+

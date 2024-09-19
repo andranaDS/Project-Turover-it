@@ -1,0 +1,12 @@
+.composer:
+  stage: preparation
+  script:
+    - yarn install
+    - yarn build
+    - composer install
+    - php bin/phpunit --version
+    - echo "installed composer dependencies"
+  artifacts:
+    expire_in: 30min
+    paths:
+    - public/build/

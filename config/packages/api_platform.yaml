@@ -1,0 +1,25 @@
+api_platform:
+    version: '%env(APP_VERSION)%'
+    patch_formats:
+        json: ['application/json']
+    swagger:
+        versions: [3]
+    enable_profiler: true
+    enable_docs: true
+    show_webby: false
+    defaults:
+        pagination_client_enabled: true
+        pagination_client_items_per_page: true
+        pagination_items_per_page: '%env(int:APP_ITEMS_PER_PAGE)%'
+        cache_headers:
+            max_age: 0
+            shared_max_age: 3600
+            vary: [ 'Content-Type', 'Authorization', 'Accept-Language' ]
+    http_cache:
+        invalidation:
+            enabled: true
+            varnish_urls: [ '%env(VARNISH_URL)%' ]
+        public: true
+    collection:
+        pagination:
+            enabled_parameter_name: pagination

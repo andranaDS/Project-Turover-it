@@ -1,0 +1,36 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'user_notification_messaging_new_message') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.user_notification_messaging_new_message.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    <p>{{ 'user.user_notification_messaging_new_message.content.paragraphs.0'|trans({}, 'emails')|nl2br }}</p>
+
+                    <p>{{ 'user.user_notification_messaging_new_message.content.paragraphs.1'|trans({}, 'emails')|nl2br }}</p>
+
+                    <spacer size="25"></spacer>
+
+                    <center>
+                        <button class="large radius" href="{{ url('candidate_messageing_new_message') ~ '?t=' ~ feed.id  }}">
+                            {{ 'user.user_notification_messaging_new_message.content.button'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="25"></spacer>
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

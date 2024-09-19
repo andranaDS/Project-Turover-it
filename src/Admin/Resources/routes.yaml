@@ -1,0 +1,5 @@
+app_admin_controllers:
+    resource: ../Controller/
+    type: annotation
+    host: '%admin_base_url%'
+    schemes: ["%admin_scheme%"]

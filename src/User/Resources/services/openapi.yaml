@@ -1,0 +1,44 @@
+parameters:
+    authDocumentationEmail: '%env(APP_DOC_AUTHENTICATION_EMAIL)%'
+    authDocumentationPassword: '%env(APP_DOC_AUTHENTICATION_PASSWORD)%'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\User\OpenApi\LoginDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\User\OpenApi\LogoutDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\User\OpenApi\UsersNicknameExistsDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\User\OpenApi\RegistrationConfirmDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\User\OpenApi\ForgottenPasswordRequestDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\User\OpenApi\ForgottenPasswordResetDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\User\OpenApi\UserDataDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\User\OpenApi\ChangeEmailRequestDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\User\OpenApi\ChangeEmailConfirmDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false

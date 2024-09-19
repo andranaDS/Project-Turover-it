@@ -1,0 +1,349 @@
+app_company_enum_company_size_less_than_20_employees: '< 20'
+app_company_enum_company_size_employees_20_99: '20 - 99'
+app_company_enum_company_size_employees_100_249: '100 - 249'
+app_company_enum_company_size_employees_250_999: '250 - 999'
+app_company_enum_company_size_more_than_1000_employees: '> 1000'
+
+app_job_enum_application_state_in_progress: 'Application in progress'
+app_job_enum_application_state_unsuccessful: 'Unsuccessful application'
+app_job_enum_application_state_cancelled: 'Application abandoned'
+app_job_enum_application_state_expired: 'Job offer expired'
+
+app_job_posting_enum_contract_permanent: 'Permanent'
+app_job_posting_enum_contract_fixed_term: 'Fixed term'
+app_job_posting_enum_contract_internship: 'Internship'
+app_job_posting_enum_contract_contractor: 'Contractor'
+app_job_posting_enum_contract_apprenticeship: 'Apprenticeship'
+app_job_posting_enum_contract_intercontract: 'Intercontract'
+
+app_core_enum_contact_service_users: 'User service'
+app_core_enum_contact_service_sales: 'Sales department'
+
+app_user_enum_gender_male: 'Mr.'
+app_user_enum_gender_female: 'Mrs.'
+
+app_user_enum_experience_year_less_than_1_year: "Less than one year"
+app_user_enum_experience_year_years_1_2: '1-2 years'
+app_user_enum_experience_year_years_3_4: '2-4 years'
+app_user_enum_experience_year_years_5_10: '5-10 years'
+app_user_enum_experience_year_years_11_15: '10-15 years'
+app_user_enum_experience_year_more_than_15_years: 'More than 15 years'
+
+app_core_enum_employment_time_full_time: 'Full time'
+app_core_enum_employment_time_part_time: 'Part time'
+
+app_user_enum_freelance_legal_status_self_employed: 'Indépendant (SAS, EURL, auto-entrepreneur...)'
+app_user_enum_freelance_legal_status_umbrella_company: 'Umbrella company'
+app_user_enum_freelance_legal_status_status_in_progress: 'Statut d’exercice en réflexion (*)'
+app_user_enum_freelance_legal_status_sas_sasu: 'SAS / SASU'
+app_user_enum_freelance_legal_status_sarl_eurl: 'SARL / EURL'
+app_user_enum_freelance_legal_status_liberal_profession: 'Liberal profession'
+
+app_core_enum_currency_eur: '€'
+app_core_enum_currency_usd: '$US'
+app_core_enum_currency_gbp: '£'
+
+app_user_enum_company_country_code_aw: "Aruba"
+app_user_enum_company_country_code_af: "Afghanistan"
+app_user_enum_company_country_code_ao: "Angola"
+app_user_enum_company_country_code_ai: "Anguilla"
+app_user_enum_company_country_code_ax: "Aland Islands"
+app_user_enum_company_country_code_al: "Albania"
+app_user_enum_company_country_code_ad: "Andorra"
+app_user_enum_company_country_code_an: "Netherlands Antilles"
+app_user_enum_company_country_code_ae: "United Arab Emirates"
+app_user_enum_company_country_code_ar: "Argentina"
+app_user_enum_company_country_code_am: "Armenia"
+app_user_enum_company_country_code_as: "American Samoa"
+app_user_enum_company_country_code_aq: "Antarctica"
+app_user_enum_company_country_code_tf: "French Southern Territories"
+app_user_enum_company_country_code_ag: "Antigua and Barbuda"
+app_user_enum_company_country_code_au: "Australia"
+app_user_enum_company_country_code_at: "Austria"
+app_user_enum_company_country_code_az: "Azerbaijan"
+app_user_enum_company_country_code_bi: "Burundi"
+app_user_enum_company_country_code_be: "Belgium"
+app_user_enum_company_country_code_bj: "Benin"
+app_user_enum_company_country_code_bq: "Caribbean Netherlands"
+app_user_enum_company_country_code_bf: "Burkina Faso"
+app_user_enum_company_country_code_bd: "Bangladesh"
+app_user_enum_company_country_code_bg: "Bulgaria"
+app_user_enum_company_country_code_bh: "Bahrain"
+app_user_enum_company_country_code_bs: "Bahamas"
+app_user_enum_company_country_code_ba: "Bosnia and Herzegovina"
+app_user_enum_company_country_code_bl: "Saint Barthélemy"
+app_user_enum_company_country_code_by: "Belarus"
+app_user_enum_company_country_code_bz: "Belize"
+app_user_enum_company_country_code_bm: "Bermuda"
+app_user_enum_company_country_code_bo: "Bolivia"
+app_user_enum_company_country_code_br: "Brazil"
+app_user_enum_company_country_code_bb: "Barbados"
+app_user_enum_company_country_code_bn: "Brunei Darussalam"
+app_user_enum_company_country_code_bt: "Bhutan"
+app_user_enum_company_country_code_bv: "Bouvet Island"
+app_user_enum_company_country_code_bw: "Botswana"
+app_user_enum_company_country_code_cf: "Central African"
+app_user_enum_company_country_code_ca: "Canada"
+app_user_enum_company_country_code_cc: "Cocos (Keeling) Islands"
+app_user_enum_company_country_code_ch: "Switzerland"
+app_user_enum_company_country_code_cl: "Chile"
+app_user_enum_company_country_code_cn: "China"
+app_user_enum_company_country_code_ci: "Côte d'Ivoire"
+app_user_enum_company_country_code_cm: "Cameroon"
+app_user_enum_company_country_code_cd: "The Democratic Republic Of The Congo"
+app_user_enum_company_country_code_cg: "Republic of the Congo"
+app_user_enum_company_country_code_ck: "Cook Islands"
+app_user_enum_company_country_code_co: "Colombia"
+app_user_enum_company_country_code_km: "Comoros"
+app_user_enum_company_country_code_cv: "Cape Verde"
+app_user_enum_company_country_code_cr: "Costa Rica"
+app_user_enum_company_country_code_cu: "Cuba"
+app_user_enum_company_country_code_cw: "Curaçao"
+app_user_enum_company_country_code_cx: "Christmas Island"
+app_user_enum_company_country_code_ky: "Cayman Islands"
+app_user_enum_company_country_code_cy: "Cyprus"
+app_user_enum_company_country_code_cz: "Czech Republic"
+app_user_enum_company_country_code_de: "Germany"
+app_user_enum_company_country_code_dj: "Djibouti"
+app_user_enum_company_country_code_dm: "Dominica"
+app_user_enum_company_country_code_dk: "Denmark"
+app_user_enum_company_country_code_do: "Dominican Republic"
+app_user_enum_company_country_code_dz: "Algeria"
+app_user_enum_company_country_code_ec: "Ecuador"
+app_user_enum_company_country_code_eg: "Egypt"
+app_user_enum_company_country_code_er: "Eritrea"
+app_user_enum_company_country_code_eh: "Western Sahara"
+app_user_enum_company_country_code_es: "Spain"
+app_user_enum_company_country_code_ee: "Estonia"
+app_user_enum_company_country_code_et: "Ethiopia"
+app_user_enum_company_country_code_fi: "Finland"
+app_user_enum_company_country_code_fj: "Fiji"
+app_user_enum_company_country_code_fk: "Falkland Islands"
+app_user_enum_company_country_code_fr: "France"
+app_user_enum_company_country_code_fo: "Faroe Islands"
+app_user_enum_company_country_code_fm: "Federated States of Micronesia"
+app_user_enum_company_country_code_ga: "Gabon"
+app_user_enum_company_country_code_gb: "United Kingdom"
+app_user_enum_company_country_code_ge: "Georgia"
+app_user_enum_company_country_code_gg: "Guernsey"
+app_user_enum_company_country_code_gh: "Ghana"
+app_user_enum_company_country_code_gi: "Gibraltar"
+app_user_enum_company_country_code_gn: "Guinea"
+app_user_enum_company_country_code_gp: "Guadeloupe"
+app_user_enum_company_country_code_gm: "Gambia"
+app_user_enum_company_country_code_gw: "Guinea-Bissau"
+app_user_enum_company_country_code_gq: "Equatorial Guinea"
+app_user_enum_company_country_code_gr: "Greece"
+app_user_enum_company_country_code_gd: "Grenada"
+app_user_enum_company_country_code_gl: "Greenland"
+app_user_enum_company_country_code_gt: "Guatemala"
+app_user_enum_company_country_code_gf: "French Guiana"
+app_user_enum_company_country_code_gu: "Guam"
+app_user_enum_company_country_code_gy: "Guyana"
+app_user_enum_company_country_code_hk: "Hong Kong"
+app_user_enum_company_country_code_hm: "Heard Island and McDonald Islands"
+app_user_enum_company_country_code_hn: "Honduras"
+app_user_enum_company_country_code_hr: "Croatia"
+app_user_enum_company_country_code_ht: "Haiti"
+app_user_enum_company_country_code_hu: "Hungary"
+app_user_enum_company_country_code_id: "Indonesia"
+app_user_enum_company_country_code_im: "Isle of Man"
+app_user_enum_company_country_code_in: "India"
+app_user_enum_company_country_code_io: "British Indian Ocean Territory"
+app_user_enum_company_country_code_ie: "Ireland"
+app_user_enum_company_country_code_ir: "Iran"
+app_user_enum_company_country_code_iq: "Iraq"
+app_user_enum_company_country_code_is: "Iceland"
+app_user_enum_company_country_code_il: "Israel"
+app_user_enum_company_country_code_it: "Italy"
+app_user_enum_company_country_code_jm: "Jamaica"
+app_user_enum_company_country_code_je: "Jersey"
+app_user_enum_company_country_code_jo: "Jordan"
+app_user_enum_company_country_code_jp: "Japan"
+app_user_enum_company_country_code_kz: "Kazakhstan"
+app_user_enum_company_country_code_ke: "Kenya"
+app_user_enum_company_country_code_kg: "Kyrgyzstan"
+app_user_enum_company_country_code_kh: "Cambodia"
+app_user_enum_company_country_code_ki: "Kiribati"
+app_user_enum_company_country_code_kn: "Saint Kitts and Nevis"
+app_user_enum_company_country_code_kr: "Republic of Korea"
+app_user_enum_company_country_code_kw: "Kuwait"
+app_user_enum_company_country_code_la: "Laos"
+app_user_enum_company_country_code_lb: "Lebanon"
+app_user_enum_company_country_code_lr: "Liberia"
+app_user_enum_company_country_code_ly: "Libya"
+app_user_enum_company_country_code_lc: "Saint Lucia"
+app_user_enum_company_country_code_li: "Liechtenstein"
+app_user_enum_company_country_code_lk: "Sri Lanka"
+app_user_enum_company_country_code_ls: "Lesotho"
+app_user_enum_company_country_code_lt: "Lithuania"
+app_user_enum_company_country_code_lu: "Luxembourg"
+app_user_enum_company_country_code_lv: "Latvia"
+app_user_enum_company_country_code_mo: "Macao"
+app_user_enum_company_country_code_mf: "Collectivity of Saint Martin"
+app_user_enum_company_country_code_ma: "Morocco"
+app_user_enum_company_country_code_mc: "Monaco"
+app_user_enum_company_country_code_md: "Republic of Moldova"
+app_user_enum_company_country_code_mg: "Madagascar"
+app_user_enum_company_country_code_mv: "Maldives"
+app_user_enum_company_country_code_mx: "Mexico"
+app_user_enum_company_country_code_mh: "Marshall Islands"
+app_user_enum_company_country_code_mk: "Macedonia"
+app_user_enum_company_country_code_ml: "Mali"
+app_user_enum_company_country_code_mt: "Malta"
+app_user_enum_company_country_code_mm: "Myanmar"
+app_user_enum_company_country_code_me: "Montenegro"
+app_user_enum_company_country_code_mn: "Mongolia"
+app_user_enum_company_country_code_mp: "Northern Mariana Islands"
+app_user_enum_company_country_code_mz: "Mozambique"
+app_user_enum_company_country_code_mr: "Mauritania"
+app_user_enum_company_country_code_ms: "Montserrat"
+app_user_enum_company_country_code_mq: "Martinique"
+app_user_enum_company_country_code_mu: "Mauritius"
+app_user_enum_company_country_code_mw: "Malawi"
+app_user_enum_company_country_code_my: "Malaysia"
+app_user_enum_company_country_code_yt: "Mayotte"
+app_user_enum_company_country_code_na: "Namibia"
+app_user_enum_company_country_code_nc: "New Caledonia"
+app_user_enum_company_country_code_ne: "Niger"
+app_user_enum_company_country_code_nf: "Norfolk Island"
+app_user_enum_company_country_code_ng: "Nigeria"
+app_user_enum_company_country_code_ni: "Nicaragua"
+app_user_enum_company_country_code_nu: "Niue"
+app_user_enum_company_country_code_nl: "Netherlands"
+app_user_enum_company_country_code_no: "Norway"
+app_user_enum_company_country_code_np: "Nepal"
+app_user_enum_company_country_code_nr: "Nauru"
+app_user_enum_company_country_code_nz: "New Zealand"
+app_user_enum_company_country_code_om: "Oman"
+app_user_enum_company_country_code_oo: "Other countries"
+app_user_enum_company_country_code_pk: "Pakistan"
+app_user_enum_company_country_code_pa: "Panama"
+app_user_enum_company_country_code_pn: "Pitcairn"
+app_user_enum_company_country_code_pe: "Peru"
+app_user_enum_company_country_code_ph: "Philippines"
+app_user_enum_company_country_code_pw: "Palau"
+app_user_enum_company_country_code_pg: "Papua New Guinea"
+app_user_enum_company_country_code_pl: "Poland"
+app_user_enum_company_country_code_pr: "Puerto Rico"
+app_user_enum_company_country_code_kp: "Democratic People's Republic of Korea"
+app_user_enum_company_country_code_pt: "Portugal"
+app_user_enum_company_country_code_py: "Paraguay"
+app_user_enum_company_country_code_ps: "Palestine"
+app_user_enum_company_country_code_pf: "French Polynesia"
+app_user_enum_company_country_code_qa: "Qatar"
+app_user_enum_company_country_code_re: "Réunion"
+app_user_enum_company_country_code_ro: "Romania"
+app_user_enum_company_country_code_ru: "Russian Federation"
+app_user_enum_company_country_code_rw: "Rwanda"
+app_user_enum_company_country_code_sa: "Saudi Arabia"
+app_user_enum_company_country_code_cs: "Serbia and Montenegro"
+app_user_enum_company_country_code_sd: "Sudan"
+app_user_enum_company_country_code_sn: "Senegal"
+app_user_enum_company_country_code_sg: "Singapore"
+app_user_enum_company_country_code_gs: "South Georgia and the South Sandwich Islands"
+app_user_enum_company_country_code_sh: "Saint Helena"
+app_user_enum_company_country_code_sj: "Svalbard and Jan Mayen"
+app_user_enum_company_country_code_sb: "Solomon Islands"
+app_user_enum_company_country_code_sl: "Sierra Leone"
+app_user_enum_company_country_code_sv: "El Salvador"
+app_user_enum_company_country_code_sm: "San Marino"
+app_user_enum_company_country_code_so: "Somalia"
+app_user_enum_company_country_code_pm: "Saint-Pierre and Miquelon"
+app_user_enum_company_country_code_rs: "Serbia"
+app_user_enum_company_country_code_ss: "South Sudan"
+app_user_enum_company_country_code_st: "Sao Tome and Principe"
+app_user_enum_company_country_code_sr: "Suriname"
+app_user_enum_company_country_code_sk: "Slovakia"
+app_user_enum_company_country_code_si: "Slovenia"
+app_user_enum_company_country_code_se: "Sweden"
+app_user_enum_company_country_code_sz: "Swaziland"
+app_user_enum_company_country_code_sx: "Sint Maarten"
+app_user_enum_company_country_code_sc: "Seychelles"
+app_user_enum_company_country_code_sy: "Syria"
+app_user_enum_company_country_code_tc: "Turks and Caicos Islands"
+app_user_enum_company_country_code_td: "Chad"
+app_user_enum_company_country_code_tg: "Togo"
+app_user_enum_company_country_code_th: "Thailand"
+app_user_enum_company_country_code_tj: "Tajikistan"
+app_user_enum_company_country_code_tk: "Tokelau"
+app_user_enum_company_country_code_tm: "Turkmenistan"
+app_user_enum_company_country_code_tl: "Timor-Leste"
+app_user_enum_company_country_code_to: "Tonga"
+app_user_enum_company_country_code_tt: "Trinidad and Tobago"
+app_user_enum_company_country_code_tn: "Tunisia"
+app_user_enum_company_country_code_tr: "Turkey"
+app_user_enum_company_country_code_tv: "Tuvalu"
+app_user_enum_company_country_code_tw: "Taiwan"
+app_user_enum_company_country_code_tz: "Tanzania"
+app_user_enum_company_country_code_ug: "Uganda"
+app_user_enum_company_country_code_ua: "Ukraine"
+app_user_enum_company_country_code_um: "United States Minor Outlying Islands"
+app_user_enum_company_country_code_uy: "Uruguay"
+app_user_enum_company_country_code_us: "United States"
+app_user_enum_company_country_code_uz: "Uzbekistan"
+app_user_enum_company_country_code_va: "Vatican City State"
+app_user_enum_company_country_code_vc: "Saint Vincent and the Grenadines"
+app_user_enum_company_country_code_ve: "Venezuela"
+app_user_enum_company_country_code_vg: "British Virgin Islands"
+app_user_enum_company_country_code_vi: "U.S. Virgin Islands"
+app_user_enum_company_country_code_vn: "Vietnam"
+app_user_enum_company_country_code_vu: "Vanuatu"
+app_user_enum_company_country_code_wf: "Wallis and Futuna"
+app_user_enum_company_country_code_ws: "Samoa"
+app_user_enum_company_country_code_xk: "Kosovo"
+app_user_enum_company_country_code_ye: "Yemen"
+app_user_enum_company_country_code_za: "South Africa"
+app_user_enum_company_country_code_zm: "Zambia"
+app_user_enum_company_country_code_zw: "Zimbabwe"
+
+app_user_enum_language_language_fr: 'Français'
+app_user_enum_language_language_en: 'Anglais'
+app_user_enum_language_language_es: 'Espagnol'
+app_user_enum_language_language_de: 'Allemand'
+app_user_enum_language_language_it: 'Italien'
+app_user_enum_language_language_pt: 'Portuguais'
+app_user_enum_language_language_zh: 'Chinois'
+app_user_enum_language_language_ar: 'Arabe'
+app_user_enum_language_language_ru: 'Russe'
+app_user_enum_language_language_nl: 'Néerlandais'
+
+app_user_enum_language_level_notions: 'Notions'
+app_user_enum_language_level_limited_professional_skills: 'Courant'
+app_user_enum_language_level_full_professional_capacity: 'Professionnel'
+app_user_enum_language_level_native_or_bilingual: 'Natif ou bilingue'
+
+app_user_enum_step_ko: 'Non retenue'
+app_user_enum_step_cancelled: 'Abandonnée'
+app_user_enum_step_seen: 'Profil consulté'
+app_user_enum_step_resume: 'CV envoyé'
+
+app_user_enum_availability_immediate: 'immédiatemment'
+app_user_enum_availability_within_1_month: 'dans 1 mois'
+app_user_enum_availability_within_2_month: 'dans 2 mois'
+app_user_enum_availability_within_3_month: 'dans 3 mois'
+app_user_enum_availability_date: 'à partir du'
+app_user_enum_availability_none: 'en poste avec préavis'
+
+app_job_enum_contract_permanent: 'Permanent'
+app_job_enum_contract_fixed_term: 'Fixed-term'
+app_job_enum_contract_internship: 'Internship'
+app_job_enum_contract_contractor: 'Contractor'
+app_job_enum_contract_apprenticeship: 'Apprenticeship'
+
+app_feed_rss_enum_feed_rss_partner_neuvoo: 'Neuvoo'
+app_feed_rss_enum_feed_rss_partner_jobijoba: 'Jobijoba'
+app_feed_rss_enum_feed_rss_partner_poleemploi: 'Pole-emploi'
+app_feed_rss_enum_feed_rss_partner_jobrapido: 'Jobrapido'
+app_feed_rss_enum_feed_rss_partner_meteojobrhonesalpes: 'Meteojob Rhones Alpes'
+app_feed_rss_enum_feed_rss_partner_linkedin: 'Linkedin'
+app_feed_rss_enum_feed_rss_partner_indeed: 'indeed'
+app_feed_rss_enum_feed_rss_partner_joblift: 'Joblift'
+app_feed_rss_enum_feed_rss_partner_jooble: 'Jooble'
+
+app_feed_rss_enum_feed_rss_type_contractor: 'Freelance'
+app_feed_rss_enum_feed_rss_type_worker: 'Work'
+app_feed_rss_enum_feed_rss_type_premium: 'Premium'
+
+app_partner_enum_partner_none: 'None'
+app_partner_enum_partner_freelancecom: 'Freelance.com'

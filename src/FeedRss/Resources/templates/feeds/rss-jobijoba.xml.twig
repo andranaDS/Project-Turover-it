@@ -1,0 +1,30 @@
+<item>
+    <title>{{ jobPosting.title|raw }}</title>
+    <link>{{ jobPosting.link|raw }}</link>
+    <description>{{ jobPosting.description|raw }}</description>
+    {% if jobPosting.region1 is defined  and jobPosting.region1 is not null %}
+        <region1><![CDATA[{{ jobPosting.region1|raw }}]]></region1>
+    {% endif %}
+    {% if jobPosting.region2 is defined and jobPosting.region2 is not null %}
+        <region2><![CDATA[{{ jobPosting.region2|raw }}]]></region2>
+    {% endif %}
+    {% if jobPosting.town is defined and jobPosting.town is not null %}
+        <town><![CDATA[{{ jobPosting.town|raw }}]]></town>
+    {% endif %}
+    {% if jobPosting.postalCode is defined and jobPosting.postalCode is not null %}
+        <postal_code><![CDATA[{{ jobPosting.postalCode|raw }}]]></postal_code>
+    {% endif %}
+    <publication_date>{{ jobPosting.publicationDate|raw }}</publication_date>
+    <salary
+            {% if jobPosting.salaryPeriodicity is not null %} periodicity="{{ jobPosting.salaryPeriodicity|raw }}" {% endif %}
+            {% if jobPosting.salaryCurrency is not null %} currency="{{ jobPosting.salaryCurrency|raw }}" {% endif %}
+    >
+        {{ jobPosting.salary|raw }}
+    </salary>
+    <company>{{ jobPosting.company|raw }}</company>
+    <contract_type>{{ jobPosting.contractType|raw }}</contract_type>
+    {% if jobPosting.countryName is not null %}
+        <country_name><![CDATA[{{ jobPosting.countryName|raw }}]]></country_name>
+    {% endif %}
+    <contract_length><![CDATA[full_time]]></contract_length>
+</item>

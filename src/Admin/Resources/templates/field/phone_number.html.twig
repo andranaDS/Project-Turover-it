@@ -1,0 +1,7 @@
+<div class="mb-2">
+    {% if field.value %}
+        {{ field.value|phone_number_format('NATIONAL') }}
+    {% else %}
+        <span class="badge badge-secondary">Aucun(e)</span>
+    {% endif %}
+</div>

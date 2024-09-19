@@ -1,0 +1,138 @@
+# Read the documentation: https://github.com/FriendsOfSymfony/FOSElasticaBundle/blob/master/doc/setup.md
+fos_elastica:
+    clients:
+        default:
+            url: '%env(ELASTICSEARCH_URL)%/'
+    indexes:
+        app:
+            index_name: '%env(ELASTICSEARCH_JOB_POSTING_INDEX_NAME)%'
+            settings:
+                index:
+                    max_result_window: 50000
+                analysis:
+                    filter:
+                        french_elision:
+                            type: elision
+                            articles_case: true
+                            articles:
+                                - l
+                                - m
+                                - t
+                                - qu
+                                - n
+                                - s
+                                - j
+                                - d
+                                - c
+                                - jusqu
+                                - quoiqu
+                                - lorsqu
+                                - puisqu
+                        french_stop:
+                            type: stop
+                            stopwords: _french_
+                        french_synonym:
+                            type: synonym
+                            ignore_case: true
+                            expand: true
+                            synonyms:
+                                - javascript, js
+                                - angular, angularjs
+                                - react, react.js, reactjs
+                                - vue, vue.js, vuejs
+                                - node, nodejs, node.js
+                                - pmo, project manager, project manager owner
+                                - po, product owner
+                                - z/os, zos
+                                - css, css3
+                                - html, html5
+                                - html/css, html css
+                                - symfony, synfony, symphonie, symphoni, symphony, sinfoni, simfony, simfoni
+                                - php5, php 5
+                                - php7, php 7
+                                - php73, php 7.3
+                                - php74, php 7.4
+                                - php8, php 8
+                        french_stemmer:
+                            type: stemmer
+                            language: light_french
+                    analyzer:
+                        rebuilt_french:
+                            tokenizer: whitespace
+                            filter:
+                                - french_elision
+                                - lowercase
+                                - french_stop
+                                - french_synonym
+                                - french_stemmer
+                        rebuilt_french_nonstop:
+                            tokenizer: standard
+                            filter:
+                                - french_elision
+                                - lowercase
+                                - french_synonym
+            properties:
+                id: { type: integer }
+                slug: { type: keyword }
+                title:
+                    analyzer: rebuilt_french
+                    fields:
+                        french:
+                            store: true
+                            analyzer: rebuilt_french_nonstop
+                shortDescription: ~
+                description:
+                    analyzer: rebuilt_french
+                    fields:
+                        french:
+                            store: true
+                            analyzer: rebuilt_french_nonstop
+                candidateProfile: ~
+                companyDescription: ~
+                maxAnnualSalary: { type: integer }
+                minDailySalary: { type: integer }
+                maxDailySalary: { type: integer }
+                contracts: { type: keyword }
+                status: { type: keyword }
+                duration: { type: integer }
+                remoteMode: { type: keyword }
+                job:
+                    type: nested
+                    properties:
+                        id: { type: integer }
+                        nameForContributionSlug: { type: keyword }
+                company:
+                    type: nested
+                    properties:
+                        id: { type: integer }
+                        name: ~
+                        description: ~
+                        businessActivity:
+                            type: nested
+                            properties:
+                                id: { type: integer }
+                                slug: { type: keyword }
+                location:
+                    type: nested
+                    properties:
+                        localitySlug: { type: keyword }
+                        adminLevel1Slug: { type: keyword }
+                        adminLevel2Slug: { type: keyword }
+                        countryCode: { type: keyword }
+                skills:
+                    type: nested
+                    properties:
+                        id: { type: integer }
+                        slug: { type: keyword }
+                        name: ~
+                startsAt: { type: date }
+                publishedAt: { type: date }
+                published: { type: boolean }
+
+            persistence:
+                identifier: id
+                driver: orm
+                model: App\JobPosting\Entity\JobPosting
+                listener: ~
+                provider:
+                    query_builder_method: getQueryBuilderToPopulate

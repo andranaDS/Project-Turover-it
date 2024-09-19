@@ -1,0 +1,36 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'change_email_request') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.change_email_request.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    <p>{{ 'user.change_email_request.content.paragraphs.0'|trans({'%email%': newEmail}, 'emails')|raw|nl2br }}</p>
+
+                    <spacer size="25"></spacer>
+
+                    <center>
+                        <button class="large radius"
+                                href="{{ url('candidates_change_email_confirm', {'token': token, 'email': newEmail}) }}">
+                            {{ 'user.change_email_request.content.button'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="25"></spacer>
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}
+

@@ -1,0 +1,20 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\Forum\OpenApi\ForumStatisticsDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\Forum\OpenApi\ForumPostUpvoteDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\Forum\OpenApi\ForumTopicFavoriteDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\Forum\OpenApi\ForumPostGetPageDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false

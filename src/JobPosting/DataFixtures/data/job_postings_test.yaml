@@ -1,0 +1,1123 @@
+-   title: 'Responsable applicatifs Finance (H/F) (CDI)'
+    description: "Fed IT, cabinet entièrement dédié aux recrutements des métiers de l'IT, recherche pour un établissement parisien en finance de marché un ou une Responsable Support applicatifs Finance (H/F) (CDI)\nAu sein de la direction des Systèmes d'information, votre mission principale sera de maintenir efficacement le fonctionnement des applications métier et de coordonner les équipes support. A ce titre ; \n\n-\tVous assurez le support applicatif auprès des utilisateurs (N1 / N2 / N3). \n-\tVous réalisez les opérations de maintenance ou d'évolution en fonction des contraintes imposées par les marchés financiers. \n-\tVous êtes l'interlocuteur (rice) central(e) entre les chefs de projet, les équipes IT, les équipes de test et les utilisateurs. \n-\tVous participez aux astreintes selon les rotations prévues pour l'équipe. \n-\tVous assurez la gestion et la coordination de l'équipe support IT\nVous possédez à minima 5 ans d'expérience professionnelle sur un poste de support applicatif en environnement financier. \n\nVous avez obligatoirement des connaissances UNIX et SQL. \nVous avez un anglais courant / bilingue car l'intégralité des documents sont rédigés en anglais, certains utilisateurs sont uniquement anglophones. \n\nPoste basé à Paris (75002). \nRémunération : 50-70K fixe en fonction du profil et de l'expérience."
+    candidateProfile: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel commodo dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc velit diam, gravida ut auctor et, laoreet eget nunc. Etiam purus risus, auctor ac nisi euismod, condimentum scelerisque ex. Integer aliquet hendrerit velit, non pellentesque nibh interdum quis. Etiam fermentum mi at ex aliquet, ut pretium est posuere. Pellentesque id lectus elit. Duis libero lectus, bibendum non nisi et, ultrices placerat lacus. Nulla vulputate mattis lorem, et aliquet justo vehicula ut. Maecenas varius molestie venenatis."
+    companyDescription: "Proin et feugiat nisi. Quisque vel augue nibh. Maecenas tortor lacus, tempor cursus pretium sollicitudin, dignissim eu ex. Integer suscipit varius mollis. Quisque tincidunt velit at suscipit feugiat. Pellentesque tempor mi nec ex porttitor commodo. Integer quis imperdiet arcu. Cras quis pretium ligula, in interdum sem. Nam a aliquam ligula. Praesent rutrum neque ac sapien tempus mollis. Nulla sagittis mi sem, quis laoreet augue bibendum a. Donec euismod leo quis tempor facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sit amet augue sapien. Praesent volutpat sapien ante, eu euismod lacus tempus vitae. Sed est lorem, aliquet at malesuada eu, consectetur quis elit."
+    experienceLevel: junior
+    minAnnualSalary: 40000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent, apprenticeship ]
+    remoteMode: none
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: null
+    renewable: false
+    createdAt: "2020-12-07T02:07:40+00:00"
+    durationPeriod: year
+    durationValue: 2
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "java", "javascript" ]
+    softSkills: [ "softskill-1", "softskill-2", "softskill-3" ]
+    oldId: 1
+    reference: "ref-0X01"
+-   title: 'Responsable cybersécurité (sans management) (H/F)'
+    description: "Fed IT, cabinet entièrement dédié aux recrutements des métiers de l'IT, recherche pour un établissement parisien en finance de marché un ou une Responsable Cybersécurité (sans Management) (H/F) (CDI)\nAu sein de la direction de la sécurité des Systèmes d'information, vous êtes rattaché(e) hiérarchiquement au responsable de cette entité. Votre mission principale sera le suivi et l'analyse de l'efficacité des contrôle permanents et vous intervenez dans le suivi des audits internes et externes. A ce titre ; \n\n-\tVous assurez le suivi des projets et l'aide aux chefs de projet pour l'implémentation des processus de sécurité dès le démarrage des projets\n-\tVous remontez régulièrement au responsable Sécurité les points d'avancements et les blocages éventuels\n-\tVous suivez et aidez pour améliorer, le cas échéant le dispositif de contrôles permanent de niveau 1\n-\tVous Analysez les résultats des évaluations des contrôles et des plans d'actions associés\n-\tVous suivez l'ensemble des processus liés aux missions d'audit en cours\n-\tMettez à jour le tableau de bord de suivi des audits en cours et des recommandations d'audit en cours\n-\tVous consolidez et préparer l'élaboration des reports en collaboration avec les entités concernées\nVous possédez à minima 5 ans d'expérience professionnelle sur un poste similaire. Vous connaissez impérativement le secteur de la finance de marché. \n\nVous avez des connaissances des normes de sécurité (NIST) et êtes certifié(e) ISO 270001. \nVous possédez des connaissances réseaux / Telecoms \nVous êtes obligatoirement bilingue anglais car l'intégralité des documents sont rédigés en anglais. \n\nUne connaissance de la méthodologie Agile est un plus."
+    candidateProfile: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel commodo dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc velit diam, gravida ut auctor et, laoreet eget nunc. Etiam purus risus, auctor ac nisi euismod, condimentum scelerisque ex. Integer aliquet hendrerit velit, non pellentesque nibh interdum quis. Etiam fermentum mi at ex aliquet, ut pretium est posuere. Pellentesque id lectus elit. Duis libero lectus, bibendum non nisi et, ultrices placerat lacus. Nulla vulputate mattis lorem, et aliquet justo vehicula ut. Maecenas varius molestie venenatis."
+    companyDescription: "Proin et feugiat nisi. Quisque vel augue nibh. Maecenas tortor lacus, tempor cursus pretium sollicitudin, dignissim eu ex. Integer suscipit varius mollis. Quisque tincidunt velit at suscipit feugiat. Pellentesque tempor mi nec ex porttitor commodo. Integer quis imperdiet arcu. Cras quis pretium ligula, in interdum sem. Nam a aliquam ligula. Praesent rutrum neque ac sapien tempus mollis. Nulla sagittis mi sem, quis laoreet augue bibendum a. Donec euismod leo quis tempor facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sit amet augue sapien. Praesent volutpat sapien ante, eu euismod lacus tempus vitae. Sed est lorem, aliquet at malesuada eu, consectetur quis elit."
+    experienceLevel: junior
+    minAnnualSalary: 45000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent, apprenticeship ]
+    remoteMode: none
+    company: 1
+    assignedTo: jesse.pinkman@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: "2021-05-20T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-03-19T11:19:01+00:00"
+    durationPeriod: month
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Le Touquet-Paris-Plage","localitySlug": "le-touquet-paris-plage","postalCode": "62520","adminLevel1": "Hauts-de-France","adminLevel1Slug": "hauts-de-france","adminLevel2": "Pas-de-Calais","adminLevel2Slug": "pas-de-calais","country": "France","countryCode": "FR","latitude": "50.5211202","longitude": "1.5909325" }
+    skills: [ "symfony", "api platform", "laravel" ]
+    softSkills: [ "softskill-4" ]
+    reference: "ref-0X02"
+-   title: 'Ingénieur BI (F/H)'
+    description: "Fed IT, cabinet entièrement dédié aux recrutements des métiers de l'IT, recherche pour une banque publique française un ou une Ingénieur BI (F/H)\nAu sein du pôle infocentre et entrepôt de données de la DSI, vous êtes rattaché(e) hiérarchiquement au Responsable des applicatifs des activités et vous êtes en charge de la réalisation des projets et de la maîtrise d'ouvrage sur les projets BI.\n\nA ce titre vous réalisez les missions suivantes : \n-\tRecueil et études du besoin auprès des métiers\n-\tRédaction des spécifications\n-\tMaintenance corrective et évolutive\n-\tSupervision des développements\n-\tRéalisation des évolutions et projets en méthode V ou agile\n-\tContribution aux choix techniques et fonctionnels \n-\tReporting régulier sur l'avancement des travaux au pilote d'activité\n-\tContribution à l'optimisation des applications\nIssu(e) d'une formation supérieure, vous possédez une expérience professionnelle de 7 ans à minima en tant qu'ingénieur BI. \n\nVous avez une connaissance bancaire notamment sur les crédits et les prêts. \n\nVous connaissez les outils de reporting (BO / QliK) et des ETL et vous avez déjà travaillez en méthodologie Agile Scrum et Cycle en V\nNous vous offrons la possibilité de travailler au sein d'une entreprise dynamique, qui met le confort de ses salariés au coeur de ses enjeux. \nPoste basé dans les Hauts de Seine (92) très proche Paris. \nRémunération : +/- 70K Annuel Selon profil + Variables (à détailler)"
+    candidateProfile: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel commodo dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc velit diam, gravida ut auctor et, laoreet eget nunc. Etiam purus risus, auctor ac nisi euismod, condimentum scelerisque ex. Integer aliquet hendrerit velit, non pellentesque nibh interdum quis. Etiam fermentum mi at ex aliquet, ut pretium est posuere. Pellentesque id lectus elit. Duis libero lectus, bibendum non nisi et, ultrices placerat lacus. Nulla vulputate mattis lorem, et aliquet justo vehicula ut. Maecenas varius molestie venenatis."
+    companyDescription: "Proin et feugiat nisi. Quisque vel augue nibh. Maecenas tortor lacus, tempor cursus pretium sollicitudin, dignissim eu ex. Integer suscipit varius mollis. Quisque tincidunt velit at suscipit feugiat. Pellentesque tempor mi nec ex porttitor commodo. Integer quis imperdiet arcu. Cras quis pretium ligula, in interdum sem. Nam a aliquam ligula. Praesent rutrum neque ac sapien tempus mollis. Nulla sagittis mi sem, quis laoreet augue bibendum a. Donec euismod leo quis tempor facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sit amet augue sapien. Praesent volutpat sapien ante, eu euismod lacus tempus vitae. Sed est lorem, aliquet at malesuada eu, consectetur quis elit."
+    experienceLevel: junior
+    minAnnualSalary: 30000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2021-04-28T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-22T17:10:11+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": null,"locality": "Seyssinet-Pariset","localitySlug": "seyssinet-pariset","postalCode": "38170","adminLevel1": "Auvergne-Rhône-Alpes","adminLevel1Slug": "auvergne-rhone-alpes","adminLevel2": "Isère","adminLevel2Slug": "isere","country": "France","countryCode": "FR","latitude": "45.1790768","longitude": "5.6899617" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X03"
+-   title: 'Ingénieur Système et Réseaux (F/H)'
+    description: "Fed IT, cabinet de recrutement spécialisé, recrute pour une société d'investissement et de conseils en Immobilier, grand groupe International, un ou une Ingénieur Système et Réseaux (F/H)\nAu sein de la DSI, vous intégrez l'équipe Infrastructure composée de deux techniciens Systèmes et réseaux en charge du support Niveau 1 et 2, votre principale mission sera de déployer et prendre en charge l'infrastructure technique afin de supporter les activités du groupe, à ce titre : \n\n  \n-\tVous déployez de nouvelles technologies de système et de réseau\n-\tVous êtes amené(e)s à travailler et communiquer avec les équipes Londoniennes en anglais. \n-\tVous participez à la définition des solutions techniques\n-\tVous produisez de la documentation technique et des articles afin d'alimenter un socle de connaissance. \n-\tVous êtes force de proposition sur la mise en place des processus et des bonnes pratiques. \n-\tVous assurez la relation avec les fournisseurs \n-\tVous configurez et gérez les solutions de mobilité, de sécurité et de collaboration \n-\tVous assurez un support Niveau 3 dans la gestion des incidents et la résolution des problèmes.\nIssu(e) d'une formation en Informatique, vous possédez à minima 2 ans d'expérience sur un poste similaire. Une certification Cisco serait un plus ainsi qu'une connaissance des pratiques ITIL. \n\nVous possédez obligatoirement de bonnes compétences en Anglais, tant sur l'expression orale qu'écrite. Un niveau Bilingue n'est pas indispensable. \nVous rejoignez une entreprise dynamique, au sein de laquelle le confort et le bien être des salariés est une priorité. \n\nPoste à pourvoir début septembre. \nRémunération : 40-50K (selon séniorité) \nPoste basé à Levallois Perret dans le cadre d'un CDI en Interne."
+    experienceLevel: intermediate
+    minAnnualSalary: 40000
+    maxAnnualSalary: 60000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2020-09-16T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-24T14:51:52+00:00"
+    durationPeriod: year
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Cormeilles-en-Parisis","localitySlug": "cormeilles-en-parisis","postalCode": "95240","adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": "Val-d'Oise","adminLevel2Slug": "val-d-oise","country": "France","countryCode": "FR","latitude": "48.9759637","longitude": "2.1998877","key": "fr~ile-de-france~val-d-oise~cormeilles-en-parisis","label": "Cormeilles-en-Parisis, Île-de-France","shortLabel": "Cormeilles-en-Parisis (95)" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X04"
+-   title: 'Développeur React et/ou VueJS  CDI (H/F)'
+    description: "Fed IT, cabinet de recrutement spécialisé en informatique, recherche pour son client, société d'investissement financier, un(e) développeur Vue.js et/ou ReactJS en CDI.\nAu sein d'une équipe de développement composée d'une dizaine de personnes, vous travaillez sur l'élaboration de la partie front-end des différents projets.\n\nA ce titre, vous réalisez des maquettes, participez à différents ateliers fonctionnels et ateliers techniques et comprenez les besoins métiers.\n\nDe plus, vous travaillez en tandem avec l'équipe back sur la conception des API qui sont consommées par le front.\n\nVotre mission est également d'être proche des utilisateurs et d'intervenir sur des projets à la fois à destination des internes de la société mais également des clients.\nFort(e) de votre expérience sur ReactJS et/ou Vue.JS, vous avez ici l'occasion de rejoindre une société avec une stack technique complète et une équipe forte de son expérience. \n\nConfirmé(e) sur React, vous avez la capacité de travailer sur des projets variés (interface de trading, refonte d'une application mobile...) et de vous intégrer à des équipes pluridisciplinaires."
+    experienceLevel: senior
+    minAnnualSalary: 60000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2020-10-18T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-23T06:56:20+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.6443057","longitude": "2.7537863" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X05"
+-   title: 'Développeur(se) PHP Symfony  CDI (h/f)'
+    description: "Fed IT, cabinet de recrutement spécialisén en informatique, recherche pour son client, société spécialisée dans les placements financiers, un(e) développeur Php sur Symfony en CDI.\nAu sein de l'équipe développement, constituée d'une dizaine de personnes, vous intervenez dans le développement et l'évolution des différents sites clients et du back-office.\n\nA ce titre, vos missions sont :\n\n- Travailler sur les développements PHP des sites et outils.\n\n- Travailler sur les recettes techniques et les recettes fonctionnelles\n\n- Rédiger les tests unitaires et fonctionnels\n\n- Vous travailler sur les développement des API REST et avez de bonnes connaissances en bases de données\nFort(e) d'au moins 2 ans d'expérience sur du développement en PHP sur Symfony,  vous faites preuve d'un vrai état d'esprit développeur et appréciez le travail collaboratif. \n\nVous avez ici l'occasion d'intégrer une structure dotée d'une stack intéressante et complète avec une équipe experte qui vous permettra de continuer à développer vos compétences."
+    experienceLevel: intermediate
+    minAnnualSalary: null
+    maxAnnualSalary: 39000
+    minDailySalary: 250
+    maxDailySalary: 350
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2021-04-03T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-02-18T10:42:14+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X06"
+-   title: 'Ingénieur Informatique C ++ F/H'
+    description: "Bienvenue chez FED IT, cabinet spécialisé dans le recrutement de profils informatiques.\n\nNous recherchons pour notre client, start up en essor, un ingénieur informatique C++ (F/H), dans le cadre d'un CDI sur Sophia Antipolis (06)\nEn intégrant l'équipe R&D, vous participez à l'un des nombreux projets en cours et contribuez au développement du logiciel conçu par l'entreprise. Vous travaillez en interne avec un chef de projet et en externe avec des partenaires européens.\n\nVéritable virtuose du langage C++, vous êtes passionné par l'informatique et possédez de solides bases en mathématiques.\n\nVous pouvez être amené à présenter vos travaux en public, principalement en anglais.\nTitulaire d'un diplôme d'ingénieur grandes écoles ou d'un doctorat en informatique, vous possédez une expérience de 3 années à minima sur un poste similaire avec idéalement une composante recherche.\n\nVous êtes à l'aise dans les présentations orales et avez pour credo l'excellence, la persévérance et l'esprit d'équipe.\nLa maîtrise de l'anglais courant (oral et écrit) est indispensable.\n\nOffre à pourvoir dans le cadre d'un CDI.\n\nAvantages : mutuelle en socle de base prise en charge à 100% - Frais de relocalisation pris en charge\n\nSalaire : à négocier selon expérience"
+    experienceLevel: intermediate
+    minAnnualSalary: 42000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: null
+    renewable: false
+    createdAt: "2021-05-10T15:43:54+00:00"
+    durationPeriod: month
+    durationValue: 6
+    location: { "subLocality": null,"locality": "Bordeaux","localitySlug": "bordeaux","postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": "Gironde","adminLevel2Slug": "gironde","country": "France","countryCode": "FR","latitude": "44.841225","longitude": "-0.5800364" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X07"
+-   title: 'Responsable Informatique F/H'
+    description: "Bienvenue chez FED IT, cabinet spécialisé dans le recrutement de profils informatiques.\n\nPour accompagner sa croissance, notre client éditeur de logiciels, recherche son nouveau responsable informatique dans le cadre d'un CDI sur Sophia Antipolis (06).\nEn tant que responsable informatique, vous veillez intégralement au fonctionnement du système d'information de l'entreprise :\n\n-Déploiement des postes de travail\n-Installation et supervision des serveurs et logiciels métiers\n-Gestion réseau et sécurité\n-Support technique aux utilisateurs\n-Participation à la gestion et l'évolution du PSSI et du PCA\n-Mise en place d'une stratégie d'évolution\n\nVos missions évolueront en fonction des besoins de l'entreprise afin de l'accompagner au mieux dans sa croissance.\nDe niveau bac+3/4 informatique ou diplôme d'ingénieur en informatique, vous possédez une solide expérience sur un poste similaire.\n\nCompétences techniques : \nVous maitrisez les systèmes d'exploitation Windows et Linux\nAdministration des domaines Microsoft Active Directory et déploiement/supervision des serveurs Linux et services associés, y compris le cloud.\n\nVous possédez un savoir-faire dans la sécurité de réseaux multisites, y compris routage et pare-feux\nBonnes connaissances HTML, CSS, javascript, Python\n\nPassionné d'informatique, vous êtes en veille technique permanente, ce qui vous permet d'être force de proposition.\nAutonome, vous savez prendre des initiatives et argumenter vos positions.\nVous possédez de bonnes capacités rédactionnelles.\n\nLa maîtrise de l'anglais oral et écrit est indispensable.\n\nOffre à pourvoir dans le cadre d'un CDI.\n\nAvantages : mutuelle en socle de base prise en charge à 100% - Frais de relocalisation pris en charge\nSalaire : à négocier selon expérience"
+    experienceLevel: intermediate
+    minAnnualSalary: 37000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2021-01-07T00:00:00+00:00"
+    renewable: false
+    createdAt: "2020-12-13T14:49:34+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X08"
+-   title: 'Développeur C#.NET confirmé F/H'
+    description: "Fed IT, cabinet entièrement dédié aux recrutements des métiers de l'IT, recherche pour une entreprise e-commerce reconnue un Développeur C# .NET confirmé F/H sur Nice (06).\nIntégré à une équipe de développeurs, sous la responsabilité d'un Scrum Master, vous intervenez dans un écosystème .NET et plus particulièrement sur le langage C#.\n\nVotre mission sera de participer à la création de projets stratégiques pour accompagner la société dans sa croissance, de consolider et améliorer les briques logicielles existantes, d'apporter vos connaissances et vos qualités humaines pour aider à la construction d'une équipe « où il fait bon coder ».\n\nLa stratégie du service est de développer autour d'un ERP reconnu du marché, un ensemble de composants répondant aux spécificités de la société. Architecture micro-services, qualité de code, état de l'art représente le nouveau paradigme du service qui n'attend plus que votre contribution.\nTitulaire d'un bac + 5 en informatique, vous avez une expérience significative de 4 années minimum sur sur les technologie.net et idéalement en environnement Agile.\n\nVous possédez une bonne aisance relationnelle et êtes reconnu(e) pour votre curiosité, votre sens relationnel ainsi que votre goût pour le travail en équipe.\n\nVous maitrisez les notions de conception et d'architecture logicielles (design pattern entre autres),  le développement SQL et le développement Web ( javascript / css )\n\nCe poste est à pourvoir dans le cadre d'un CDI (création de poste).\n\nLa rémunération sera fonction du profil et de l'expérience.\n\nTélétravail à 100% pendant la p��riode COVID. 2 jours par semaine pendant les périodes normales."
+    experienceLevel: senior
+    minAnnualSalary: 50000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2021-03-05T00:00:00+00:00"
+    renewable: false
+    createdAt: "2020-12-06T10:23:57+00:00"
+    durationPeriod: month
+    durationValue: 1
+    location: { "subLocality": null,"locality": "Le Touquet-Paris-Plage","localitySlug": "le-touquet-paris-plage","postalCode": "62520","adminLevel1": "Hauts-de-France","adminLevel1Slug": "hauts-de-france","adminLevel2": "Pas-de-Calais","adminLevel2Slug": "pas-de-calais","country": "France","countryCode": "FR","latitude": "50.5211202","longitude": "1.5909325" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X09"
+-   title: 'Développeur Web PHP Confirmé F/H'
+    description: "Fed IT, cabinet entièrement dédié aux recrutements des métiers de l'IT, recherche pour un grand acteur du e-commerce un Développeur Web PHP F/H confirmé sur Nice (06).\nDirectement intégré à une équipe de développeurs et sous la responsabilité d'un Scrum Master, vous participez activement à la création de projets stratégiques pour accompagner la société dans sa croissance.\n\nVous intervenez dans la consolidation et l'amélioration des briques logicielles existantes, et apportez vos connaissances et vos qualités humaines pour aider à la construction d'une équipe « où il fait bon coder ».\n\nVous aurez la responsabilité de la croissance et du bon fonctionnement des différents portails qui représentent une part importante du chiffre d'affaires de la société.\n\nLa plateforme technique repose sur :\n\n- NGiNX\n- Google Cloud, Flexible Engine, Platform.sh\n- MariaDB Gallera\n- PHP 7.4\n- ElasticSearch, ELK\n- Redis, Varnish\nTitulaire d'un master en informatique, vous avez une expérience significative de 4 ans minimum idéalement en environnement Agile.\n\nVous possédez une bonne aisance relationnelle et maitrisez parfaitement les technologies LAMP.\nVous êtes reconnu(e) pour votre curiosité, votre sens relationnel ainsi que votre goût pour le travail en équipe.\n\nCe poste est à pourvoir dans le cadre d'un CDI (création de poste).\n\nLa rémunération sera fonction du profil et de l'expérience.\n\nTélétravail à 100% pendant la période COVID. 2 jours par semaine après 6 mois d'ancienneté pendant les périodes normales."
+    experienceLevel: senior
+    minAnnualSalary: 40000
+    maxAnnualSalary: 45000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2021-09-21T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-03-27T03:22:35+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": "Seyssinet-Pariset","localitySlug": "seyssinet-pariset","postalCode": "38170","adminLevel1": "Auvergne-Rhône-Alpes","adminLevel1Slug": "auvergne-rhone-alpes","adminLevel2": "Isère","adminLevel2Slug": "isere","country": "France","countryCode": "FR","latitude": "45.1790768","longitude": "5.6899617" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X10"
+-   title: 'Ingénieur d&rsquo;exploitation H/F'
+    description: "En collaboration étroite avec les autres activités du SI, votre objectif est de mettre en uvre et gérer la bonne exploitation du Système d&rsquo;Information du client\r\n\r\nLe tout dans une optique Devops (dev : développement, ops : opérations / exploitation).\r\n\r\nDéfinition de l&rsquo;exploitation\r\n\r\n-Définir les procédures et les traitements informatiques afin d&rsquo;améliorer les performances du système d&rsquo;information.\r\n- Améliorer de l&rsquo;outil supervision pour gérer au mieux l&rsquo;exploitation et le mettre en uvre\r\n- Mettre en place des plans de sauvegarde des données (back up) et piloter leur bonne exécution\r\n- Scripting de traitement\r\n- Garantir et fiabiliser l&rsquo;ensemble des flux informatiques applicatifs (Interne-Interne / Interne-Externe)\r\n- Mettre en place le suivi nécessaire\r\n- Gérer la communication/information en cas d&rsquo;incidents sur l&rsquo;exécution d&rsquo;un flux\r\n- Prendre les mesures attendus pour gérer le plan de reprise et la bonne resynchronisation des systèmes\r\n- Documenter l&rsquo;existant ainsi que les développements en cours ou à venir\r\n- Définir les procédures pour assurer une maintenance préventive et curative du système d&rsquo;exploitation.\r\n- Assurer une veille technologique afin de proposer les évolutions technologiques.\r\n- Définir les plans d&rsquo;exploitation récurrents (Quotidien / Hebdomadaire / Mensuel / Annuel )\r\n- Assurer la bonne communication sur la   santé des systèmes   avec la production régulière des KPI s liés à l&rsquo;activité (point du matin)\r\n- Gestion des environnements applicatifs\r\n- Maintenance et développement d&rsquo;outils DevOps\r\n- Contribuer à la Gestion et monitoring de l&rsquo;infrastructure et des applications (en synergie avec l&rsquo;équipe Infra)\r\n- Mesure et contrôle de l&rsquo;exploitation\r\n- Analyser les tableaux de bord de suivi de l&rsquo;exploitation.\r\n- Recueillir et analyser les observations et remarques des utilisateurs.\r\n- Analyser les motifs de non-qualité\r\n- Interface avec les autres services de l&rsquo;entreprise\r\n- Collecter les besoins des utilisateurs en matière de production informatique.\r\n- Analyser ces besoins sous l&rsquo;angle technique et rédiger un cahier des charges technique.\r\n\r\nDescription du profil:\r\n\r\nBac + 2 avec minimum 4 ans d&rsquo;expérience en exploitation informatique\r\n\r\nBac + 4/5 en école d&rsquo;ingénieur ou informatique avec minimum 2 ans d&rsquo;expérience en exploitation informatique\r\n\r\nConnaissances Fonctionnelles et Savoir-Faire :\r\n- Rigueur et méthode pour organiser de façon optimale les traitements informatiques\r\n- Réactivité et disponibilité pour assurer un bon service aux utilisateurs\r\n- Écoute et dialogue pour comprendre les besoins et les problèmes rencontrés par les utilisateurs\r\n- Sens du service clients/utilisateurs\r\n- Bonne compréhension du système d&rsquo;information de l&rsquo;entreprise\r\n- Maîtrise des différents types de systèmes d&rsquo;exploitation\r\n- Bonne connaissance des procédures de sauvegarde des données et plus largement des contraintes de sécurité\r\n- Connaissance d&rsquo;un certain nombre d&rsquo;outils permettant la sécurisation et la surveillance de l&rsquo;exploitation\r\n- Maîtrise de l&rsquo;anglais technique\r\n\r\nSavoir être (comportements, attitudes, qualités humaines) :\r\n- Bonnes qualités relationnelles, Ouverture d&rsquo;esprit\r\n- Travail en équipe\r\n- Rigueur, Disponibilité, Discrétion, Proactivité\r\n- Autonomie, Adaptabilité\r\n\r\nCompétences techniques :\r\n- Systèmes: Linux & Windows\r\n- Programmation : Script Shell, PowerShell, python, ..\r\n- Outil : Supervision (Zabbix, Centreon,   ), Devops (Git, Azure DevOps,  ),\r\n- Base de données : script SQL.\r\n\r\nEvolution professionnelle: Responsable Production & Exploitation "
+    experienceLevel: senior
+    minAnnualSalary: 45000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2021-11-06T00:00:00+00:00"
+    renewable: false
+    createdAt: "2020-12-11T10:07:34+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": null,"locality": "Cormeilles-en-Parisis","localitySlug": "cormeilles-en-parisis","postalCode": "95240","adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": "Val-d'Oise","adminLevel2Slug": "val-d-oise","country": "France","countryCode": "FR","latitude": "48.9759637","longitude": "2.1998877","key": "fr~ile-de-france~val-d-oise~cormeilles-en-parisis","label": "Cormeilles-en-Parisis, Île-de-France","shortLabel": "Cormeilles-en-Parisis (95)" }
+    skills: [ "php", "javascript" ]
+    reference: "ref-0X11"
+-   title: 'Analyste Support / Technicien (ne) Support confirmé. F/H'
+    description: "Notre client, ETI en pleine croissance dans le secteur du transport et de la logistique, comptant environs 300 users informatiques répartis sur plusieurs sites en France, nous mandate pour recruter au sein de sa DSI localisée à Rungis (94), son Analyste Support / Technicien (ne) Support confirmé.\r\n\r\nAu sein d&rsquo;une équipe à taille humaine et sous la responsabilité du responsable infrastructure vous serez chargé(e) principalement de :\r\n\r\n- Analyser / diagnostiquer et prioriser les tickets ouverts par les utilisateurs\r\n- Traiter (20 ) ou faire traiter/escalader les tickets aux prestataires (80 ) pour les incidents sur les réseaux, PDT, téléphones fixes/mobiles, smartphones\r\n- De participer au support de niveau 1 (prise en compte de tickets) ou 2 (escalader vers les prestataires si besoin et suivi)\r\n- Coordonner la gestion des incidents entre les différentes équipes/prestataires : rôle de   dispatcheur   / facilitateur (hiérarchisation et attribution des incidents)\r\n- Escalader les incident aux bonnes entités / prestataires pour optimiser le traitement des incidents en termes d&rsquo;efficacité et de coûts\r\n- Être l&rsquo;interlocuteur technique des sociétés infogérantes et de maintenance applicative\r\n- Suivre et documenter le processus de résolution des incidents\r\n- Participer à la maintenance des systèmes d&rsquo;exploitation (Linux, Windows) et des logiciels installés (Antivirus, mises à jour diverses, )\r\n\r\nDescription du profil\r\n\r\n- Technicien(e) Support IT confirmé (minimum de 3 ans d&rsquo;expérience)   Analyste Support IT\r\n- Diplôme de niveau bac+2/+3 en IT, avec une expérience significative au sein d&rsquo;un service support informatique (3 ans min)\r\n\r\n- Notions ITIL souhaitables\r\n\r\n- Autonomie, initiative, polyvalence, pédagogie et très bon relationnel, méthodique, force de proposition, bien organisé, adaptabilité, capacité rédactionnelle, sens du service et esprit d&rsquo;équipe\r\n\r\nConnaissances techniques souhaitées :\r\n\r\n- Maîtrise du fonctionnement du poste de travail / Serveur Windows.\r\n- Connaissance des fondamentaux sur les systèmes serveurs Windows/Microsoft :\r\n- Active Directory (ADDS, ADCS, ADFS, ADRMS, ADLDS) et DNS, DHCP\r\n- Maîtrise des protocoles TCP/IP et connaissances de la configuration des équipements réseaux (switches, routeurs, modems)\r\n- Connaissances messagerie Exchange Office 365\r\n- Connaissances d&rsquo;un outil Helpdesk (type Jira, GLPI ou Redmine)\r\n- Connaissance des réseaux : topologies, protocoles, matériels, wifi et téléphonie\r\n- Occasionnellement travail en horaires décalés (mode projet)  "
+    experienceLevel: senior
+    minAnnualSalary: 32000
+    maxAnnualSalary: 37000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2021-01-20T00:00:00+00:00"
+    renewable: true
+    createdAt: "2021-01-07T19:16:31+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.6443057","longitude": "2.7537863" }
+    skills: [ "php", "javascript" ]
+-   title: 'ADMINISTRATEUR & SUPPORT RÉSEAU N2 F/H'
+    description: "Descriptif du poste\r\n\r\nConstituée d&rsquo;une vingtaine de collaborateurs, l&rsquo;Equipe Exploitation de notre client, est en charge de la SUPERVISION et de la MAINTENANCE de l&rsquo;ensemble des équipements réseaux installés chez nos clients nécessaires à la fourniture de notre service WIFI.\r\n\r\n Nous supervisons ainsi plus de 130 000 points d&rsquo;accès WIFI, 20 000 switches, ou encore plusieurs milliers de serveurs/contrôleurs d&rsquo;accès.\r\n Dans ce contexte challengeant et que nous souhaitons responsabilisant, nous souhaitons que les collaborateurs se confrontent à l&rsquo;ensemble des tâches et des postes de \r\n l&rsquo;exploitation, dans un but de développement des compétences (réseau, système, radio, projets ) :\r\n\r\n-Configuration des équipements lors des mises en services\r\n-Suivi des alertes de supervision, diagnostics et déclenchement des interventions\r\n-Traitements des demandes de configurations spécifiques\r\n-Traitements des tickets niveau 2\r\n-Suivi des interventions sur site et pilotage des techniciens qui sont sur le terrain\r\n-Traitements des incidents WAN et suivi des tickets opérateurs\r\n-Mise à jour des référentiels et du SI\r\n-Rédaction de documentation\r\n\r\n\r\n Description du profil\r\n Ces missions nécessitent une première approche et des notions de base sur : Linux / Debian et Réseau.\r\n De plus vous évoluerez sur les technologies et équipements suivants : Cisco / Meraki / Ruckus / Aerohive / LAN / WAN et WIFI.\r\n Un niveau d&rsquo;anglais technique et professionnel correct est nécessaire pour pouvoir répondre à nos clients internationaux et évoluer dans notre environnement.\r\n Vous possédez un niveau LICENCE, BTS en Réseau & Système et bénéficiez d&rsquo;une première expérience professionnelle, idéalement chez un opérateur.  "
+    experienceLevel: intermediate
+    minAnnualSalary: 37000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2020-08-20T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-02-09T14:46:08+00:00"
+    durationPeriod: month
+    durationValue: 6
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "45.4039367","longitude": "0.3756199" }
+    skills: [ "php", "javascript" ]
+-   title: 'Développeur BI'
+    description: "Adsearch, cabinet de conseil en recrutement, vous propose un poste de Développeur BI pour rejoindre son client final sur Lyon.\n\nVous rejoignez un acteur majeur du recrutement en France : \r\n1300 collaborateurs, 270 bureaux réparties dans 5 pays. \r\nChiffre d&rsquo;affaires cumulé : 1 Milliard d&rsquo;euros \r\n\r\nVous rejoignez la DSI du groupe dans le cadre de l&rsquo;amélioration du processus décisionnel. \r\nSous la responsabilité du Chef de projet BI vous proposez des solutions d&rsquo;automatisations de statistiques et de création de tableaux de bord destinés au pilotage de l&rsquo;entreprise. \r\nPour ce faire vous intervenez auprès de différents métiers de l&rsquo;entreprise : Direction, DSI, Direction commerciale, Hotline, QSE&#x2026; \r\nEn tant que développeur en Informatique Décisionnelle vos missions seront\r\n\r\n   Développement d&rsquo;applications Qlik Sense &amp; NPrinting\r\n   Documentation\r\n   Gestion de la recette utilisateur\r\n   Mise en production des développements\r\n   Support utilisateur &amp; Maintenance\r\n   Participation à la R&amp;D sur les outils &amp; process du pôle BI\r\n\r\nVous utiliserez les deux outils de Reporting du Groupe: Qlik Sense et NPrinting. \r\n\r\nCe poste vous donnera l&rsquo;opportunité d&rsquo;enrichir vos connaissances et compétences sur un outil de Reporting défini dans les leaders du marché de la BI et également de vous confronter à divers contextes (métier et client) au sein d&rsquo;un client final. \r\n\r\nPoste basé sur Lyon intra-muros, dans le 6ème arrondissement.\n\nDe formation supérieure en informatique (Master / bac+5 avec spécialité en informatique décisionnelle) vous avez 2 ans d&rsquo;expérience minimum sur un poste similaire. \r\nPassionné par la BI vous avez un fort attrait pour les outils de reporting (Qlik Sense ou Qlikview). \r\nVous avez des compétences avérées sur :\r\n\r\n   MS SQL Server\r\n   Algorithmie\r\n   Modélisation des Processus de l&rsquo;entreprise (UML, Merise&#x2026;)\r\n   Informatique décisionnelle\r\n   Qlik Sense (ou à défaut Qlik view)\r\n   NPrinting idéalement\r\n\r\nVous êtes motivé pour apprendre et avez un bon relationnel auprès des utilisateurs."
+    experienceLevel: junior
+    minAnnualSalary: 45000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2021-07-02T00:00:00+00:00"
+    renewable: false
+    createdAt: "2020-12-29T02:40:33+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": "Bordeaux","localitySlug": "bordeaux","postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": "Gironde","adminLevel2Slug": "gironde","country": "France","countryCode": "FR","latitude": "44.841225","longitude": "-0.5800364" }
+    skills: [ "php", "javascript" ]
+-   title: 'Développeur Java 5 ans Exp - IDF - (H/F)'
+    description: "Descriptif du poste : \r\n\r\nEn tant que développeur au sein d&rsquo;une équipe d&rsquo;une quinzaine personnes, vous serez responsable :\r\n\r\n   du développement\r\n   du packaging\r\n   des tests unitaires\r\n   des tests fonctionnels automatisés (niveau service ou IHM)\r\n\r\n \r\n\r\nCompétences et qualifications\r\n\r\nPrincipaux langages :\r\n\r\n- Java 1.7 -&gt; 1.8\r\n\r\n- Oracle SQL\r\n\r\nFramework :\r\n\r\n- SPRING 4 (core, security, mvc, jdbc, batch, boot)\r\n\r\n- Angular4 (appli RDM)\r\n\r\n- AngularJS\r\n\r\nArchitecture Web Services :\r\n\r\n- REST / Jersey \r\n\r\nBase de données :\r\n\r\n- Oracle 11g\r\n\r\nUsine Logicielle / outils de test et qualité :\r\n\r\n- Junit (Test unitaire)\r\n\r\n- Cucumber (Test fonctionnel)\r\n\r\n- Plate-forme de dev sur AWS (Cloud Formation)\r\n\r\nCraftmanship\r\n\r\n- Clean code\r\n\r\n- Code Review\r\n\r\nAvantages\r\n\r\n    Salaire attractif \r\n    Possibilités d&rsquo;évolution\r\n    Groupe en forte croissance"
+    experienceLevel: junior
+    minAnnualSalary: 50000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2022-03-21T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-04-27T15:40:59+00:00"
+    durationPeriod: month
+    durationValue: 5
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "javascript" ]
+-   title: 'Manager de Transition'
+    description: "Mission : \r\n\r\n- Prendre connaissance de l&rsquo;existant  : organisation, architecture, sécurité,\r\netc.\r\n- Organiser et coordonner la mise en ouvre des chantiers nécessaires à\r\nl&rsquo;atterrissage en RUN du projet : \r\n- production des livrables documentaires, \r\n- plan de formation, \r\n- pilotage du sous projet de bascule de responsabilité contractuelle des\r\névolutions techniques et fonctionnelles de l&rsquo;intégrateur du projet vers la\r\nTMA \r\n- Animation de chantier\r\n- Anglais courant\r\n \r\nUne centaine d&rsquo;items ont été identifiés lors de la phase de cadrage du chantier\r\nde transition. "
+    experienceLevel: senior
+    minAnnualSalary: 45000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: null
+    renewable: false
+    createdAt: "2021-04-19T08:15:30+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": "Le Touquet-Paris-Plage","localitySlug": "le-touquet-paris-plage","postalCode": "62520","adminLevel1": "Hauts-de-France","adminLevel1Slug": "hauts-de-france","adminLevel2": "Pas-de-Calais","adminLevel2Slug": "pas-de-calais","country": "France","countryCode": "FR","latitude": "50.5211202","longitude": "1.5909325" }
+    skills: [ "php", "javascript" ]
+-   title: 'Analyste exploitation (H/F)'
+    description: "Missions : \r\n\r\n  Participer au fonctionnement de l&rsquo;exploitation\r\n  Assurer et optimiser l&rsquo;industrialisation de l&rsquo;exploitation\r\n  Définir et mettre en places les outils de normalisation, d&rsquo;automatisation et de sécurisation de l&rsquo;exploitation\r\n  Maintien en condition opérationnelles des outils d&rsquo;exploitation\r\n  Participer la modernisation de l&rsquo;exploitation\r\n  Etablir et maintenir la documentation technique\r\n  Effectuer les contrôles au quotidien des traitements, corriger les erreurs, faire les reprises nécessaires et informer les responsables\r\n  Capitaliser suite à la résolution d&rsquo;incidents et de problèmes\r\n  Optimiser le suivi des flux clients\r\n  Publier des dashboard sur l&rsquo;état de l&rsquo;exploitation\r\n  Contrôler le bon fonctionnement des services opérés.\r\n\r\n\r\nProfil recherché : \r\n\r\n- Première expérience significative d&rsquo;au moins 3 ans en tant qu&rsquo;analyste d&rsquo;exploitation\r\n- Maitrise du système Linux et Windows\r\n\r\n "
+    experienceLevel: senior
+    minAnnualSalary: 33000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2021-01-26T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-05-15T14:31:31+00:00"
+    durationPeriod: month
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Seyssinet-Pariset","localitySlug": "seyssinet-pariset","postalCode": "38170","adminLevel1": "Auvergne-Rhône-Alpes","adminLevel1Slug": "auvergne-rhone-alpes","adminLevel2": "Isère","adminLevel2Slug": "isere","country": "France","countryCode": "FR","latitude": "45.1790768","longitude": "5.6899617" }
+    skills: [ "php", "javascript" ]
+-   title: 'Expert DBA SQL Server / Oracle '
+    description: "Le bénéficiaire recherche une prestation d&rsquo;expertise en administration des Databases des technologies SQL Server et Oracle \r\nPrestations demandées :             \r\n\r\nLes missions sont :\r\n- Accompagnement projet métier dès la phase de cadrage pour des technologies database SQL Server / Oracle \r\n- Maintien en condition opérationnelle (sauvegarde, audit, AAG) des databases SQL Server / Oracle \r\n- Expertise pour escalade des traitement d&rsquo;incidents sur databases SQL Server / Oracle \r\n- Audit/tunning Database SQL Server / Oracle \r\n- Construction ToolChain SQL Server / Oracle \r\n- Mise en production de packages applicatifs pour le compte de nos métier sur technologie SQL Server en HO comme HNO\r\n- Mise en place MCO automatisé de suivi des sauvegardes applicatives\r\n- Réalisation d&rsquo;astreinte si nécessaire sur applications métiers hébergeant des databses SQL Server / Oracle \r\n\r\n\r\n\r\n  "
+    experienceLevel: senior
+    minAnnualSalary: 45000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: "2021-03-02T00:00:00+00:00"
+    renewable: true
+    createdAt: "2021-05-27T19:06:50+00:00"
+    durationPeriod: month
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Cormeilles-en-Parisis","localitySlug": "cormeilles-en-parisis","postalCode": "95240","adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": "Val-d'Oise","adminLevel2Slug": "val-d-oise","country": "France","countryCode": "FR","latitude": "48.9759637","longitude": "2.1998877","key": "fr~ile-de-france~val-d-oise~cormeilles-en-parisis","label": "Cormeilles-en-Parisis, Île-de-France","shortLabel": "Cormeilles-en-Parisis (95)" }
+    skills: [ "php", "javascript" ]
+-   title: 'DBA (H/F)'
+    description: "Missions : \r\n\r\n- Support N2/N3\r\n- Administration des bases de données MySQL, Oracle, Sql Server, PostgreSQL\r\n- Mise en place et maintien des solutions d&rsquo;automatisation des tâches d&rsquo;administration\r\n- Outillage, scripting\r\n- Participation à des projets internes\r\n- Mise en place de procédures d&rsquo;exploitation\r\n\r\n\r\nProfil recherché : \r\n\r\n- Une première expérience significative d&rsquo;au moins 1 an en tant qu&rsquo;administrateur de base de données\r\n "
+    experienceLevel: intermediate
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2020-07-07T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-26T22:05:50+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.6443057","longitude": "2.7537863" }
+    skills: [ "php", "javascript" ]
+-   title: QA
+    description: "Bonjour nous cherchons aujourd&rsquo;hui un ingénieur QA pour une opportunité de projet localisé en Ile de France( 78). Minimum 5 ans d&rsquo;EXPERIENCE !\r\n\r\nMissions :\r\n\r\n- Etude des spécifications fonctionnelles\r\n- Constitution d&rsquo;un référentiel de cas de tests fonctionnels\r\n- Définition des plans de tests pour les itérations et Releases\r\n- Qualification des Bugs\r\n- Suivi des corrections d&rsquo;anomalies, fourniture de protocoles de reproduction et contrôle des corrections attendues selon criticité\r\n- Mise en place des environnements de test\r\n- Exécution des campagnes de validation d&rsquo;une nouvelle version\r\n- Contrôles de non-régressions\r\n- Reporting sur l&rsquo;avancement des actions menées\r\n- Planifier et suivre l&rsquo;évolution des tests et en rendre compte\r\n- Mise à jour des documentations de déploiement et de configuration\r\n\r\n\r\nConnaissances techniques :\r\n\r\n- Azure DevOps\r\n- Environnement Windows Server, SQL Server\r\n- Connaissances de logiciels de tests (selenium, cucumber, )\r\n- Anglais (lu et écrit, oral serait un plus)\r\n\r\nVous pouvez envoyer vos dossiers de compétences sur mon adresse mail : t.djea@streamlink.fr.\r\n\r\nEn vous souhaitant une excellente journée.\r\n "
+    experienceLevel: junior
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2021-01-25T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-04-03T03:39:38+00:00"
+    durationPeriod: month
+    durationValue: 1
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "45.4039367","longitude": "0.3756199" }
+    skills: [ "php", "javascript" ]
+-   title: 'Frontend Developer'
+    description: "FRONTEND DEVELOPER\r\n\r\nCliente internacional final del sector retail busca incorporar un Desarrollador Frontend para su Hub Tecnológico en Catalu a. La posición actualmente es 100  remoto. Cuando la situación sanitaria sea más favorable, se volverá a las oficinas con un modelo mixto de teletrabajo.\r\n\r\nFunciones:\r\n\r\n   Dise o e implementación front-end de diferentes aplicaciones web.\r\n   Migración de servicios desde un 3rd-party proprietary framework hacia estándares de desarrollo más modernos y/o con más performance (e.g. React).\r\n   Ejecución de la pipeline de release y transporte del código desde entornos de desarrollo hacia entornos productivos.\r\n   Participación activa en los Sprints del proyecto, contribuyendo a la reducción del backlog y a la resolución de tickets.\r\n\r\nSe requiere:\r\n\r\n   Experiencia profesional en tecnolog as Frontend como Angular, React (preferiblemente) o Javascript.\r\n   Experiencia práctica utilizando bases de datos relacionales y documentales (Oracle, JPA, Hybernate, etc.).\r\n   Experiencia en desarrollo nativo de Cloud utilizando soluciones como Cloud Foundry, Kubernetes, OpenShift etc.\r\n   Nivel de inglés avanzado B2-C1.\r\n\r\nSe ofrece:\r\n\r\n   Pol tica de teletrabajo mixto (ahora 100  remoto)\r\n   Retribución flexible.\r\n   Salario competitivo seg n experiencia y conocimientos.\r\n\r\n \r\n\r\nSi quieres saber más sobre esta interesante oferta, por favor, contáctame enviado tu cv a c.diaz@frgconsulting.com o llámame al siguiente n mero +34 919 26 50 62."
+    experienceLevel: senior
+    minAnnualSalary: 37000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: "2021-02-11T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-03-03T01:34:30+00:00"
+    durationPeriod: month
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Bordeaux","localitySlug": "bordeaux","postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": "Gironde","adminLevel2Slug": "gironde","country": "France","countryCode": "FR","latitude": "44.841225","longitude": "-0.5800364" }
+    skills: [ "php", "javascript" ]
+-   title: 'Ingénieur de production (F/H)'
+    description: "Contexte :\r\nAu sein d&rsquo;un équipe Application / Production, les collaborateurs réalisent des mises en oeuvre de solutions applicatives d&rsquo;abord sur des environnements Hors Production, puis sur des environnements de Production. Ces mises en oeuvre se font unitairement (Evolution) ou s&rsquo;inscrivent dans le cadre de projets (Projet).\r\nMissions principales :\r\nPartie support (30 )  :\r\n-\tAssurer le maintien en condition opérationnelle des applications du périmètre (niveau 2)\r\n-\tLa gestion des requêtes, des incidents et des problèmes.\r\n Partie projet (70 ) :\r\n-\tAssurer la mise en Pré-Production/Production, validation des nouvelles versions applicatives, des patchs et des changements de configuration\r\n-\tL&rsquo;automatisation et la documentation des tâches quotidiennes de l&rsquo;équipe.\r\n-\tLa coordination avec les équipes Infrastructure et développement des évolutions infrastructure (système ou hardware)\r\n-\tL&rsquo;amélioration des chaînes applicatives et du monitoring\r\n-\tScripting \r\nActivités et tâches : doublon avec missions principales ? \r\nCompétences Techniques : \r\nSystèmes : Unix/ Linux/ Windows\r\nBases de Donnée : Oracle, SQL Server\r\nOrdonnanceurs : DollarUniverse , Autosys \r\nServeurs d&rsquo;applications : Weblogic, Jboss, Websphere \r\nOutils : Nagios, Geneos, ServiceNow, CFT, MQSeries\r\nScripting : Shell, Perl, Powershell, Python\r\nAutomatisation : ansible, jenkins, autosys\r\n "
+    experienceLevel: junior
+    minAnnualSalary: 32000
+    maxAnnualSalary: 42000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: null
+    renewable: false
+    createdAt: "2020-12-03T10:42:30+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "javascript" ]
+-   title: 'Consultant Talend confirm'
+    description: "POLARYS est le partenaire des entreprises qui cherchent à exploiter leurs données (BI, EPM, PPM, Big Data, Analytics et consort) ! \r\nNotre mission : intervenir à la fois sur la technologie, la méthodologie, la culture et la compréhension de leurs enjeux métier.\r\n\r\nPour répondre à cette mission, Polarys s&rsquo;est doté des meilleures solutions data intelligence (Big data, Business intelligence, EPM ) sur le marché et surtout dans une super équipe ! \r\n\r\nAvec une présence à Paris, Nantes, Cracovie et Abu Dhabi, notre équipe de 100 collaborateurs  propose son expertise à plus de 200 clients dans le monde, tous secteurs confondus ! \r\n\r\nÊtre consultant chez Polarys, c&rsquo;est être passionné, énergique, loyal et surtout c&rsquo;est faire briller les projets à tous ces niveaux ! \r\n\r\nDESCRIPTIF DU POSTE\r\n\r\nCONTEXTE :\r\n\r\nDans le cadre de sa croissance, Polarys recherche un(e) Consultant(e) confirmé TALEND pour renforcer son pôle DATA sur Paris.\r\n\r\nRattaché à un Manager et au sein d&rsquo;une équipe de 10 personnes, les missions seront de :  \r\n\r\nLES MISSIONS : \r\n\r\nPour la partie fonctionnelle :\r\n\r\n-\tComprendre et analyser les besoins des métiers de nos clients\r\n-\tPartager vos retours d&rsquo;expériences des différents secteurs d&rsquo;activités sur lesquels vous êtes intervenus\r\n-\tRédiger les documents de spécifications et de conception des applications BI\r\n \r\nPour la partie technique :\r\n\r\n-\tEtre un référent technique sur la plateforme TALEND \r\n-\tAccompagner nos clients sur les problématiques techniques complexes liées à l&rsquo;architecture et à l&rsquo;intégration de données\r\n-\tÊtre force de proposition et de conseils auprès des clients\r\n-\tFormer les utilisateurs finaux aux outils\r\n-\tGarantir la conformité technique et la qualité des livrables\r\n\r\nPROFIL :\r\n\r\nNous recherchons une personne curieuse et prête à relever des défis au quotidien. \r\n\r\n-\tDe formation supérieure en informatique\r\n-\tUne expertise reconnue sur Talend avec 3 ans d&rsquo;expérience minimum\r\n-\tUne expérience significative sur l&rsquo;intégration des données (DI), l&rsquo;intégration des applications (ESB) et des API\r\n-\tUne première expérience réussie sur la plateforme Talend Cloud\r\n-\tUne certification sur un des modules serait un plus\r\n-\tDynamisme, flexibilité, autonomie, esprit d&rsquo;équipe et bonne humeur sont de rigueur !\r\n-\tBecause Data is everywhere, you need to love speaking English \r\n-\tLieu : Paris\r\n\r\nLES PETITS PLUS : \r\n\r\n&#9679;\tUne matinée d&rsquo;intégration complète : petit déjeuner, accompagnement, déjeuner d&rsquo;équipe, welcome pack etc.\r\n&#9679;\tUne ambiance esprit start up avec des passionnées dans nombreux domaines : les jeux vidéos, le sport, les voyages  \r\n&#9679;\tDes événements tous les mois : Afterwork, PostWork...\r\n&#9679;\tUn week-end au ski ou dans une capitale européenne avec l&rsquo;ensemble de nos collaborateurs ! \r\n&#9679;\tUne carte cinéma UGC+, une participation financière pour tes activités sportives\r\n\r\nChez Polarys, nous aimons les personnes passionnées et curieuses ! \r\nAlors si tu n&rsquo;as pas peur de proposer tes idées : pour nos projets, nos déjeuners ou encore pour nos lieux d&rsquo;événement, tu es fait pour rejoindre notre équipe ! \r\n\r\nPrêt pour l&rsquo;aventure ?  "
+    experienceLevel: junior
+    minAnnualSalary: 47000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2022-02-25T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-06-01T14:54:26+00:00"
+    durationPeriod: month
+    durationValue: 6
+    location: { "subLocality": null,"locality": "Le Touquet-Paris-Plage","localitySlug": "le-touquet-paris-plage","postalCode": "62520","adminLevel1": "Hauts-de-France","adminLevel1Slug": "hauts-de-france","adminLevel2": "Pas-de-Calais","adminLevel2Slug": "pas-de-calais","country": "France","countryCode": "FR","latitude": "50.5211202","longitude": "1.5909325" }
+    skills: [ "php", "javascript" ]
+-   title: 'Développeur JAVA '
+    description: "Tu vas pouvoir te dépasser \r\nEn apportant ton expertise en vue de la modernisation technique et à l&rsquo;évolution fonctionnelle de l&rsquo;application.\r\n\r\nTu aimes \r\n \tFaire évoluer l&rsquo;architecture du SI.\r\n \tGérer des demandes d&rsquo;évolution fonctionnelle et des travaux de maintenance : les coder, les déboguer, les tester.\r\n \tR&D : rechercher des solutions techniques.\r\n \tAssurer la veille technologique, le refactoring et les upgrades.\r\n \tProposer des améliorations en matière de testabilité, de modularité, et de performance.\r\n \tParticiper à la documentation.\r\n \tAssurer du transfert de connaissance.\r\n \tParticiper au processus de recrutement.\r\n \tS&rsquo;intégrer aux rituels d&rsquo;équipe.\r\n \tRevue de code\r\n\r\nTu possèdes \r\n \tJAVA\r\n \tSpring\r\n \tHibernate \r\n \tSQL/Oracle\r\n \tAngular\r\n\r\n\r\nC&rsquo;est tout toi \r\n#ExpérienceMini5Ans #Développement #Banque #Investissement #FortSensDuService #MéthodeAgile #ExcellentRelationnel #FacilitédÉcoute #CapacitédAnalyse #FacilitédAdaptation #BonneCommunication #Autonomie #Autoformation #Flexibilité #OuverturedEsprit #Rigueur #TravailEnEquipe \r\n "
+    experienceLevel: junior
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ internship ]
+    remoteMode: full
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2020-09-07T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-03-24T21:23:52+00:00"
+    durationPeriod: month
+    durationValue: 5
+    location: { "subLocality": null,"locality": "Seyssinet-Pariset","localitySlug": "seyssinet-pariset","postalCode": "38170","adminLevel1": "Auvergne-Rhône-Alpes","adminLevel1Slug": "auvergne-rhone-alpes","adminLevel2": "Isère","adminLevel2Slug": "isere","country": "France","countryCode": "FR","latitude": "45.1790768","longitude": "5.6899617" }
+    skills: [ "php", "javascript" ]
+-   title: 'Comptable Fournisseur h/f'
+    description: "Notre partenaire, PME spécialisée dans le travail du métal, est à la recherche de son comptable fournisseur(h/f) \r\n\r\nL&rsquo;entreprise décide de structurer son activité avec la création de ce poste clé. \r\n\r\nVous aurez pour missions principales :\r\n\r\n   Vérification des documents comptables fournisseurs\r\n   Saisie des factures dans les comptes de charge\r\n   Rapprochements bancaires\r\n   Mise en place et suivi des échéanciers de paiement\r\n   Suivi de la clôture annuelle des comptes\r\n   Gestion de la comptabilité analytique\r\n   Analyse des centres de coûts et reporting.\n\nIssu d&rsquo;une formation de type BAC+2 en comptabilité, vous justifiez d&rsquo;une expérience réussie sur un poste similaire et d&rsquo;une connaissance de secteur BTP. \r\nVous êtes prêt à vous investir pour relever un nouveau challenge avec la création de ce poste. Votre rigueur et votre organisation seront de précieux atouts pour réussir. \r\n\r\nDes déplacements très occasionnels peuvent être à prévoir sur Toulouse. \r\nPoste à pourvoir en CDI, rapidement."
+    experienceLevel: intermediate
+    minAnnualSalary: 42000
+    maxAnnualSalary: 52000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2020-06-11T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-23T18:44:57+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": null,"locality": "Cormeilles-en-Parisis","localitySlug": "cormeilles-en-parisis","postalCode": "95240","adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": "Val-d'Oise","adminLevel2Slug": "val-d-oise","country": "France","countryCode": "FR","latitude": "48.9759637","longitude": "2.1998877","key": "fr~ile-de-france~val-d-oise~cormeilles-en-parisis","label": "Cormeilles-en-Parisis, Île-de-France","shortLabel": "Cormeilles-en-Parisis (95)" }
+    skills: [ "php", "javascript" ]
+-   title: 'Team Leader'
+    description: "POSTE :\r\n\r\nLe Responsable Opérationnel a en charge un portefeuille clients dont il est le point d&rsquo;entrée opérationnel.\r\nIl doit être en capacité d&rsquo;entretenir et développer une relation de confiance avec ses clients.\r\nPour cela, il anime les instances techniques, s&rsquo;assure que les moyens mis à disposition permettent de respecter l&rsquo;ensemble des engagements clients.\r\nPrincipal acteur de l&rsquo;amélioration continue, il assure l&rsquo;interface entre SEA TPI et les grands comptes avec lesquels il collabore.\r\n\r\nPour cela, son rôle consiste à :\r\n\r\nPiloter la prestation :\r\n \tAnalyser/consolider les tableaux de bord opérationnels mis en place afin de s&rsquo;assurer que l&rsquo;ensemble des SLA / Charge de travail soit respectés\r\n \tPréparer et organiser les Comités Techniques / Comités Pilotage\r\n \tDéfinir et mettre en place des axes d&rsquo;amélioration du service délivré\r\n \tGarantir un suivi du plan de progrès et plan d&rsquo;actions en collaboration avec le client\r\n \tS&rsquo;assurer de l&rsquo;avancement des actions mises en place pour les Non-conformité\r\n \tCoordonner et Planifier l&rsquo;activité (répartition de la charge, priorisation des actions, pilotage, accompagnement/soutien technique)\r\n \tProposer, rédiger et améliorer les processus et procédures liés à l&rsquo;activité (gestion des incidents, interventions, gestion du parc, etc )\r\n \tGérer les projets techniques\r\n \tIntervenir ponctuellement ou de manière récurrente chez les clients\r\n\r\nManager l&rsquo;équipe :\r\n \tManagement des collaborateurs constituant l&rsquo;équipe (profils Techniciens Helpdesk) : suivi et accompagnement \r\n \tRecrutement, formation et intégration des nouveaux collaborateurs\r\n \tGestion du planning collaborateurs\r\n \tMise en place des objectifs et plan d&rsquo;action de l&rsquo;équipe\r\n\r\nCoordonner :\r\n \tLa gestion des incidents : analyse, amélioration continue et suivi de la bonne résolution\r\n \tS&rsquo;assurer de la bonne coordination avec les différents services concernés par la prestation\r\n\r\n\r\nPROFIL RECHERCHE :\r\nDe formation supérieure dans le domaine IT, vous justifiez d&rsquo;une expérience de 4 ans minimum en Helpdesk, avec connaissance du domaine de l&rsquo;Exploitation.\r\nVotre aisance relationnelle et votre leadership naturel vous permettront d&rsquo;établir une relation de confiance avec vos équipes et vos clients.\r\nLe sens du service est votre principal moteur, alors rejoignez une entreprise Dynamique, participez à cette aventure en apportant votre expertise.\r\nRejoignez Nous !\r\n "
+    experienceLevel: junior
+    minAnnualSalary: 55000
+    maxAnnualSalary: null
+    minDailySalary: 500
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ contractor ]
+    remoteMode: partial
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2021-01-11T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-02-26T19:36:10+00:00"
+    durationPeriod: month
+    durationValue: 5
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.6443057","longitude": "2.7537863" }
+    skills: [ "php", "javascript" ]
+    oldId: 2
+-   title: 'Développeur .NET '
+    description: "Tu vas pouvoir te dépasser \r\nEn apportant ton expertise dans le développement de nouveaux projets et également l&rsquo;entretien du patrimoine applicatif du SI.\r\n\r\nTu aimes \r\n \tRéaliser des spécifications techniques \r\n \tRéaliser des développements \r\n \tRéaliser les tests unitaires et participer aux recettes fonctionnelles \r\n \tParticiper à l&rsquo;augmentation de la documentation technique de la solution SI\r\n\r\nTu possèdes \r\n \tC#\r\n \t.NET \r\n \tMVC\r\n\r\nC&rsquo;est tout toi \r\n#ExpérienceMini3Ans #Développement #FortSensDuService #ExcellentRelationnel #FacilitédÉcoute #CapacitédAnalyse #FacilitédAdaptation #BonneCommunication #Autonomie #Autoformation #Flexibilité #OuverturedEsprit #Rigueur \r\n\r\n\r\n "
+    experienceLevel: junior
+    minAnnualSalary: 34000
+    maxAnnualSalary: 36000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2020-06-12T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-21T08:53:39+00:00"
+    durationPeriod: month
+    durationValue: 1
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "45.4039367","longitude": "0.3756199" }
+    skills: [ "php", "javascript" ]
+-   title: 'Expert Talend ESB'
+    description: "POLARYS recherche pour l&rsquo;un de ses clients un Expert Talend ESB H/F.\r\n\r\nMissions :\r\n\r\n- Intervention sur des missions d&rsquo;expertise\r\n- Support aux collaborateurs en mission ou projet\r\n- Conception et alimentation des plateformes internes Talend\r\n- Formation des collaborateurs et accompagnement de leur montée en compétences\r\n- Contribution à l&rsquo;évolution de l&rsquo;offre globale Data\r\n- Participation aux avants-vente, phases de cadrage et recette fonctionnelle, conseil et audit\r\n\r\nPour répondre aux attentes et aux objectifs précités de la mission, le prestataire devra posséder, les compétences suivantes :\r\n\r\n          Maitrise des architectures applicatives intégrant un ETL/ESB TALEND v7.x   niveau expert\r\n          Maitrise des architectures intégrant ActiveMQ   niveau expert\r\n          Connaissance des langages de développement Java   niveau confirmé\r\n          Connaissance en bases de données PostgreSQL 9.x/10.x./11.x   niveau expert\r\n          Connaissance des environnements système Linux Debian 8.x/9.x   niveau expert\r\n          Connaissance des environnements sécurisés   niveau confirmé\r\n          Mise en uvre et/ou gestion d&rsquo;architecture d&rsquo;ETL TALEND   niveau expert\r\n\r\n \r\nQualités requises\r\n\r\n  Réactivité et disponibilité\r\n\r\n  Capacité rédactionnelle : l&rsquo;intervenant aura dans le cadre de sa mission à produire des documents, des comptes rendus de réunions ou rapport d&rsquo;incident\r\n\r\n  Aptitude à travailler en équipe et à communiquer\r\n\r\n  Capacité à rendre compte, rigueur et esprit de synthèse "
+    experienceLevel: junior
+    minAnnualSalary: 33000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2020-11-05T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-04-01T10:27:49+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": "Bordeaux","localitySlug": "bordeaux","postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": "Gironde","adminLevel2Slug": "gironde","country": "France","countryCode": "FR","latitude": "44.841225","longitude": "-0.5800364" }
+    skills: [ "php", "javascript" ]
+-   title: 'Développeur SSIS (H/F)'
+    description: "Tu vas pouvoir te dépasser \r\nEn apportant ton expertise en vue des développement MS SSIS \r\n\r\nTu aimes \r\n \tAssurer la maintenance corrective et évolutive d&rsquo;applications\r\n \tContribuer au développement de nouvelles applications\r\n \tAssurer le support (gestion des incidents et assistance utilisateurs)\r\n \tAssurer les tests notamment de non-régression\r\n \tAccompagner le déploiement en recette et en production,\r\n \tProposer des optimisations techniques (performances notamment) sur les outils existants.\r\n\r\nTu possèdes \r\n \tMS SSIS\r\n \tWindows Server 2016 \r\n \tSQL Server 2016 \r\n \tSQL \r\n \tJira\r\n\r\nC&rsquo;est tout toi \r\n#ExpérienceMini4Ans #Développement #FortSensDuService #AssetManagement #SSIS #ExcellentRelationnel #FacilitédÉcoute #CapacitédAnalyse #FacilitédAdaptation #BonneCommunication #Autonomie   "
+    experienceLevel: junior
+    minAnnualSalary: 55000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2022-03-05T00:00:00+00:00"
+    renewable: true
+    createdAt: "2021-01-18T00:56:14+00:00"
+    durationPeriod: month
+    durationValue: 1
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "javascript" ]
+-   title: 'PILOTE TECHNIQUE SOC / ANALYSTE N2 SOC   AVIGNON'
+    description: "Qui sommes-nous ?\r\n\r\nAcpqualife, filiale du Groupe HPS (éditeur international de logiciel monétique), est une société de services en informatique implantée à Aix-en-Provence (siège social), Paris, Sophia-Antipolis, Toulouse et Lille.\r\n\r\nAcpqualife intervient sur des projets à forts enjeux chez des clients Grands Comptes et PME, dans les domaines suivants :\r\n\r\n \tIngénierie et Gestion de Projet infrastructure (Système, Production, Réseaux, Sécurité, Cloud, DevOps,  ),\r\n \tAssistance MOA (Banque/Finance/Assurance/Prévoyance),\r\n \tMétiers du test : audit, conseil, qualification fonctionnelle, tests de performance, tests mobiles, automatisation, accompagnement/coaching, organisation Agile, préconisation outillage et déploiement.\r\n\r\n\r\nQuel poste proposons-nous ?\r\n\r\nNous recrutons un Pilote Technique du SOC (F/H) pour intervenir chez un client grand compte basé à Avignon. Rattaché à l&rsquo;équipe cybersécurité, vous intervenez sur un périmètre de plusieurs entités dont vous devez avoir une maîtrise technique du SOC. \r\n\r\nAinsi vous êtes amené notamment à :\r\n\r\n \tSuivre les comités opérationnels en coordination avec le Manager Security Service Provider (MSSP) \r\n \tDécliner la vision stratégique du SOC\r\n \tSuivre les alertes du SOC et les traiter\r\n \tMaintenir les procédures (fiches réflexe, playbook,  )\r\n \tFaire évoluer les règles de sécurité\r\n \tRéaliser les tableaux de bord SOC\r\n \tParticiper aux projets d&rsquo;évolution du SOC\r\n\r\nQuel profil recherchons-nous ? \r\n\r\nNous cherchons un profil de formation supérieure en informatique qui justifie d&rsquo;au moins 3 ans d&rsquo;expérience sur un poste équivalent.\r\nCompétences requises : ELK, environnements Windows/Linux et virtualisation, les langages scripts (Bash, Python, powershell), \r\nConnaissance attendue des outils TheHive et MISP et une bonne compréhension des règles types Yara, Sigma\r\nDes notions de tests d&rsquo;intrusions et d&rsquo;investigation forensique (analyse de disque, RAM, Malware) \r\nDes connaissances dans les domaines suivants seront également appréciées : Hybridation cloud notamment sur la partie AD (Azure ADConnect), Bastion d&rsquo;administration (Cyberark), outils d&rsquo;audit et traçabilité aux systèmes de fichiers (Varonis), authentification multi facteurs et PKI.\r\n\r\nPourquoi rejoindre Acpqualife ?\r\n\r\n \tUn management de proximité avec un accompagnement individualisé respectueux et convivial,\r\n \tDes formations adaptées au développement de vos compétences et à vos missions,\r\n \tLa possibilité de découvrir différents domaines fonctionnels et techniques sur une large palette de projets clients grands-comptes,\r\n \tUne communauté soudée qui favorise et valorise la cooptation,\r\n \tFaire partie intégrante de l&rsquo;aventure du groupe et bénéficiez d&rsquo;une possibilité d&rsquo;achat de stock-options dès votre entrée dans l&rsquo;entreprise, lors de l&rsquo;augmentation du capital en 2023,\r\n \tUne aide à la mobilité et un accès à un service gratuit de recherche de logement\r\n \tDes possibilités de mobilité internationale,\r\n \tLa possibilité de partager son savoir-faire à travers notre Centre de Formation,\r\n \tUne société aux valeurs humaines et handi-accueillante !\r\n\r\nVous vous reconnaissez ?  Alors, rejoignez-nous !\r\n\r\nConseil aux candidats \r\n\r\n \tAu-delà d&rsquo;un CV, soyez vous-même et n&rsquo;hésitez pas à nous partager votre savoir-faire, vos passions, réalisations personnelles et attentes professionnelles !\r\n\r\nProcessus de recrutement :\r\n\r\n \tEchange avec un.e Chargé.e de Recrutement pour comprendre qui vous êtes et vos motivations,\r\n \tEchange avec un.e ou des Responsables de Comptes qui vous présenteront nos projets,\r\n \tRéalisation d&rsquo;un Test technique et/ou un entretien avec un.e expert.e du domaine, \r\n \tUne proposition pour rejoindre nos équipes !\r\n "
+    experienceLevel: senior
+    minAnnualSalary: 28000
+    maxAnnualSalary: 40000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2020-07-20T00:00:00+00:00"
+    renewable: false
+    createdAt: "2020-12-12T12:05:30+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": null,"locality": "Le Touquet-Paris-Plage","localitySlug": "le-touquet-paris-plage","postalCode": "62520","adminLevel1": "Hauts-de-France","adminLevel1Slug": "hauts-de-france","adminLevel2": "Pas-de-Calais","adminLevel2Slug": "pas-de-calais","country": "France","countryCode": "FR","latitude": "50.5211202","longitude": "1.5909325" }
+    skills: [ "php", "javascript" ]
+-   title: 'SysOps F/H'
+    description: "POSTE:\r\n\r\nDans le cadre d&rsquo;un renfort d&rsquo;équipe pour l&rsquo;un de nos clients lyonnais, nous sommes à la recherche d&rsquo;un Sys/Admin Confirmé (H/F).\r\nVos missions sont les suivantes:\r\n\r\n        Concevoir des architectures e&#769;volutives et performantes sur le cloud \r\n        Participer a&#768; la migration des infrastructures vers le cloud\r\n        Travailler en e&#769;troite collaboration avec toutes les e&#769;quipes afin de faire e&#769;voluer et maintenir les syste&#768;mes\r\n        Former et transmettre votre expertise aux membres de l&rsquo;e&#769;quipe\r\n        Participer a&#768; l&rsquo;optimisation continue de l&rsquo;infrastructure (Performance, Se&#769;curite&#769;, Cou&#770;ts)\r\n        Identifier et mettre en place des outils (automatisation et observabilite&#769;)\r\n        Faciliter l&rsquo;autonomie des devOps\r\n\r\nLe Build vous prendra 2/3 de votre temps, le Run/Gestion incident N3 vous prendra le reste.\r\n\r\n\r\nPROFIL:\r\n\r\nDe formation supérieure en informatique, vous justifiez de plusieurs expérience sur un poste similaire.\r\nMéthodique, vous appréciez la rigueur du monde de l&rsquo;informatique. Pédagogue, vous savez expliquer votre travail afin d&rsquo;accompagner au mieux vos interlocuteurs. L&rsquo;analyse et la compréhension sont vos atouts. \r\n "
+    experienceLevel: junior
+    minAnnualSalary: 60000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: null
+    renewable: false
+    createdAt: "2020-12-08T09:24:06+00:00"
+    durationPeriod: year
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Seyssinet-Pariset","localitySlug": "seyssinet-pariset","postalCode": "38170","adminLevel1": "Auvergne-Rhône-Alpes","adminLevel1Slug": "auvergne-rhone-alpes","adminLevel2": "Isère","adminLevel2Slug": "isere","country": "France","countryCode": "FR","latitude": "45.1790768","longitude": "5.6899617" }
+    skills: [ "php", "javascript" ]
+-   title: 'AMOA Technique (Java) F/H'
+    description: "POSTE:\r\nDans le cadre d&rsquo;un renfort d&rsquo;équipe, nous sommes à la recherche d&rsquo;un AMOA Technique (Java) (H/F). Votre principale mission concerne la gestion de portefeuille projets du client. La mission est composée, à 20  de pilotage, 40  de recette MOA et 20  de développement sous Java.\r\nVos missions sont les suivantes:\r\n\r\n \tGestion de la relation avec les chefs de projet\r\no\tPrise en compte et qualification du besoin client externe\r\no\tSuivi et pilotage du portefeuille des demandes\r\n \r\n \tEn interaction avec un Responsable \r\no\tElaboration d&rsquo;une solution à mettre en service \r\no\tAccompagnement à la recette de la solution Métier à implémenter\r\no\tAccompagnement des équipes Métiers lors de la mise en service de la solution\r\n \r\n \tEn interaction avec les différents acteurs du client\r\no\tspécifications fonctionnelles et techniques détaillées\r\no\tdéveloppement et tests IT\r\no\tmise en production / mise en service.\r\n\r\n\r\n\r\nPROJET:\r\n\r\nLa compétence recherchée est de type profil confirmé MOA/MOE :\r\n\r\n \tMOE\r\no\tcompétence confirmée de développement\r\n&#61607;\texpérience d&rsquo;au moins cinq ans sur un poste similaire\r\n&#61607;\tidéalement dans un éco système d&rsquo;intégration de solution (flux EDI, ERP (WMS))\r\n\r\n \tMOA \r\no\tExpérience concrète de gestion de relation Client final\r\no\tExpérience dans les phases d&rsquo;analyse et spécifications (fonctionnelles et techniques)\r\n\r\n \tPilotage\r\no\tExpérience souhaitée de pilotage multi-projets en parallèle \r\n \r\nCompétences techniques attendues:\r\n\r\n \tEnvironnement de développement\r\no\tJava v1.8 et +, Groovy 2.4 et +, Eclipse, Maven, Git, Jira\r\n\r\n \tEnvironnement d&rsquo;exécution\r\no\tBase de données (Oracle (principalement et MySql)\r\no\tServeurs d&rsquo;applications : Springboot, Glassfish, Tomcat, Liferay\r\n\r\n \tFramework\r\no\tIntégration de données / applications / ESB : JBoss Fuse ou Camel / JMS (ActiveMQ)\r\no\tApplication Web : Angular (nouveaux IHM), J2EE 7, JSF & PrimeFaces, Hibernate.\r\n\r\n "
+    experienceLevel: senior
+    minAnnualSalary: 45000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2021-01-02T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-02-24T14:04:54+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": null,"locality": "Cormeilles-en-Parisis","localitySlug": "cormeilles-en-parisis","postalCode": "95240","adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": "Val-d'Oise","adminLevel2Slug": "val-d-oise","country": "France","countryCode": "FR","latitude": "48.9759637","longitude": "2.1998877","key": "fr~ile-de-france~val-d-oise~cormeilles-en-parisis","label": "Cormeilles-en-Parisis, Île-de-France","shortLabel": "Cormeilles-en-Parisis (95)" }
+    skills: [ "php", "javascript" ]
+-   title: 'TESTEUR LOGICIEL - Anglais Courant F/H'
+    description: "Talents IT, cabinet de recrutement national spécialisé dans les métiers de l&rsquo;IT, recrute pour l&rsquo;un de ses clients un(e) Testeur Logiciel H/F. Le poste proposé est un CDI situé à Montpellier.\r\n\r\n\r\nAu sein d&rsquo;une équipe de 5 testeurs, votre principal objectif sera de mener à bien l&rsquo;ensemble des étapes de contrôle qualité permettant de garantir la fiabilité des logiciels proposés par l&rsquo;entreprise.\r\n\r\nDans ce cadre, vos principales missions seront les suivantes :\r\n\r\n    Rédaction et mise en place des protocoles de test ;\r\n    Analyse les spécifications du système ;\r\n    Réalisation de tests manuels et automatisés (sous Squish) des logiciels embarqués sur OS Linux Qt : tests aux limites du logiciel, exécution des protocoles de test rédigés, tests des exigences de spécification du logiciel ;\r\n    Détection et remontée des bugs sous Bugzilla/Jira ;\r\n    Gestion des tickets incidents / suivi des corrections d&rsquo;anomalies ;\r\n    Rédaction (en anglais) des rapports de test et analyse des résultats ;\r\n    Proposition d&rsquo;optimisation des processus de tests ;\r\n    Mise en place d&rsquo;actions préventives et correctives.\r\n\r\nPlus globalement, vous serez amené à travailler en étroite collaboration avec les chefs de projet et autres services de l&rsquo;entreprise.\r\n\r\n\r\nEnvironnement de travail Agile, technologies : MySQL, Squish, connaissances en C++ /Qt sous Linux\r\n\r\n\r\nProfil\r\n\r\nDiplômé(e) en Bac + 2/3 informatique, vous possédez une première expérience professionnelle sur un poste similaire et avez une réelle appétence pour le test logiciel.\r\n\r\nVotre esprit d&rsquo;analyse et de logique vous permet de mener à bien des cas de tests fonctionnels.\r\n\r\nVous aimez le travail en équipe mais savez faire preuve d&rsquo;autonomie dans la réalisation de votre travail.\r\n\r\nVotre capacité d&rsquo;adaptation et votre communication vous amèneront à intégrer rapidement l&rsquo;équipe et à travailler efficacement avec les autres interlocuteurs affectés sur les projets.\r\n\r\n\r\nCompétences impératives :\r\n\r\n    Anglais opérationnel à l&rsquo;écrit\r\n    Logique du test logiciel\r\n\r\nCompétences facultatives :\r\n\r\n    Certification ISTQB. À défaut de l&rsquo;avoir, l&rsquo;entreprise se chargera de la programmer à votre arrivée dans l&rsquo;entreprise\r\n    MySQL\r\n    Squish\r\n    C++ / OS Linux Qt\r\n    Matlab\r\n\r\n\r\nUne expérience dans le secteur médical serait un plus. "
+    experienceLevel: junior
+    minAnnualSalary: 36000
+    maxAnnualSalary: 42000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2021-03-21T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-02-27T19:02:43+00:00"
+    durationPeriod: month
+    durationValue: 5
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.6443057","longitude": "2.7537863" }
+    skills: [ "php", "javascript" ]
+-   title: 'Concepteur / Développeur Java (H/F)'
+    description: "Freelancr est un groupe familial composé de plusieurs sociétés de secteurs différents et complémentaires dont les fonctions support sont basées à Toulouse.\n\nAfin de soutenir notre développement, vous mettez votre expertise et votre maîtrise de ava au service des projets de nos clients :\r\n\r\n \r\n\r\nCompétences professionnelles:\r\n\r\n   Développement Java\r\n   Développement de scripts shell\r\n   Outils d&rsquo;intégration continue : Gitlab, Jenkins, SonarQube, Maven\r\n   Compétences non obligatoires :\r\n   Connaissance de l&rsquo;écosystème Mainframe IBM\r\n   Langage Cobol\r\n   IDE de développement Microfocus\r\n   JIRA, pratiques AGILE, RQM\n\n  Vous avez au minimum 3 ans d&rsquo;expérience sur des projets similaires.\r\n   Autonomie, Pro activité\r\n   Capacités d&rsquo;adaptation, de synthèse et de communication\r\n   Fiabilité et responsabilité\r\n   Esprit d&rsquo;équipe, agilité, relationnel, sens du service Client\r\n\r\nAvoir participer à un projet de migration Pacbase vers un atelier de développement OPEN serait un plus"
+    experienceLevel: junior
+    minAnnualSalary: 30000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: "2022-04-20T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-05-14T16:01:01+00:00"
+    durationPeriod: month
+    durationValue: 3
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "45.4039367","longitude": "0.3756199" }
+    skills: [ "php", "javascript" ]
+-   title: 'Incident Manager'
+    description: "Dans le cadre des services de notre client proposés par leur squad Services de Test et MCO Environnements qui permettent aux squads d&rsquo;obtenir les moyens de réaliser les tests de leurs produits, nous recherchons un intervenant sur Paris pour leur cellule incident.\r\n \r\nGarant du bon fonctionnement des environnements de fabrications et de tests, le détail de ses missions est le suivant :\r\n\r\n          Piloter la résolution de l&rsquo;ensemble des incidents pouvant survenir sur les environnements de fabrication et de tests :\r\n          Identifier les interlocuteurs devant prendre en charge les incidents,\r\n          Suivre les incidents de bout en bout,\r\n          Gérer les relances,\r\n          Effectuer les escalades nécessaires, organiser et animer les réunions de crise,\r\n          Assurer la coordination entre les différentes équipes en cas de besoin,\r\n          Réaliser les communications à destination des personnes impactées tout au long de l&rsquo;incident,\r\n          Assurer l&rsquo;efficacité et l&rsquo;efficience du processus de gestion des incidents,\r\n          Identifier et déclarer des problèmes en analysant les incidents et en recherchant leurs causes,\r\n          Fournir les tableaux de bord permettant de suivre l&rsquo;activité,\r\n          Mettre en place des KPI pertinents pour mesurer la performance, \r\n          Etre force de proposition pour diminuer le nombre ou l&rsquo;impact des incidents, \r\n          Assurer la gestion administrative du processus (rédaction et mise à jour des guides et processus).\r\n \r\nLe profil recherché est un profil type Incident Manager, ayant une bonne expérience de la résolution d&rsquo;incidents d&rsquo;environnements dans des écosystèmes de fabrication et de tests. Une expérience en organisation agile serait un plus.\r\nRigoureux, dynamique, réactif, doté d&rsquo;un bon sens de la communication orale et écrite. Autonome, responsable et force de proposition. \r\n "
+    experienceLevel: junior
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: null
+    renewable: true
+    createdAt: "2021-03-15T12:25:45+00:00"
+    durationPeriod: month
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Bordeaux","localitySlug": "bordeaux","postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": "Gironde","adminLevel2Slug": "gironde","country": "France","countryCode": "FR","latitude": "44.841225","longitude": "-0.5800364" }
+    skills: [ "php", "javascript" ]
+-   title: 'Consultant SAP FI RH'
+    description: "Bonjour,\r\n\r\nJe suis à la recherche pour un client final dans le Sud Ouest d&rsquo;un profil SAP Finance ayant les compétences suivantes:\r\n\r\n- Très bonnes connaissances systèmes d&rsquo;informations RH et Finance.\r\n- Bonnes connaissances du SQL, et un plus sur les outils RH ADP, HOROQUARTZ, TALENTSOFT, et SAP Finance souhaité.\r\n\r\n\r\n "
+    experienceLevel: intermediate
+    minAnnualSalary: 30000
+    maxAnnualSalary: 47000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: null
+    renewable: false
+    createdAt: "2020-12-27T18:39:28+00:00"
+    durationPeriod: month
+    durationValue: 6
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "javascript" ]
+-   title: 'Comptable Fournisseur h/f'
+    description: "Notre partenaire, PME spécialisée dans la charpente et métallerie métallique, est à la recherche de son comptable fournisseur(h/f) \r\n\r\nL&rsquo;entreprise décide de structurer son activité avec la création de ce poste clé. \r\n\r\nVous aurez pour missions principales :\r\n\r\n   Vérification des documents comptables fournisseurs\r\n   Saisie des factures dans les comptes de charge\r\n   Rapprochements bancaires\r\n   Mise en place et suivi des échéanciers de paiement\r\n   Suivi de la clôture annuelle des comptes\r\n   Gestion de la comptabilité analytique\r\n   Analyse des centres de coûts et reporting.\n\nIssu d&rsquo;une formation de type BAC+2 en comptabilité, vous justifiez d&rsquo;une expérience réussie sur un poste similaire et d&rsquo;une connaissance de secteur BTP. \r\nVous êtes prêt à vous investir pour relever un nouveau challenge avec la création de ce poste. Votre rigueur et votre organisation seront de précieux atouts pour réussir. \r\n\r\nDes déplacements très occasionnels peuvent être à prévoir sur Toulouse. \r\nPoste à pourvoir en CDI, rapidement."
+    experienceLevel: junior
+    minAnnualSalary: 30000
+    maxAnnualSalary: 34000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: "2021-12-10T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-04-07T10:07:11+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": "Le Touquet-Paris-Plage","localitySlug": "le-touquet-paris-plage","postalCode": "62520","adminLevel1": "Hauts-de-France","adminLevel1Slug": "hauts-de-france","adminLevel2": "Pas-de-Calais","adminLevel2Slug": "pas-de-calais","country": "France","countryCode": "FR","latitude": "50.5211202","longitude": "1.5909325" }
+    skills: [ "php", "javascript" ]
+-   title: 'Consultant en Poste de travail F/H'
+    description: "POSTE:\r\n\r\nDans le cadre d&rsquo;un renfort d&rsquo;équipe pour l&rsquo;un de nos clients lyonnais, nous sommes à la recherche d&rsquo;un Consultant en Poste de travail (F/H). Votre mission principale sera de participer activement au MCO (run) de l&rsquo;équipe sur le périmètre poste de travail Windows, MDM/Android. Vous serez donc amener à traiter les incidents et demandes de niveau 2 et plus qui nous seront adressés par le support ou le service desk via l&rsquo;outils de ticket. La quasi-totalité des interventions se font à distance via des outils de prise en main que ce soit sur les tablettes ou les PC Windows.\r\n\r\nVos activités sont les suivantes:\r\n \tTraitement des demandes et incidents via l&rsquo;outil de ticket\r\n \tSupport avancé à distance aux utilisateurs sur leur environnement de travail Windows ou Android\r\n \tRéalisation des actions techniques qui vous seront attribuées\r\n \tAmélioration des processus, des supports de documentation et des bases de connaissance à destination du support.\r\n \tRespect des procédure et de conformité du SI de l&rsquo;entreprise\r\n\r\nPROFIL:\r\n\r\nDe formation supérieure en informatique, vous justifiez d&rsquo;une première expérience réussie sur un poste similaire d&rsquo;au moins trois années.\r\nL&rsquo;écoute et le dialogue font partie de vos atouts afin de bien comprendre les besoins utilisateurs.\r\nLes pannes n&rsquo;affecteront jamais votre bonne humeur. Calme dans toutes les situations, vous avez une bonne appréhension du risque.\r\nAvec l&rsquo;expérience vous avez appris que les problèmes viennent souvent de l&rsquo;interface chaise/clavier.\r\n \r\nCompétences attendues, par ordre d&rsquo;importance:\r\n \tWindows client (Windows 7 / Windows 10 - installation et dépannage)\r\n \tDevices Android et solution de MDM (idéalement Airwatch)\r\n \tOffice 365 (Messagerie / Teams / Sharepoint)\r\n \tActiveDirectory / GPO\r\n \tScripting (Vbscript/Powershell)\r\n \tOutils poste de travail: SCCM/MDT, Antivirus\r\n \tWindows Server\r\n \tITIL\r\n\r\n "
+    experienceLevel: intermediate
+    minAnnualSalary: 50000
+    maxAnnualSalary: null
+    minDailySalary: 450
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent, contractor, apprenticeship ]
+    remoteMode: partial
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2021-11-08T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-04-20T17:25:12+00:00"
+    durationPeriod: month
+    durationValue: 5
+    location: { "subLocality": null,"locality": "Seyssinet-Pariset","localitySlug": "seyssinet-pariset","postalCode": "38170","adminLevel1": "Auvergne-Rhône-Alpes","adminLevel1Slug": "auvergne-rhone-alpes","adminLevel2": "Isère","adminLevel2Slug": "isere","country": "France","countryCode": "FR","latitude": "45.1790768","longitude": "5.6899617" }
+    skills: [ "php", "javascript" ]
+-   title: 'Ingénieur en stratégie de test/recette Fonctionnel à Paris (H/F)'
+    description: "Et si vous rejoigniez un spécialiste du Test et de l&rsquo;Agilité ?\r\n\r\nExperte dans le métier du test et de la transformation Agile, la société Acpqualife accompagne ses clients grands comptes dans la démarche globale de test à Aix-en-Provence (siège social), Sophia-Antipolis, Paris, Toulouse et Lille. \r\nAinsi, nos équipes interviennent notamment sur des missions de :\r\n \tConseil : Etude de l&rsquo;existant, mise en uvre de la politique de tests, analyse des risques et stratégie de tests.\r\n \tIngénierie de Tests : Préparation et réalisation des campagnes de tests, automatisation des tests de non-régression et tests de charges & de performance.\r\n \tFormation : Organisme de formation dédié aux tests, méthodologie, bonnes pratiques, outillage.\r\n\r\n\r\nQuel poste proposons-nous&#8239;?&#8239; \r\nDans le cadre de notre développement dans le domaine du test à Paris, nous recrutons un.e Ingénieur en stratégie de test/recette pour renforcer nos équipes d&rsquo;experts en Test et intervenir sur des projets d&rsquo;envergure nationale. \r\nDans ce cadre, vos principales missions consisteront notamment à :\r\n \tAnalyser les spécifications fonctionnelles\r\n \tParticiper à la définition de la stratégie de Test\r\n \tRédiger des cahiers de recettes fonctionnelles\r\n \tÉlaborer des scenarios et des jeux de tests\r\n \tCoordonner l&rsquo;activité de Test\r\n \tExécuter les cas de test\r\n \tSuivre et gérer des anomalies\r\nAu-delà de la mission, nous vous proposons de rejoindre une équipe soudée, polyvalente et impliquée qui aime relever de nouveaux défis et partager un savoir-faire !\r\n\r\n\r\nQuel profil recherchons-nous ?\r\n \tVous avez un Bac +5 dans le domaine informatique\r\n \tVous justifiez d&rsquo;une expérience réussie dans la mise en place de stratégies de test\r\n \tVous maîtrisez impérativement les outils Jira et Testlink\r\n \tCertification ISTQB fortement appréciée\r\n \tVous avez une expérience des tests en méthodologie Agile\r\n \tEnfin, vous avez l&rsquo;esprit d&rsquo;équipe et une expérience similaire d&rsquo;au moins 3 ans\r\n\r\nPourquoi nous rejoindre&#8239;?&#8239; \r\n \tUn savoir-faire reconnu dans le domaine du Test et de la Qualification Logicielle qui fait de nous un acteur incontournable dans ce domaine\r\n \tUn management de proximité avec un accompagnement individualisé respectueux et convivial\r\n \tDes formations adaptées avec notre propre Centre de Formation avec des formations certifiantes telles que IQBBA, IREB, ISTQB, Agile Testing et méthodologiques. \r\n \tLa possibilité d&rsquo;intégrer notre communauté de test\r\n \tUne communauté soudée qui favorise et valorise la cooptation\r\n \tLa possibilité de 2 jours de télétravail par mois selon la mission\r\n \tUne aide à la mobilité et un accès à un service gratuit de recherche de logement\r\n \tUne société aux valeurs humaines et handi-accueillante !\r\n\r\nVous vous reconnaissez&#8239;?  Alors, rejoignez-nous&#8239;!\r\n  "
+    experienceLevel: junior
+    minAnnualSalary: 26000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: null
+    renewable: false
+    createdAt: "2021-02-10T20:52:10+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": "Cormeilles-en-Parisis","localitySlug": "cormeilles-en-parisis","postalCode": "95240","adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": "Val-d'Oise","adminLevel2Slug": "val-d-oise","country": "France","countryCode": "FR","latitude": "48.9759637","longitude": "2.1998877","key": "fr~ile-de-france~val-d-oise~cormeilles-en-parisis","label": "Cormeilles-en-Parisis, Île-de-France","shortLabel": "Cormeilles-en-Parisis (95)" }
+    skills: [ "php", "javascript" ]
+-   title: 'Chef de projet expérimenté MOA schémas comptables'
+    description: "\r\nDepuis 2003, ACCEO CONSULTING est un Cabinet de niche d&rsquo;une soixantaine de consultants entièrement tournés vers les métiers du risque, de la comptabilité , de la conformité et du reporting réglementaire.\r\n\r\nNous recherchons pour l&rsquo;un de nos clients, une grande entreprise du CAC spécialisée dans le domaine bancaire, un chef de projet expérimenté MOA schémas comptables\r\n\r\nLes principales missions du poste sont:\r\n\r\n  Rédiger des spécifications fonctionnelles à destination des équipes MOA \r\n  Définir la stratégie de recette et le cahier de recette,\r\n  Réaliser les phases de recette et d&rsquo;homologation comptable et assurer la liaison et le support aux utilisateurs,\r\n  Participer aux suivi de production post démarrage en relation avec les équipes Back Office Métiers et les équipes Reporting,\r\nDéfinir les schémas comptables opérationnels qui seront paramétrés dans l&rsquo;interpréteur comptable Finance\r\n  Coordonner les tâches et actions des différents acteurs (MOA et utilisateurs Métiers, équipes informatiques, équipes Reporting) en veillant à la qualité des livrables et au respect des budgets et plannings,\r\n  Identifier l&rsquo;impact des projets sur les principaux reporting finance, risque, liquidité.\r\n\r\n\r\nProfil:\r\n\r\nExpérience minimum de 15 ans en MOA Comptable et schémas comptables (IFRS/FRENCH GAAP)\r\nConnaissance RDJ\r\nConnaissances des reporting risques et liquidité\r\nRédactionnel (anglais), analyses et capacité de synthèse\r\nAutonomie, esprit critique\r\n\r\n\r\nSi cette opportunité vous intéresse et que vous êtes disponible, n&rsquo;hésitez pas à envoyer votre CV à Aïda Iraqui: aida.iraqui@acceo-consulting.com. Sinon n&rsquo;hésitez pas à en parler à votre entourage.      "
+    experienceLevel: senior
+    minAnnualSalary: 37000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ internship ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2021-02-08T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-15T06:01:23+00:00"
+    durationPeriod: month
+    durationValue: 1
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.6443057","longitude": "2.7537863" }
+    skills: [ "php", "javascript" ]
+-   title: 'Consultant BizTalk'
+    description: "Nous recherchons pour l&rsquo;un de nos clients un consultant BizTalk:\r\n\r\n- Assistance à maîtrise d&rsquo;uvre / aide à la définition de l&rsquo;architecture de l&rsquo;ensemble des projets BizTalk\r\n- Validation des sources des projets des différents prestataires\r\n- Vérification du respect des normes et des best practices du client.\r\n- Assurance de la qualité des livrables\r\n- Préconisation de l&rsquo;architecture, aide aux prises de décisions techniques.\r\n- Réalisation de développements pour certains projets en interne\r\n- Healthcheck de la plateforme de production\r\n- Migration de l&rsquo;ensemble des projets vers BizTalk 2013R2, TFS 2013\r\n- Rédaction de la documentation autour du socle / framework maison pour le déploiement de l&rsquo;ensemble des plateformes\r\n- Aide à la mise en place d&rsquo;une TMA et assistance en cas de problèmes de run\r\n\r\nEnvironnement technique:\r\n\r\n- BizTalk (compétence fonctionnelle et globale)\r\n- C# / .NET\r\n- WCF\r\n- Web services\r\n- IIS\r\n- SQL\r\n- XSLT\r\n\r\n "
+    experienceLevel: senior
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2021-02-28T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-04-07T04:33:40+00:00"
+    durationPeriod: month
+    durationValue: 1
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "45.4039367","longitude": "0.3756199" }
+    skills: [ "php", "javascript" ]
+-   title: 'Tech Lead J2EE / Scrum - Nantes - F/H'
+    description: "Tech Valley renforce son équipe de collaborateurs à Nantes, nous recrutons en ce début d&rsquo;année 2021 plusieurs consultants en développement.\r\n\r\nDans le cadre de nos nombreuses demandes clients, Tech Valley recrute à Nantes plusieurs Tech Lead J2EE / Scrum expérimentés notamment sur :\r\n- Développer de nouvelles applications et fonctionnalités\r\n- Participer à la phase d&rsquo;analyse du projet \r\n- Participer au maintien opérationnel des outils\r\n- Proposer des réponses techniques dans des projets avec de fortes contraintes, de sécurité, de performances\r\n- Encadrer une équipe de développeurs\r\n- Rédaction et suivi du reporting projet\r\n- Accompagnement  à la transformation\r\n- Capacité à proposer des solutions adaptées à la situation\r\n\r\nCompétences attendues :\r\n- Java, J2EE, GWT\r\n- Spring, Spring Boot\r\n- API Rest (Json)\r\n- Docker, Linux, GIT\r\n\r\nRejoignez notre équipe dynamique et ambitieuse, profitez de nos formations, de notre encadrement sénior, de nos opportunités de progression techniques, fonctionnelles, ou managériales, sur le long terme !\r\n\r\n\r\nCandidatez chez Tech Valley ! Nous serons ravis d&rsquo;échanger avec vous et nous l&rsquo;espérons de vous proposer le poste et les perspectives que vous attendez. "
+    experienceLevel: junior
+    minAnnualSalary: 42000
+    maxAnnualSalary: 52000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 4
+    assignedTo: carrie.mathison@homeland.com
+    createdBy: carrie.mathison@homeland.com
+    startsAt: "2021-07-31T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-05-04T04:26:46+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": null,"locality": "Bordeaux","localitySlug": "bordeaux","postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": "Gironde","adminLevel2Slug": "gironde","country": "France","countryCode": "FR","latitude": "44.841225","longitude": "-0.5800364" }
+    skills: [ "php", "javascript" ]
+-   title: 'Ingénieur Système Windows'
+    description: "Besoin non ouvert aux sous-traitants, merci pour votre compréhension.\r\n\r\nBesoin ouvert aux contractors \r\n\r\nAnglais : technique.\r\n\r\nDescriptif de la mission : \r\n\r\nDans ce cadre la Prestation consiste à contribuer à/au(x):\r\n\r\n  L&rsquo;étude et la mise en uvre des projets d&rsquo;évolution du poste de travail (Windows 10,OneDrive, Sharepoint, Office365)\r\n  Projet d&rsquo;évolution de la sécurité (AD, Serveurs & postes de travail )\r\n  L&rsquo;exploitation SCCM, MDT, WSUS\r\n\r\n  L&rsquo;assistance technique aux nouveaux projets\r\n  La définition des process d&rsquo;exploitation\r\n  Support technique niveau 3 et gestion des incidents techniques coContinuité de service complexes\r\n  La rédaction de document d&rsquo;architecture\r\n\r\nContinuité de service à distance et sur site \r\n\r\n\t\r\nLes livrables sont :\r\n\r\n- Etude,\r\n- Dossier d&rsquo;architecture unitaire, (le cas échéant),\r\n- Dossier d&rsquo;architecture d&rsquo; hébergement,\r\n- Process d&rsquo;exploitation.\r\n  "
+    experienceLevel: intermediate
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2020-09-25T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-05-19T08:00:33+00:00"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "javascript" ]
+-   title: 'Tech Lead Java'
+    description: "Hydrochain, expert du numérique, recherche un Tech Lead Fullstack Java.\r\n\r\nRéinventer demain, accompagner les entreprises et les organisations dans la définition et la mise\r\nen uvre de leurs projets de transformation. Chez Hydrochain, nous sommes convaincus&#8239;que\r\nl&rsquo;individu est la clé du changement.&#8239;\r\n\r\nEn tant que cabinet de conseil opérationnel, Nous sommes à l&rsquo;oeuvre pour accompagner nos clients dans leur projet SI. \r\n\r\nPour ce poste, nous recherchons un Tech lead Java qui aura pour missions:\r\n\r\n\r\n-Accompagné nos clients, \r\n\r\n-Participer à la conception et aux développements en particulier sur la partie Back End.\r\n\r\n-Être force de proposition sur les choix techniques\r\n\r\n\r\n\r\nCompétences recherchées :\r\n\r\n \t-Maîtrise des concepts de la programmation-objet\r\n \t-Concepts d&rsquo;architecture client-serveur, architectures microservices\r\n \t-Java (&#8805;8), Spring \r\n \t-Angular\r\n \t-Maven, Travis CI, Gradle, Swagger, SonarCloud, Jenkins\r\n \t-Git \r\n \t-Docker\r\n        -Ansible\r\n        -Jenkins\r\n \t-Environnement : Linux \r\n \t-Anglais : lu et parlé\r\n\r\nBac+5\r\n\r\n\r\n    "
+    experienceLevel: junior
+    minAnnualSalary: 40000
+    maxAnnualSalary: 50000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: "2021-10-20T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-01T21:39:29+00:00"
+    durationPeriod: month
+    durationValue: 6
+    location: { "subLocality": null,"locality": "Le Touquet-Paris-Plage","localitySlug": "le-touquet-paris-plage","postalCode": "62520","adminLevel1": "Hauts-de-France","adminLevel1Slug": "hauts-de-france","adminLevel2": "Pas-de-Calais","adminLevel2Slug": "pas-de-calais","country": "France","countryCode": "FR","latitude": "50.5211202","longitude": "1.5909325" }
+    skills: [ "php", "javascript" ]
+-   title: 'CONSULTOR TÉCNICO CRM DYNAMICS - BARCELONA- REMOTE ROLE!!!'
+    description: "CONSULTOR TECNICO CRM DYNAMICS - REMOTE ROLE BARCELONA!!!\r\n\r\nSi crees que ha llegado el momento de tener nuevos retos laborales y no quedarte atrás.  Esta es tu oportunidad de ser parte de una empresa l der internacional l der en el sector!\r\n\r\nEstamos buscando un Consultor Técnico de CRM Dynamics para seguir ampliando nuestro equipo, tus funciones ser an la programación, parametrización y customización con la herramienta. Ser a un puesto basado en funciones de programación en principio, pero se te darán todas las herramientas necesarias para que puedas conseguir tus metas profesionales, y tu evolución sea real y constante. \r\n\r\n Qué te ofrecemos?\r\n\r\n   Contrato indefinido\r\n   Teletrabajo\r\n   Crecimiento y desarrollo profesional con atractivos planes de carrera y opciones a certificaciones en las tecnolog as punteras del mercado a cargo de la empresa\r\n   Horario flexible\r\n   Ventajas sociales como plan de retribución flexible\r\n   Salario atractivo en función a la experiencia aportada\r\n\r\nSi te interesa esta oportunidad no dudes en ponerte en contacto con nosotros y env a tu CV a j.cerron@frgconsulting.com o llama a +34 932710347, porque no te arrepentirás!\r\n\r\nEn FRG Technology Consulting somos l deres globales de reclutamiento de profesionales IT en el mercado, contamos con una amplia cartera de clientes tanto en Espa a como en Europa ofreciendo el mayor rango de posiciones para los profesionales en este mercado."
+    experienceLevel: intermediate
+    minAnnualSalary: 45000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2022-01-17T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-03-02T01:25:11+00:00"
+    durationPeriod: month
+    durationValue: 6
+    location: { "subLocality": null,"locality": "Seyssinet-Pariset","localitySlug": "seyssinet-pariset","postalCode": "38170","adminLevel1": "Auvergne-Rhône-Alpes","adminLevel1Slug": "auvergne-rhone-alpes","adminLevel2": "Isère","adminLevel2Slug": "isere","country": "France","countryCode": "FR","latitude": "45.1790768","longitude": "5.6899617" }
+    skills: [ "php", "javascript" ]
+-   title: 'Head of engineering (H/F) - stratup robotique'
+    description: "## Contexte du poste / Contexte de la mission \r\n\r\nUne étoile montante de la robotique située à Lyon recherche son nouveau VP Engineering, un poste clé de cette entreprise qui explosera grâce à vous ! \r\nNotre client s&rsquo;est donné le défi de résoudre une problématique forte du monde de demain : la voiture électrique et toutes les infrastructures que ce nouveau mode de transport inclut. Embarquez pour une belle aventure aux côtés d&rsquo;une équipe de tech passionnés et amenez le produit jusqu&rsquo;à son industrialisation (et bien plus encore) \r\n\r\n## Missions\r\n\r\n  Structuration et gestion du développement produit \r\nMise en place du Product Life Management \r\nSuivi et réalisation des cahiers des charges \r\nConstruction des protocoles de validation \r\nGestion des délais, des risques \r\nArchitecture du projet  \r\n\r\n  Gestion technique des équipes au quotidien \r\nSuivi des avancées de chacun \r\nDébloquer et proposer des solutions \r\nFaire suivre la méthodologie projet \r\n\r\n  Lien avec la production\r\nCoordonner l&rsquo;avancée du développement avec l&rsquo;équipe production\r\n\r\n  Qualification et validation du produit fini en lien avec le cahier des charges \r\n\r\n\r\n## Stack technique\r\n\r\n  Gestion de produit \r\n  Langage C, JAVA, Python \r\n  Quda\r\n\r\n\r\n#Les plus \r\n\r\n  Connaissance en électronique de puissance \r\n  Avoir collaborer sur un projet de voiture électrique\r\n\r\n\r\n\r\n## Profil recherché\r\n\r\nNous recherchons un ingénieur très expérimenté ( plus de 10 ans d&rsquo;expérience) qui souhaite rejoindre une équipe de passionnés créatifs dans le lancement de leur premier produit. Nous avons besoin d&rsquo;une personne très motivée, prête à suivre les ingénieurs au quotidien sur le développement, les tests et la production. \r\nLa rigueur, la vision d&rsquo;ensemble sont des qualités indispensables à ce poste très complet. C&rsquo;est un poste qui finalisera le prototype actuel et assurera le passage à l&rsquo;industrialisation. \r\nVous devez justifier d&rsquo;une expérience en développement produit ainsi que sur le processus d&rsquo;industrialisation d&rsquo;un POC, un excellent niveau d&rsquo;anglais \r\n\r\n## Avantages\r\n  BSPCE \r\n  Mutuelle, prévoyance à 100 \r\n  Tickets restaurants \r\n\r\n \r\n## Pourquoi nous rejoindre \r\n\r\n  Prendre le lead technique d&rsquo;un projet innovant avec une possibilité d&rsquo;évolution forte \r\n  Rejoindre une startup à forte croissance \r\n  Participer à un projet innovant unique en France  "
+    experienceLevel: senior
+    minAnnualSalary: 47000
+    maxAnnualSalary: 60000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2021-02-05T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-02-10T11:17:59+00:00"
+    durationPeriod: year
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Cormeilles-en-Parisis","localitySlug": "cormeilles-en-parisis","postalCode": "95240","adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": "Val-d'Oise","adminLevel2Slug": "val-d-oise","country": "France","countryCode": "FR","latitude": "48.9759637","longitude": "2.1998877","key": "fr~ile-de-france~val-d-oise~cormeilles-en-parisis","label": "Cormeilles-en-Parisis, Île-de-France","shortLabel": "Cormeilles-en-Parisis (95)" }
+    skills: [ "php", "javascript" ]
+-   title: 'Analyste d&rsquo;exploitation et support système-réseaux (H/F)'
+    description: "MCI recherche pour l&rsquo;un de ses clients...\r\n\r\nPour maintenir l&rsquo;environnement informatique et accompagner son développement, \r\nnous recherchons un profil exploitant et en support système et réseau ; \r\nanalyste expérimenté au sein du service informatique.\r\n\r\nLe (la) candidat(e) sera encadré(e) par le RSSI et Production.\r\n\r\nDans le cadre de sa fonction d&rsquo;Analyste d&rsquo;exploitation et support système-réseaux\r\n- Montée en charge progressive sur la mise en place et le suivi de l&rsquo;exploitation (planification) avec une répartition à terme 60/40 \r\n- Compétences impératives en macro excel, shell bash, éditions (des connaissances de BDOC et Cypress seraient un plus), ordonnanceur $Universe ou expertise sur un autre ordonnanceur.\r\n- administration et l&rsquo;évolution des plates-formes Windows, Linux, et Unix\r\n- assistance aux utilisateurs, maintien du parc informatique, migration de postes utilisateurs et évolution des versions logicielles.\r\n\r\nDe formation minimale BAC + 3 minimum en informatique, le candidat justifie de 4 à 8 ans d&rsquo;expérience sur les outils référencés.\r\n\r\nDynamique et très motivé(e) et possédant un bon contact relationnel, avez la notion de service et de rigueur.\r\n\r\nLe poste requiert autonomie et persévérance, capacité à communiquer avec les équipes internes et les utilisateurs.\r\n\r\nLa personne doit avoir un tempérament proactif et accepter de traiter avec cordialité les interventions de tous niveaux. (support niveau 1,2,3).\r\n\r\nPour informations, logiciels utilisés :  (toutes les compétences ne sont pas forcément requises à l&rsquo;embauche)\r\n- Produits sous Windows : Active Directory, Windows 10, Office, Thunderbird, Symantec Endpoint Protection\r\n- OS : Windows Server 2019, 2016, 2012 R2, Hyper-V, Linux Fedora et Centos, HP-UX\r\n- Produits Libres : Netfilter, Mysql, Squid, e2guardian, Postfix, Dovecot, Apache, ...\r\n- Sauvegardes : Data Protector (HPE)\r\n- Sécurité : Sophos Antivirus, ClamAv, Rootkithunter, ...\r\n\r\nMatériels :\r\n- Switchs Dell, 3Com - Postes clients Dell Optiplex et Serveurs Dell Poweredge\r\n- Serveurs de l&rsquo;application métier : Blades HP - Baie de disques HP 3PAR Storeserv\r\n- Library Overland LTO7\r\n\r\nPoste à pourvoir à Paris, dès que possible, salaire selon profil et expérience. "
+    experienceLevel: junior
+    minAnnualSalary: 32000
+    maxAnnualSalary: 37000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: "2020-11-05T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-01-26T18:23:59+00:00"
+    durationPeriod: month
+    durationValue: 2
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.6443057","longitude": "2.7537863" }
+    skills: [ "php", "javascript" ]
+-   title: 'Technicien support confirmé H/F'
+    description: "Nous recherchons pour un démarrage au 15 mars 2021, un technicien support confirmé H/F : \r\n\r\nDescription du rôle et des missions :  \r\n- Technicien H/F N2 avec très bonnes connaissances en MS Office 2016 et surtout en développement Excel/VBA (capable de former, mettre en place des procédures, de dépanner et optimiser des fichiers)&#8201; \r\n\r\nProfil et compétences techniques : \r\n- Maitrise de l&rsquo;outils Office 2016\r\n- Maitrise du développement VBA/Excel&#8201; \r\n\r\nPoste à pourvoir en CDI de chantier "
+    experienceLevel: intermediate
+    minAnnualSalary: 30000
+    maxAnnualSalary: 38000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: GBP
+    contracts: [ permanent ]
+    remoteMode: partial
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: null
+    renewable: false
+    createdAt: "2021-03-07T16:52:51+00:00"
+    durationPeriod: month
+    durationValue: 6
+    location: { "subLocality": null,"locality": null,"localitySlug": null,"postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "45.4039367","longitude": "0.3756199" }
+    skills: [ "php", "javascript" ]
+-   title: 'Administrateur LANDESK - IVANTI  H/F'
+    description: "ESN indépendante et experte en IT depuis plus de 50 ans, DCS EASYWARE est une entreprise humaine et innovante de plus de 800 professionnels des métiers de l&rsquo;infrastructure et de la production informatique. Tournée vers l&rsquo;international grâce à des ��quipes implantées dans les plus grandes capitales Européennes, le groupe DCS demeure également par ses implantations régionales, fidèle à ses valeurs fondatrices de proximité et de management bienveillant. \r\n\r\nVous pourrez vous épanouir et évoluer au fil de missions diversifiées et des prestations de service que nous délivrons auprès de nos clients et partenaires dans des secteurs d&rsquo;activité variés (banque-assurance, industrie, luxe, administration-collectivité, retail-grande distribution, commerces et services...).\n\nNous cherchons aujourd&rsquo;hui à renforcer nos équipes. Vous serez en lien direct avec nos managers Cédric et Thomas.\r\n \r\n En tant qu&rsquo;Administrateur LANDESK - IVANTI H/F, voici les missions principales que nous souhaitons vous confier :\r\n \r\n\r\n   Mise en condition opérationnelle l&rsquo;infrastructure\r\n   Gestion et production des indicateurs\r\n   Support et déploiement\r\n   Réalisation d&rsquo;audits techniques, fonctionnels et organisationnels sur les intégrations des fonctionnalités\r\n   Veille technologique\n\nEt si nous parlions de vous ?\r\n \r\n De formation Bac+3, vous justifiez d&rsquo;une première expérience réussie au sein d&rsquo;une équipe IT en lien avec la Gestion des PDT, Serveurs (même ITAM, ITSM) pour le traitement incident en N2 et dans l&rsquo;un des domaines cités.\r\n \r\n Vous vous caractérisez par votre aisance relationnelle, votre qualité d&rsquo;expression, vos qualités rédactionnelles et vous avez démontré votre capacité à travailler en équipe.\r\n \r\n Vous avez une bonne connaissance des OS Serveur, PDT ;\r\n   Vous maîtrisez l&rsquo;administration AD et GPO ;\r\n   Vous avez des compétences sur l&rsquo;administration et ou Support LANDESK sur les thèmes suivants (Inventaire, Gestions des Agents, Télédistribution, Provisionning, Patch Manager) ;\r\n \r\n Vous détenez une ou plusieurs des certifications suivantes :\r\n \r\n - Certifications MS\r\n\r\n   Certifications outils LANDESK (IVANTI)\r\n \r\n Vous avez une bonne connaissance du marché outil   Gestion Technique PDT,Serveurs   et de ses acteurs ;\r\n \r\n Vous êtes mobile, autonome et idéalement vous maîtrisez l&rsquo;anglais.\r\n \r\n Vous avez plein d&rsquo;autres qualités ? Nous avons hâte de voir cela !\r\n \r\n Notre processus de recrutement : un CDI en 4 étapes ! Tout simplement.\r\n 1. Dans un premier temps, vous échangerez avec l&rsquo;une d&rsquo;entre nous par téléphone : Séverine, Ikram, Clélia ou Marlène.\r\n 2. Puis, nous aurons le plaisir de nous rencontrer lors d&rsquo;un entretien en visio.\r\n 3. Pour finir, discutez métiers avec l&rsquo;un de nos managers opérationnels.\r\n 4. Bienvenue chez nous !\r\n \r\n \r\n \r\n Ce poste vous intéresse ?\r\n \r\n Place à l&rsquo;action : Postulez ou partagez avec votre réseau !"
+    experienceLevel: senior
+    minAnnualSalary: 45000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent ]
+    remoteMode: none
+    company: 5
+    assignedTo: guillaume.debailly@le-bureau-des-legendes.fr
+    createdBy: guillaume.debailly@le-bureau-des-legendes.fr
+    startsAt: "2021-11-09T00:00:00+00:00"
+    renewable: false
+    createdAt: "2021-03-04T18:56:26+00:00"
+    durationPeriod: month
+    durationValue: 3
+    location: { "subLocality": null,"locality": "Bordeaux","localitySlug": "bordeaux","postalCode": null,"adminLevel1": "Nouvelle-Aquitaine","adminLevel1Slug": "nouvelle-aquitaine","adminLevel2": "Gironde","adminLevel2Slug": "gironde","country": "France","countryCode": "FR","latitude": "44.841225","longitude": "-0.5800364" }
+    skills: [ "php", "javascript" ]
+-   title: 'Ingénieur de Production F/H'
+    description: "ESN indépendante et innovante, DCS EASYWARE experte dans les métiers de l&rsquo;IT depuis 50 ans, s&rsquo;adapte sans cesse aux exigences d&rsquo;un marché en perpétuelle mutation liée aux évolutions numériques.\r\n\r\nNous vous offrons la possibilité d&rsquo;intégrer une entreprise humaine de près de 800 professionnels des métiers de l&rsquo;infrastructure et de la production informatique. Vous contribuerez au développement ambitieux du Groupe DCS, tourné également vers l&rsquo;International, grâce à des équipes implantées dans les plus grandes capitales Européennes.\r\n\r\nParallèlement, DCS demeure par ses implantations régionales, fidèle à ses valeurs fondatrices de proximité et de management bienveillant.\r\n\r\nVous pourrez vous épanouir et évoluer au fil de missions diversifiées constituées par les services que nous délivrons auprès de nos clients et partenaires dans des secteurs d&rsquo;activité variés (banque-assurance, industrie, luxe, administration-collectivité, retail-grande distribution, commerces et services,&#x2026;).\r\n\r\nSoucieux de la satisfaction et de l&rsquo;épanouissement de chacun, nous privilégions des collaborations de long terme et la recherche d&rsquo;enrichissement réciproque.\n\nNous cherchons aujourd&rsquo;hui à renforcer nos équipes. Vous serez en lien diect avec notre manager Frédérick.\r\n \r\n Allez, on vous en dit plus &#x2026;\r\n \r\n Intégré.e au sein du Service IT Infrastructure &amp; Production, vous interviendrez principalement dans les domaines suivants :\r\n\r\n   La supervision :\r\n\r\n   Participation aux études et choix des outils\r\n   Configuration et définition des alertes\r\n   Production des tableaux de bord\r\n   Suivi, mise à jour et/ou évolution des outils et solutions de supervision\r\n\r\n   La gestion opérationnelle :\r\n\r\n   Etudes, intégration et évolution des outils d&rsquo;ordonnancement\r\n   Identification et intégration des travaux planifiés dans l&rsquo;ordonnanceur\r\n   Suivi du bon déroulement des tâches planifiées et réalisation d&rsquo;actions correctrices\r\n   Production de rapports\r\n\r\n   La mise en production :\r\n\r\n   Participation à la mise en production des nouvelles infrastructures relatives à la supervision et l&rsquo;ordonnancement\r\n   Documentation et mise à jour les procédures d&rsquo;exploitation\n\nEt si on parlait de vous ?\r\n \r\n Diplômé.e d&rsquo;un Bac+3 ou équivalent, vous justifiez d&rsquo;une première expérience sur un poste similaire.\r\n \r\n Vous maîtrisez les outils de supervision et d&rsquo;ordonnancement (Centreon), et connaissez les processus ITIL.\r\n \r\n Vous avez aussi des compétences générales en gestion des infrastructures (Windows Server, Linux, Citrix, VMware) et protocoles (SNMP, WMI, telenet/SSH, API Web Services)\r\n \r\n Force de proposition, vous faites preuve d&rsquo;une grande autonomie et d&rsquo;une réelle capacité d&rsquo;adaptation. Vos qualités relationnelles et rédactionnelles seront autant d&rsquo;atouts qui vont permettront de mener à bien vos missions.\r\n \r\n Notre processus de recrutement : un CDI en 4 étapes ! Tout simplement.\r\n 1. Dans un premier temps, vous échangerez avec l&rsquo;une d&rsquo;entre nous par téléphone : Séverine, Ikram, Clélia ou Marlène\r\n 2. Puis, nous aurons le plaisir de nous rencontrer lors d&rsquo;un entretien physique ou Teams\r\n 3. Pour finir, discutez métier avec l&rsquo;un de nos managers opérationnels\r\n 4. Bienvenue chez nous !"
+    experienceLevel: intermediate
+    minAnnualSalary: 35000
+    maxAnnualSalary: 55000
+    minDailySalary: null
+    maxDailySalary: null
+    currency: EUR
+    contracts: [ permanent ]
+    remoteMode: full
+    company: 1
+    assignedTo: walter.white@breaking-bad.com
+    createdBy: walter.white@breaking-bad.com
+    startsAt: "2021-10-10T00:00:00+00:00"
+    renewable: true
+    createdAt: "recent"
+    durationPeriod: month
+    durationValue: 4
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "javascript" ]
+-   title: 'Développeur Java 8 ans Exp - IDF - (H/F)'
+    description: "Descriptif du poste : \r\n\r\nEn tant que développeur au sein d&rsquo;une équipe d&rsquo;une quinzaine personnes, vous serez responsable :\r\n\r\n   du développement\r\n   du packaging\r\n   des tests unitaires\r\n   des tests fonctionnels automatisés (niveau service ou IHM)\r\n\r\n \r\n\r\nCompétences et qualifications\r\n\r\nPrincipaux langages :\r\n\r\n- Java 1.7 -&gt; 1.8\r\n\r\n- Oracle SQL\r\n\r\nFramework :\r\n\r\n- SPRING 4 (core, security, mvc, jdbc, batch, boot)\r\n\r\n- Angular4 (appli RDM)\r\n\r\n- AngularJS\r\n\r\nArchitecture Web Services :\r\n\r\n- REST / Jersey \r\n\r\nBase de données :\r\n\r\n- Oracle 11g\r\n\r\nUsine Logicielle / outils de test et qualité :\r\n\r\n- Junit (Test unitaire)\r\n\r\n- Cucumber (Test fonctionnel)\r\n\r\n- Plate-forme de dev sur AWS (Cloud Formation)\r\n\r\nCraftmanship\r\n\r\n- Clean code\r\n\r\n- Code Review\r\n\r\nAvantages\r\n\r\n    Salaire attractif \r\n    Possibilités d&rsquo;évolution\r\n    Groupe en forte croissance"
+    experienceLevel: junior
+    minAnnualSalary: 60000
+    maxAnnualSalary: null
+    minDailySalary: null
+    maxDailySalary: null
+    currency: USD
+    contracts: [ permanent,intercontract ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2022-03-21T00:00:00+00:00"
+    renewable: false
+    createdAt: 'yesterday'
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php", "java" ]
+-   title: 'Développeur Javascript 5 ans Exp - IDF - (H/F)'
+    description: "Descriptif du poste : \r\n\r\nEn tant que développeur au sein d&rsquo;une équipe d&rsquo;une quinzaine personnes, vous serez responsable :\r\n\r\n   du développement\r\n   du packaging\r\n   des tests unitaires\r\n   des tests fonctionnels automatisés (niveau service ou IHM)\r\n\r\n \r\n\r\nCompétences et qualifications\r\n\r\nPrincipaux langages :\r\n\r\n- Java 1.7 -&gt; 1.8\r\n\r\n- Oracle SQL\r\n\r\nFramework :\r\n\r\n- SPRING 4 (core, security, mvc, jdbc, batch, boot)\r\n\r\n- Angular4 (appli RDM)\r\n\r\n- AngularJS\r\n\r\nArchitecture Web Services :\r\n\r\n- REST / Jersey \r\n\r\nBase de données :\r\n\r\n- Oracle 11g\r\n\r\nUsine Logicielle / outils de test et qualité :\r\n\r\n- Junit (Test unitaire)\r\n\r\n- Cucumber (Test fonctionnel)\r\n\r\n- Plate-forme de dev sur AWS (Cloud Formation)\r\n\r\nCraftmanship\r\n\r\n- Clean code\r\n\r\n- Code Review\r\n\r\nAvantages\r\n\r\n    Salaire attractif \r\n    Possibilités d&rsquo;évolution\r\n    Groupe en forte croissance"
+    experienceLevel: senior
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: 500
+    maxDailySalary: 800
+    currency: USD
+    salaryInterval: monthly
+    contracts: [ intercontract ]
+    remoteMode: full
+    company: 3
+    assignedTo: robert.ford@ww.com
+    createdBy: robert.ford@ww.com
+    startsAt: "2022-05-21T00:00:00+00:00"
+    renewable: false
+    createdAt: '2022-05-17T21:34:41+00:00'
+    duration: 9
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "javascript" ]
+-   title: 'Développeur NuxtJS (H/F)'
+    description: "Descriptif du poste : \r\n\r\nEn tant que développeur au sein d&rsquo;une équipe d&rsquo;une quinzaine personnes, vous serez responsable :\r\n\r\n   du développement\r\n   du packaging\r\n   des tests unitaires\r\n   des tests fonctionnels automatisés (niveau service ou IHM)\r\n\r\n \r\n\r\nCompétences et qualifications\r\n\r\nPrincipaux langages :\r\n\r\n- Java 1.7 -&gt; 1.8\r\n\r\n- Oracle SQL\r\n\r\nFramework :\r\n\r\n- SPRING 4 (core, security, mvc, jdbc, batch, boot)\r\n\r\n- Angular4 (appli RDM)\r\n\r\n- AngularJS\r\n\r\nArchitecture Web Services :\r\n\r\n- REST / Jersey \r\n\r\nBase de données :\r\n\r\n- Oracle 11g\r\n\r\nUsine Logicielle / outils de test et qualité :\r\n\r\n- Junit (Test unitaire)\r\n\r\n- Cucumber (Test fonctionnel)\r\n\r\n- Plate-forme de dev sur AWS (Cloud Formation)\r\n\r\nCraftmanship\r\n\r\n- Clean code\r\n\r\n- Code Review\r\n\r\nAvantages\r\n\r\n    Salaire attractif \r\n    Possibilités d&rsquo;évolution"
+    experienceLevel: senior
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: 500
+    maxDailySalary: 550
+    currency: EUR
+    salaryInterval: monthly
+    contracts: [ intercontract ]
+    remoteMode: partial
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2022-09-21T00:00:00+00:00"
+    renewable: false
+    createdAt: '2022-09-17T21:34:41+00:00'
+    durationPeriod: month
+    durationValue: 10
+    location: {"subLocality":null,"locality":"Bordeaux","localitySlug":"bordeaux","postalCode":null,"adminLevel1":"Nouvelle-Aquitaine","adminLevel1Slug":"nouvelle-aquitaine","adminLevel2":"Gironde","adminLevel2Slug":"gironde","country":"France","countryCode":"FR","latitude":"44.841225","longitude":"-0.5800364"}
+    skills: [ "javascript" ]
+-   title: 'Développeur Zend 10 ans expériences  (H/F)'
+    description: "Descriptif du poste : \r\n\r\nEn tant que développeur au sein d&rsquo;une équipe d&rsquo;une quinzaine personnes, vous serez responsable :\r\n\r\n   du développement\r\n   du packaging\r\n   des tests unitaires\r\n   des tests fonctionnels automatisés (niveau service ou IHM)\r\n\r\n \r\n\r\nCompétences et qualifications\r\n\r\nPrincipaux langages :\r\n\r\n- Java 1.7 -&gt; 1.8\r\n\r\n- Oracle SQL\r\n\r\nFramework :\r\n\r\n- SPRING 4 (core, security, mvc, jdbc, batch, boot)\r\n\r\n- Angular4 (appli RDM)\r\n\r\n- AngularJS\r\n\r\nArchitecture Web Services :\r\n\r\n- REST / Jersey \r\n\r\nBase de données :\r\n\r\n- Oracle 11g\r\n\r\nUsine Logicielle / outils de test et qualité :\r\n\r\n- Junit (Test unitaire)\r\n\r\n- Cucumber (Test fonctionnel)\r\n\r\n- Plate-forme de dev sur AWS (Cloud Formation)\r\n\r\nCraftmanship\r\n\r\n- Clean code\r\n\r\n- Code Review\r\n\r\nAvantages\r\n\r\n    Salaire attractif \r\n    Possibilités d&rsquo;évolution"
+    experienceLevel: senior
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: 850
+    maxDailySalary: 1000
+    currency: EUR
+    salaryInterval: monthly
+    contracts: [ intercontract ]
+    remoteMode: partial
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2022-09-21T00:00:00+00:00"
+    renewable: false
+    createdAt: '2022-09-17T21:34:41+00:00'
+    durationPeriod: month
+    durationValue: 3
+    location: {"subLocality":null,"locality":"Le Touquet-Paris-Plage","localitySlug":"le-touquet-paris-plage","postalCode":"62520","adminLevel1":"Hauts-de-France","adminLevel1Slug":"hauts-de-france","adminLevel2":"Pas-de-Calais","adminLevel2Slug":"pas-de-calais","country":"France","countryCode":"FR","latitude":"50.5211202","longitude":"1.5909325"}
+    skills: [ "php" ]
+-   title: 'Développeur fullstack Symfony-Vue.js'
+    description: "#fintech : Je recrute en #CDI un Développeur fullstack Symfony/Vue.js sénior pour un client final FinTech-RegTech à Saint-Cloud (92).\r\n\r\n Vous avez obligatoirement minimum 5 ans d’expérience en tant que développeur PHP/Symfony. Vous avez également de bonnes notions en développement front end. \r\n\r\n Le client est un éditeur français ayant deux activités : une division Fintech ainsi qu’une division Conversion de Protocoles.\r\n\r\n Les deux activités sont en forte progression et couvrent aussi bien l’édition que l’intégration au sein du SI de ses Clients.\r\n\r\n Classé parmi les Best Place to Work 2022, par l’enquête Great Place to Work pour les sociétés de 50 à 250 salariés ! \r\n\r\n ?: PHP 7-8 / Symfony 4.4 ; Vue.js 3 ; Javascript ; PhpStorm ; AMQP, Stack ELK, Redis, Rest API, SOAP, SGBD, JSON, XML, XSLT \r\n\r\n ?Evolution : professionnalisation rapide en interne .\r\n\r\n Rémunération 55.000Eur - 65.000Eur\r\n\r\n ?Remote partiel et autres avantages."
+    experienceLevel: senior
+    minAnnualSalary: null
+    maxAnnualSalary: null
+    minDailySalary: 850
+    maxDailySalary: 1000
+    currency: EUR
+    salaryInterval: monthly
+    contracts: [ intercontract ]
+    remoteMode: partial
+    company: 2
+    assignedTo: eddard.stark@got.com
+    createdBy: eddard.stark@got.com
+    startsAt: "2022-09-24T00:00:00+00:00"
+    renewable: false
+    createdAt: '2022-08-28T15:00:00+00:00'
+    durationPeriod: month
+    durationValue: 3
+    status: draft
+    location: { "subLocality": "Paris","locality": "Paris","localitySlug": "paris","postalCode": null,"adminLevel1": "Île-de-France","adminLevel1Slug": "ile-de-france","adminLevel2": null,"adminLevel2Slug": null,"country": "France","countryCode": "FR","latitude": "48.8588897","longitude": "2.3200410217201" }
+    skills: [ "php" ]

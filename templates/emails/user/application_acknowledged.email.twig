@@ -1,0 +1,56 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'application_acknowledged') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.application_acknowledged.subject'|trans({'%jobPostingTitle%': jobPosting.0.title}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.application_acknowledged.pre_header'|trans({}, 'emails')|raw }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    <p>
+                        {{ 'user.application_acknowledged.content.paragraphs.0'|trans({
+                            '%link%': url('candidates_company', {'slug': jobPosting.0.company.slug}),
+                            '%company%': application.jobposting.company,
+                            '%date%': application.createdAt|date('d/m/Y'),
+                            '%dateTime%': application.createdAt|date('G:i')
+                        }, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <p>
+                        <u>
+                            {{ 'user.application_acknowledged.content.paragraphs.1'|trans({}, 'emails')|raw|nl2br }}
+                        </u>
+
+                    </p>
+
+                    {% include 'emails/components/job_posting.html.twig' with {'jobPostings': jobPosting} %}
+
+                    <spacer size="35"></spacer>
+
+                    <p>
+                        {{ 'user.application_acknowledged.content.paragraphs.2'|trans({'%link%': url('candidates_applications')}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <p>{{ 'user.application_acknowledged.content.paragraphs.3'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <spacer size="35"></spacer>
+
+                    <p>{{ 'user.application_acknowledged.content.paragraphs.4'|trans({}, 'emails')|raw|nl2br }}</p>
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

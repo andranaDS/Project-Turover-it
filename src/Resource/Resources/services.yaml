@@ -1,0 +1,24 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $env: '%env(APP_ENV)%'
+
+    App\Resource\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\Resource\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+    # doctrine event subscribers
+    App\Resource\DoctrineEventSubscriber\:
+        resource: '../DoctrineEventSubscriber'
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }

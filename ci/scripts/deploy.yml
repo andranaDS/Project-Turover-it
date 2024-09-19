@@ -1,0 +1,64 @@
+###
+# In order to extend this script you'll have to pass one variable
+#
+# ENVIRONMENT -> The target environment 
+# IMAGE_TAG -> The Docker image tag you want
+#
+###
+
+.deploy:
+  stage: deploy
+  image: alpine
+  before_script:
+    - apk add curl
+  script:
+    - echo "Random sleep to avoid multi deployment conflict"
+    - sleep  $(echo $RANDOM % 60 + 1 | bc)
+    - echo "Initiating BACKEND deployment..."
+    - |-
+      curl --silent --show-error --write-out "%{http_code}" -o response_backend.txt \
+      --request POST 'https://gitlab.free-work.mysk5.com/api/v4/projects/2/trigger/pipeline' \
+      --header 'Content-Type: application/json' \
+      --data-raw  '{
+          "ref": "master",
+          "token": "'"$DEPLOY_TOKEN"'",
+          "variables": {
+              "ENVIRONMENT": "'"$ENVIRONMENT"'",
+              "PROJECT": "backend/backend",
+              "IMAGE_TAG": "'"$IMAGE_TAG"'",
+              "TYPE": "helm"
+          }
+      }'
+    - |-
+      if [ $http_code != "201" ]; then
+        exit 1
+      else
+        echo "Deployment successfully initiated, server returned:"
+        cat response_backend.txt
+        echo -e "\nMore information about SK5 pipelines here : https://gitlab.free-work.mysk5.com/run/free-work/infrastructure/-/pipelines"
+      fi
+    - echo "Waiting 60s before NGINX deployment"
+    - sleep 60      
+    - echo "Initiating NGINX deployment..."
+    - |-
+      curl --silent --show-error --write-out "%{http_code}" -o response_nginx.txt \
+      --request POST 'https://gitlab.free-work.mysk5.com/api/v4/projects/2/trigger/pipeline' \
+      --header 'Content-Type: application/json' \
+      --data-raw  '{
+          "ref": "master",
+          "token": "'"$DEPLOY_TOKEN"'",
+          "variables": {
+              "ENVIRONMENT": "'"$ENVIRONMENT"'",
+              "PROJECT": "nginx/nginx",
+              "IMAGE_TAG": "'"$IMAGE_TAG"'",
+              "TYPE": "helm"
+          }
+      }'
+    - |-
+      if [ $http_code != "201" ]; then
+        exit 1
+      else
+        echo "Deployment successfully initiated, server returned:"
+        cat response_nginx.txt
+        echo -e "\nMore information about SK5 pipelines here : https://gitlab.free-work.mysk5.com/run/free-work/infrastructure/-/pipelines"
+      fi

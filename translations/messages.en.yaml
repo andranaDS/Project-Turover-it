@@ -1,0 +1,78 @@
+user:
+    nickname:
+        default: 'Free-Worker-%id%'
+
+    authentication:
+        error:
+            locked: "Your account is locked."
+            disabled: "Your account email has not been confirmed."
+            bad_credentials: "Your credentials are invalid."
+            provider: "An error occured."
+
+    registration:
+        confirm:
+            error:
+                link_expired: "The reset link is expired."
+                link_corrupted: "The confirm link is corrupted."
+
+    forgotten_password:
+        reset:
+            error:
+                link_expired: "The reset link is expired."
+
+    change_email:
+        confirm:
+            error:
+                link_expired: "The confirm link is expired."
+                link_corrupted: "The confirm link is corrupted."
+
+    availability:
+        confirm:
+            success: "Your availability has been updated"
+            error:
+                link_expired: "The link is expired."
+        immediate:
+            success: "Your availability has been updated"
+            error:
+                link_expired: "The link is expired."
+
+job_posting_search:
+    disable_one:
+        success: "The alert %alertName% has been disabled."
+        error: "The link is expired."
+    disable_all:
+        success: "All the alerts have been disabled."
+        error: "The link is expired."
+
+job_posting_share:
+    duration_period:
+        day: "day(s)"
+        month: "month(s)"
+        year: "year(s)"
+
+recruiter:
+    authentication:
+        error:
+            disabled: "Your account email has not been confirmed."
+            bad_credentials: "Your credentials are invalid."
+
+    registration:
+        confirm:
+            error:
+                link_expired: "The confirm link is expired."
+
+    forgotten_password:
+        reset:
+            error:
+                link_expired: "The reset link is expired."
+
+    change_email:
+        confirm:
+            error:
+                link_expired: "The confirm link is expired."
+                link_corrupted: "The confirm link is corrupted."
+
+site:
+    delete:
+        error:
+            count_recruiter: "The site must no longer have a linked account."

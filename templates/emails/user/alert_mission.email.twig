@@ -1,0 +1,118 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'user_alert_missions') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.alert_missions.subject'|trans({'%count%': jobPostingCount}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.alert_missions.pre_header'|trans({}, 'emails')|nl2br }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    <p>{{ 'user.alert_missions.content.paragraphs.0'|trans({'%date%': user.createdAt|date('d/m/Y')}, 'emails')|raw|nl2br }}</p>
+
+                    <spacer size="25"></spacer>
+
+                    {% for datum in data %}
+                        <img class="social float-left" src="{{ email.image('@images/email/bell-on.png') }}" alt="bell-on" style="margin-right: 10px;">
+                            {{ 'user.alert_missions.content.paragraphs.1'|trans({'%count%': datum.jobPostings|length}, 'emails')|raw|nl2br }}
+                            <span class="alerts title">
+                                <b><u>{{ datum.jobPostingSearch.title }}</u></b>
+                            </span>
+
+
+                        <ul class="alerts">
+                            {% for jobPosting in datum.jobPostings[:10] %}
+
+                                {% if jobPosting.hasFreeContract %}
+                                    {% set contractType = 'contractor' %}
+                                {% else %}
+                                    {% set contractType = 'worker' %}
+                                {% endif %}
+
+                                <li>
+                                    <a href="{{ url('candidates_job_posting', {'JobSlug': jobPosting.job.slug, 'jobPostingSlug': jobPosting.slug}) ~ urlTag|default('') }}">
+                                    <b>
+                                        {{ jobPosting.title }}
+                                        -
+                                        <span  class="{{ contractType }}">
+                                            {{ jobPosting.contracts|map((value, key) =>  value|enum_label('App\\JobPosting\\Enum\\Contract', 'enums'))|join(', ') }}
+                                        </span>
+                                    </b>
+                                    <br>
+
+                                    {% set line = [] %}
+
+                                    {% if jobPosting.duration is not null %}
+                                        {% set line = line|merge([
+                                            'user.alert_missions.content.job.duration'|trans({'%months%': jobPosting.duration}, 'emails')|nl2br
+                                        ]) %}
+                                    {% endif %}
+
+                                    {% if jobPosting.annualSalary is not null %}
+                                        {% set line = line|merge([jobPosting.annualSalary]) %}
+                                    {% endif %}
+
+                                    {% if jobPosting.dailySalary is not null %}
+                                        {% set line = line|merge([jobPosting.dailySalary]) %}
+                                    {% endif %}
+
+                                        {% if jobPosting.location is not null %}
+                                            {% set line = line|merge([jobPosting.location.label]) %}
+                                        {% endif %}
+                                    {{ line|join(' - ') }}
+                                    </a>
+                                </li>
+                            {% endfor %}
+
+                            {% if datum.jobPostings|length > 10 %}
+                                <li>
+                                    <b>
+                                        {{ 'user.alert_missions.content.paragraphs.3'|trans({'%link%': datum.jobPostingSearchUrl}, 'emails')|raw|nl2br }}
+                                    </b>
+                                </li>
+                            {% endif %}
+                        </ul>
+
+                        <small>
+                            <img class="info float-left" src="{{ email.image('@images/email/circle-info.png') }}" alt="bell-on" style="margin-right: 10px;">
+                            {{ 'user.alert_missions.content.disable_alert'|trans({
+                                '%link%':  url_signed('api_job_posting_search_freework_disable_one', {'jobPostingSearchId': datum.jobPostingSearch.id}, false, urlSignedTll) ,
+                                '%alertName%': datum.jobPostingSearch.title}, 'emails')|raw|nl2br }}
+                        </small>
+
+                        <spacer size="25"></spacer>
+
+                    {% endfor %}
+
+                    <spacer size="50"></spacer>
+
+                    <p>
+                        {{ 'user.alert_missions.content.paragraphs.2'|trans({'%link%': url('candidates_alert') }, 'emails')|raw|nl2br }}
+                        {{ 'user.alert_missions.content.disable_alerts'|trans({
+                            '%link%':  url_signed('api_job_posting_search_freework_disable_all', {'userId': user.id}, false, urlSignedTll) ,
+                        }, 'emails')|raw|nl2br }}
+                    </p>
+
+                </columns>
+            </row>
+
+            <spacer size="25"></spacer>
+
+            <small>
+
+            </small>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

@@ -1,0 +1,11 @@
+{% set firstName = firstName|default(null) %}
+
+<row>
+    <columns large="9" small="12">
+        {% if firstName is not empty %}
+            <p>{{ 'components.hello_first_name'|trans({'%firstName%': firstName }, 'emails')|nl2br }}</p>
+        {% else %}
+            <p>{{ 'components.hello'|trans({}, 'emails')|nl2br }}</p>
+        {% endif %}
+    </columns>
+</row>

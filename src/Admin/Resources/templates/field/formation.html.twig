@@ -1,0 +1,40 @@
+<div class="mb-2">
+    {% if field.value %}
+        <ul class="list-group">
+            <li class="list-group-item">
+                <b>Diplôme: </b>
+                {{ field.value.diplomaTitle }}
+            </li>
+            <li class="list-group-item">
+                <b>Niveau: </b>
+                {{ field.value.diplomaLevel }}
+            </li>
+            <li class="list-group-item">
+                <b>École / université: </b>
+                {{ field.value.school }}
+            </li>
+            <li class="list-group-item">
+                <b>Année dʼobtention: </b>
+                {{ field.value.diplomaYear }}
+            </li>
+            <li class="list-group-item field-boolean">
+                <b>En cours dʼattribution: </b>
+                {% if field.value.beingObtained == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+            <li class="list-group-item field-boolean">
+                <b>Autodidacte: </b>
+                {% if field.value.selfTaught == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+        </ul>
+    {% else %}
+        <span class="badge badge-secondary">Aucun(e)</span>
+    {% endif %}
+</div>

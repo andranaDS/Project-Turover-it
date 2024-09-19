@@ -1,0 +1,50 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'alert_user_without_job_posting_search') %}
+{% endblock config %}
+
+{% block subject %}
+    {% if user.firstName is not null %}
+        {{ 'user.alert_user_without_job_posting_search.subject_with_username'|trans({'%firstname%': user.firstname}, 'emails')|nl2br }}
+    {% else %}
+        {{ 'user.alert_user_without_job_posting_search.subject_without_username'|trans({}, 'emails')|nl2br }}
+    {% endif %}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.alert_user_without_job_posting_search.pre_header'|trans({}, 'emails')|raw }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    <p>{{ 'user.alert_user_without_job_posting_search.content.paragraphs.0'|trans({}, 'emails')|raw|nl2br }}</p>
+                    <p>{{ 'user.alert_user_without_job_posting_search.content.paragraphs.1'|trans({'%link%': url('candidates_alert')~'?utm_source=email_transactionnel&utm_medium=email&utm_campaign=programmation_alert'}, 'emails')|raw|nl2br }}</p>
+                    <p>{{ 'user.alert_user_without_job_posting_search.content.paragraphs.2'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <spacer size="25"></spacer>
+
+                    <center>
+                        <button class="large radius"
+                                href="{{ url('candidates_job_postings')}}?utm_source=email_transactionnel&utm_medium=email&utm_campaign=programmation_alert">
+                            {{ 'user.alert_user_without_job_posting_search.content.button'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                </columns>
+            </row>
+
+            <row>
+                <columns>
+                    <p>{{ 'user.alert_user_without_job_posting_search.content.paragraphs.3'|trans({}, 'emails')|nl2br }}</p>
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

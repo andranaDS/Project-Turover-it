@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://phpunit.readthedocs.io/en/latest/configuration.html -->
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd" backupGlobals="false" colors="true"
+         bootstrap="tests/bootstrap.php">
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+        <exclude>
+            <directory suffix=".php">src/*/Tests</directory>
+            <directory suffix=".php">src/*/DataFixtures</directory>
+            <directory suffix=".php">src/*/OpenApi</directory>
+            <directory suffix=".php">src/*/Command</directory>
+            <directory suffix=".php">src/Sync/*</directory>
+            <directory suffix=".php">src/Migration/*</directory>
+            <file>src/Kernel.php</file>
+        </exclude>
+    </coverage>
+    <php>
+        <ini name="error_reporting" value="-1"/>
+        <server name="APP_ENV" value="test" force="true"/>
+        <server name="SHELL_VERBOSITY" value="-1"/>
+        <server name="SYMFONY_PHPUNIT_REMOVE" value=""/>
+        <server name="SYMFONY_PHPUNIT_VERSION" value="9.5"/>
+        <env name="SYMFONY_DEPRECATIONS_HELPER" value="disabled"/>
+        <env name="AMAZON_S3_PREFIX" value="https://s1.storage.agsi-net.com:8443"/>
+    </php>
+    <testsuites>
+        <testsuite name="w_hrflow">
+            <directory>tests</directory>
+            <directory>src/*/Tests</directory>
+        </testsuite>
+        <testsuite name="wo_hrflow">
+            <directory>tests</directory>
+            <directory>src/*/Tests</directory>
+            <exclude>src/User/Tests/Functional/UserDocument/UserDocumentPostTest.php</exclude>
+        </testsuite>
+    </testsuites>
+    <extensions>
+        <extension class="DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension"/>
+    </extensions>
+    <listeners>
+        <listener class="Symfony\Bridge\PhpUnit\SymfonyTestsListener"/>
+    </listeners>
+</phpunit>

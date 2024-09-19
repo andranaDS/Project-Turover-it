@@ -1,0 +1,53 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'relaunch_profile_not_updated_with_immediate_availability') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.relaunch_profile_not_updated_with_immediate_availability.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.relaunch_profile_not_updated_with_immediate_availability.pre_header'|trans({}, 'emails')|raw }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    {% include 'emails/components/introduction_transition_freelance_info.html.twig'with {'nbDays': 90} %}
+
+                    <p>{{ 'user.relaunch_profile_not_updated_with_immediate_availability.content.paragraphs.0'|trans({'%date%': user.updatedAt|date('d/m/Y')}, 'emails')|raw|nl2br }}</p>
+
+                    <p>{{ 'user.relaunch_profile_not_updated_with_immediate_availability.content.paragraphs.1'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <p>
+                        {{ 'user.relaunch_profile_not_updated_with_immediate_availability.content.paragraphs.2.0'|trans({}, 'emails')|raw|nl2br }}
+                        {{ 'user.relaunch_profile_not_updated_with_immediate_availability.content.paragraphs.2.1'|trans({}, 'emails')|raw|nl2br }}
+                        {{ 'user.relaunch_profile_not_updated_with_immediate_availability.content.paragraphs.2.2'|trans({}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <spacer size="35"></spacer>
+
+                    <center>
+                        <button class="secondary large radius expanded"
+                                href="{{ url('candidates_profile_resume') }}?utm_source=email_transactionnel&utm_medium=email&utm_campaign=relance_sans_maj_profil_it">
+                            {{ 'user.relaunch_profile_not_updated_with_immediate_availability.content.button'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="35"></spacer>
+
+                    {{ 'user.relaunch_profile_not_updated_with_immediate_availability.content.paragraphs.3'|trans({}, 'emails')|raw|nl2br }}
+
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

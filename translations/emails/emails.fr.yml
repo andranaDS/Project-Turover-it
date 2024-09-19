@@ -1,0 +1,351 @@
+components:
+    hello: "Bonjour 👋,"
+    hello_first_name: "Bonjour %firstName% 👋,"
+    signature_team: |
+        L'équipe Free-Work 🚀
+        ✉️ contact@free-work.com
+    signature_bot: |
+        Le bot Free-Work 🤖
+        ✉️ contact@free-work.com
+    turnover_signature_team: |
+        L'équipe Turnover-IT 🚀
+        ✉️ contact@turnover-it.com
+    turnover_signature_bot: |
+        Le bot Turnover-ITFree-Work 🤖
+        ✉️ contact@turnover-it.com
+    website: "https://www.free-work.com"
+    socials:
+        linkedin: "https://www.linkedin.com/company/agsi-it/"
+        twitter: "https://twitter.com/freework_tech"
+        facebook: "https://www.facebook.com/Freework.tech"
+    notification: "Paramétrer les notifications"
+    introduction_transition_freelance_info: "Votre site <a href='https://www.freelance-info.fr/'>Freelance-info.fr </a> dédié aux freelances IT, SI et Web se modernise, fusionne avec <a href='https://Carriere-info.fr'>Carriere-info.fr</a> et devient <a href='https://free-work.com/'>Free-Work.com</a> ! \n Retrouvez toutes les ressources (blog, forum, baromètre IT…) et offres de mission disponibles en cliquant <a href='https://www.free-work.com/fr/tech-it'>ici</a>. Votre login et votre mot de passe restent inchangés pour vous connecter à votre compte."
+
+user:
+    user_notification_messaging_new_message:
+        subject: "Nouveau message d’un Free-worker"
+        content:
+            paragraphs:
+                0: "Vous avez reçu un nouveau message privé sur votre compte Free-work."
+                1: "Vous pouvez à tout moment consulter la messagerie interne, en cliquant ci-dessous:"
+            button: "Consulter les nouveaux messages"
+
+    user_notification_forum_post_like:
+        subject: "Un Free-worker vous remercie pour votre contribution"
+        content:
+            paragraphs:
+                0: "Une de vos contributions vient d’être likée par un Free-worker concernant le sujet «%topicTitle%»."
+            button: "Voir le post"
+
+    user_notification_forum_post_reply:
+        subject: "Nouveau commentaire suite à votre post"
+        content:
+            paragraphs:
+                0: "Un Free-worker vient de commenter votre post à propos du sujet «%topicTitle%»."
+            button: "Voir le sujet"
+
+    user_notification_forum_topic_favorite:
+        subject: "Nouveau post dans le sujet «%topicTitle%»"
+        content:
+            paragraphs:
+                0: "Le sujet que vous avez mis en favori «%topicTitle%» sur le forum vient de recevoir une réponse d’un Free-worker."
+                1: "<b>Rappel:</b> Vous pouvez à tout moment ne plus être averti de la publication de nouveaux posts liés à ce sujet, en retirant la mise en favori du sujet en question. Retrouvez vos sujets favoris"
+            button: "Voir les nouveaux posts"
+            link: "ici"
+
+    user_notification_forum_topic_reply:
+        subject: "Nouveau post dans le sujet «%topicTitle%»"
+        content:
+            paragraphs:
+                0: "Le sujet que vous avez créé «%topicTitle%» sur le forum vient de recevoir une réponse d’un Free-worker. "
+            button: "Voir les nouveaux posts"
+
+    registration_email_confirm:
+        subject: "Veuillez confirmer votre e-mail"
+        pre_header: "Votre création de compte Free-Work"
+        content:
+            paragraphs:
+                0: "👋"
+                1: "Vous avez associé votre adresse e-mail %email% à votre compte Free-work."
+                2: "Veuillez la confirmer en cliquant sur le lien suivant, afin d’activer votre compte 👇"
+            button: "Confirmer votre e-mail"
+
+    registration_welcome:
+        subject: "Félicitations, votre compte Free-Work est créé !"
+        pre_header: "Activation de votre compte Free-Work"
+        content:
+            paragraphs:
+                0: "Bienvenue 😊"
+                1: "Votre compte Free-Work est activé !"
+                2: "Nous vous invitons à créer des-à-présent votre profil IT, renseigner votre disponibilité et visibilité souhaitée vis-à-vis des recruteurs, et découvrir nos offres de missions freelance et d’emploi 100% IT."
+                3: "Aussi, vous pouvez désormais interagir avec la communauté de Free-workers à travers le Forum et le Blog !"
+                4: "A très vite,"
+
+    forgotten_password_reset:
+        subject: "Réinitialisez votre mot de passe"
+        pre_header: "Changement de mot de passe"
+        content:
+            paragraphs:
+                0: "Nous venons de recevoir une demande de changement de mot de passe de votre part."
+                1: "Si vous êtes bien à l'origine de cette demande cliquez ci-dessous. Pour des raisons de sécurité, ce lien ne sera actif que 24h 👇"
+                2: "A très vite,"
+            button: "Réinitialisez votre mot de passe"
+
+    alert_user_without_job_posting_search:
+        subject_with_username: "%firstname%, ne ratez aucune opportunité !"
+        subject_without_username: "Ne ratez aucune opportunité !"
+        pre_header: "Décrochez votre prochain job sur Free-work !"
+        content:
+            paragraphs:
+                0: "Enregistrez vos recherches jobs en un clic, directement en lançant une recherche selon vos critères !"
+                1: "Vous pourrez retrouver à tout moment vos alertes paramétrées (les éditer, les mettre en pause, les réactiver ou les supprimer), ainsi que les offres associées au niveau de votre profil utilisateur <a href=%link%>Mes alertes.</a>"
+                2: "Une fois vos alertes mises en place, vous recevrez quotidiennement par e-mail toutes les offres du jour correspondant à vos critères prédéfinis."
+                3: "A très vite,"
+            button: "Configurer ma première alerte job"
+
+    change_email_request:
+        subject: "Demande de changement d'adresse email"
+        content:
+            paragraphs:
+                0: "Vous venez de faire une demande de changement d'adresse email dans votre compte Free-Work, afin que votre adresse email soit désormais : <strong>%email%</strong>."
+            button: "Je confirme"
+
+    alert_missions:
+        subject: "{1} %count% offre matchant avec vos critères |]1,Inf[ %count% offres matchant avec vos critères"
+        pre_header: "Décrochez votre prochain job sur Free-work !"
+        content:
+            paragraphs:
+                0: "Retrouvez l’ensemble des offres des dernières 24h correspondant à vos critères et compétences en un clic !"
+                1: "{1} 1 nouvelle offre correspondant à votre alerte |]1,Inf[ %count% nouvelles  offres correspondant à votre alerte "
+                2: "Vous pouvez à tout moment éditer, mettre en pause, réactiver ou supprimer une alerte <a href=%link%><b>ici</b></a>."
+                3: " <a href=%link%><u><b>Voir toutes les offres [...]</b></u></a>."
+            disable_alert: "Pour désactiver votre alerte %alertName% cliquez <a href=%link%><b>ici</b></a>."
+            disable_alerts: "Pour désactiver toutes vos alertes cliquez <a href=%link%><b>ici</b></a>."
+            job:
+                duration: '%months% mois'
+
+    alert_user_profile_uncompleted:
+        subject: "Complétez votre profil IT"
+        pre_header: "Plus qu’une étape pour décrocher votre prochain job !"
+        content:
+            paragraphs:
+                0: "Vous avez rejoint la communauté de Free-worker le %date%."
+                1: "Votre profil n’a pas été encore complété, votre CV n’apparaît donc pas dans la CVthèque des recruteurs IT via notre plateforme Turnover-it."
+                2: "Augmentez votre visibilité auprès de plus de 1 000 entreprises en recherche d’experts en déposant dès à présent votre CV sur votre profil Free-work !"
+                3: "Pour rappel, vous pourrez à tout moment ajuster la visibilité et la disponibilité dans votre profil en fonction de votre situation professionnelle actuelle."
+                4: "A très vite,"
+            button: "Compléter votre profil IT"
+
+    immediate_availability_confirm:
+        subject: "Confirmez votre disponibilité"
+        pre_header: "Disponibilité non-confirmée"
+        content:
+            paragraphs:
+                0: "Etes-vous toujours disponible immédiatement ?"
+                1: "Sans action de votre part, votre profil perdra en visibilité auprès des recruteurs IT."
+                2: "Un profil à jour et disponible remonte dans les résultats de recherche : il est la garantie pour les recruteurs de votre réactivité à répondre à de nouvelles opportunités."
+                3: "Maximisez vos chances d’être contacté par plus de 1 000 recruteurs en recherche active d’experts IT :"
+                4: "Confirmez en un clic votre disponibilité afin de booster votre profil !"
+                5: "A très vite,"
+            buttons:
+                0: "Confirmez votre disponibilité"
+                1: "Mettez à jour votre profil"
+
+    immediate_availability_confirm_first_relaunch:
+        subject: "Votre disponibilité changera automatiquement dans 72h"
+        pre_header: "Mettez à jour votre profil"
+        content:
+            paragraphs:
+                0: "Votre disponibilité n’a pas été confirmée ou mise à jour depuis le %date%."
+                1: "Un profil complet et à jour est un gain de temps précieux que ce soit pour vous Free-worker, pour être sollicité au bon moment, et pour les recruteurs IT, afin de coordonner au mieux les placements."
+                2: "Sans action de votre part, <b>votre disponibilité passera automatiquement de « immédiate » à « dans 1 mois » dans 72h.</b> Cela signifie que les recruteurs auront cette information et votre profil ne remontera plus dans les premiers résultats de recherche dans la CVthèque. "
+                3: "A très vite,"
+            button: "Mettre à jour ma disponibilité"
+
+    immediate_availability_confirm_second_relaunch:
+        subject: "Votre disponibilité changera automatiquement dans 72h"
+        pre_header: "Mettez à jour votre profil"
+        content:
+            paragraphs:
+                0: "Votre disponibilité n’a pas été confirmée ou mise à jour depuis le %date%."
+                1: "Elle va régresser à nouveau <b>et passera automatiquement à « dans 2 mois » </b> dans 72h, sans action de votre part."
+                2: "A très vite,"
+            button: "Mettre à jour ma disponibilité"
+
+
+    no_immediate_availability_confirmation:
+        subject: "Toujours indisponible ?"
+        pre_header: "Prochaine disponibilité non-confirmée"
+        content:
+            paragraphs:
+                0: "Serez-vous à nouveau disponible à partir du %date% ?"
+                1: "A cette date et sans action de votre part, votre profil passera donc automatiquement en disponibilité immédiate et sera boosté auprès des recruteurs IT."
+                2: "Vous êtes d'ores et déjà disponible ? "
+                3: "Mettez à jour votre profil en un clic et passez en disponibilité immédiate."
+                4: "Votre mission est prolongée, votre préavis est toujours en cours, ou vous n’êtes tout simplement pas encore disponible pour répondre à de nouvelles opportunités ?"
+                5: "Nous vous invitons à renseigner votre nouvelle date de disponibilité depuis votre profil."
+                6:
+                    1: "Rappel :"
+                    2: "Un profil complet et à jour est un gain de temps précieux que ce soit pour vous Free-worker, pour être sollicité au bon moment, et pour les recruteurs IT, afin de coordonner au mieux les placements."
+                7: "A très vite,"
+            buttons:
+                1: "Je suis disponible immédiatement"
+                2: "Mettez à jour votre profil"
+
+    update_availability_with_notice:
+        subject: "Toujours en poste ?"
+        pre_header: "Prochaine disponibilité non-confirmée"
+        content:
+            paragraphs:
+                0:
+                    0: "Vous avez mentionné dans votre profil en date du %date% que vous étiez "
+                    1: "actuellement en poste."
+                1: "Votre profil n’est pas boosté et ne remonte donc pas dans les premiers résultats de recherche des recruteurs IT."
+                2: "Est-ce toujours le cas ?"
+                3: "Si oui, vous n’avez aucune action à effectuer."
+                4:
+                    0: "Rien ne vous empêche de postuler à tout moment aux offres de votre choix,"
+                    1: " la mention de votre disponibilité sera simplement notifiée auprès des recruteurs."
+                5: "Votre situation est susceptible de changer dans les prochaines semaines ?"
+                6: "Nous vous invitons dès à présent à indiquer soit une estimation de délais, soit la date précise de votre prochaine disponibilité."
+                7:
+                    0: "Rappel :"
+                    1: "Un profil complet et à jour est un gain de temps précieux que ce soit pour vous Free-worker, pour être sollicité au bon moment, et pour les recruteurs IT, afin de coordonner au mieux les placements."
+                8: "A très vite,"
+            button: "Mettez à jour votre profil"
+
+    update_availability_immediate:
+        subject: "La date de votre disponibilité a bien été mise à jour"
+        pre_header: "Vous êtes disponible immédiatement !"
+        content:
+            paragraphs:
+                0: "Votre profil est désormais visible et boosté auprès des recruteurs !"
+                1: "En attendant d’être contacté, voici une sélection d’offres correspondant à votre profil IT :"
+                2: "Ne loupez aucune opportunité et postulez dès à présent !"
+                3: "A très vite,"
+
+    update_confirmation_availability_non_immediate:
+        subject: "La date de votre disponibilité a bien été mise à jour"
+        pre_header: "Vous serez disponible plus tard"
+        content:
+            paragraphs:
+                0: "Vous venez de modifier votre prochaine disponibilité en date du %date%"
+                1: "Votre profil reste visible auprès des recruteurs IT dans la CVthèque et sera reboosté à partir de cette date."
+                2: "En attendant, voici une sélection d’offres correspondant à votre profil : rien ne vous empêche de dors-et-déjà démarrer un processus de recrutement :"
+                3: "Ne loupez aucune opportunité et postulez dès à présent !"
+                4: "A très vite,"
+
+    relaunch_profile_not_updated_with_immediate_availability:
+        subject: "Votre profil nécessite une mise à jour"
+        pre_header: "Cela fait un moment que l’on ne vous a pas vu !"
+        content:
+            paragraphs:
+                0: "Votre disponibilité n’a pas été confirmée ou mise à jour depuis le %date%."
+                1: "Un profil complet et à jour est un gain de temps précieux que ce soit pour vous Free-worker, pour être sollicité au bon moment, et pour les recruteurs IT, afin de coordonner au mieux les placements"
+                2:
+                    0: "Sans action de votre part, "
+                    1: "votre visibilité auprès des recruteurs passera automatiquement en privé dans 72h."
+                    2: "Cela signifie que votre profil ne sera plus visible dans notre CVthèque, mais vous pourrez toujours postuler aux offres de votre choix."
+                3: "A très vite,"
+            button: "Mettre à jour mon profil IT"
+
+    confirmation_profile_not_visible:
+        subject: "Votre profil n’est plus visible par les recruteurs"
+        pre_header: "Toujours actif ?"
+        content:
+            paragraphs:
+                0:
+                    0: "Votre profil IT n’est pas visible dans notre CVthèque."
+                    1: "Les recruteurs ne peuvent donc pas vous contacter directement pour vous proposer une nouvelle opportunité professionnelle."
+                1: "Si vous souhaitez remédier à cela, vous pouvez accéder à tout moment à votre profil en vous connectant à votre compte Free-work et mettre à jour vos informations ou votre CV."
+                2: "A très vite,"
+            button: "Mettre à jour mon profil IT"
+
+    profile_not_visible:
+        subject: "Votre profil n’est pas visible par les recruteurs"
+        pre_header: "Toujours actif ?"
+        content:
+            paragraphs:
+                0:
+                    0: "Votre profil IT n’est pas visible dans notre CVthèque."
+                    1: "Les recruteurs ne peuvent donc pas vous contacter directement pour vous proposer une nouvelle opportunité professionnelle."
+                1:
+                    0: "Il vous est toujours possible de postuler à tout moment à une offre,"
+                    1: " mais sachez que la disponibilité actuellement renseignée dans votre profil est : "
+                    2: "immédiate."
+                    3: "à partir du %date%."
+                    4: "en poste."
+                    5: "Cette information sera donc transmise au recruteur et associée à vos candidatures."
+                2: "Si vous souhaitez remédier à cela, et rendre votre profil visible dans notre CVthèque, vous pouvez à tout moment ajuster votre profil :"
+                3: "A très vite,"
+            button: "Mettre à jour mon profil IT"
+
+    application_acknowledged:
+        subject: "Confirmation de votre candidature %jobPostingTitle%"
+        pre_header: "Votre candidature a bien été transmise !"
+        content:
+            paragraphs:
+                0: "Votre candidature a bien été transmise à <a href=%link%>%company%</a> le %date% à %dateTime%."
+                1: "Rappel de l’offre :"
+                2: "Vous pouvez retrouver à tout moment le statut de vos candidatures <a href=%link%>ici</a>."
+                3: "On croise les doigts pour la suite !"
+                4: "A très vite,"
+
+    application_acknowledged_unsolicited:
+        subject: "Confirmation de votre candidature spontanée %companyName%"
+        pre_header: "Votre candidature spontanée a bien été transmise !"
+        content:
+            paragraphs:
+                0: "Votre candidature a bien été transmise à <a href=%link%>%company%</a> le %date% à %dateTime%."
+                1: "Vous pouvez retrouver à tout moment le statut de vos candidatures <a href=%link%>ici</a>."
+                2: "On croise les doigts pour la suite !"
+                3: "A très vite,"
+
+    user_leads_summary:
+        subject: "Récapitulatif des leads partenaires du %date%"
+        content:
+            paragraphs:
+                0: "Vous trouverez en pièce jointe la liste des leads partenaires du %date%"
+
+forum:
+    statistics:
+        subject: "Récapitulatif de l'activité du forum du %date%"
+        content:
+            paragraphs:
+                0: "[0,1] %count% nouveau topic |]1,Inf[ %count% nouveaux topics"
+                1: "[0,1] %count% nouveau post |]1,Inf[ %count% nouveaux posts"
+                2: "[0,1] %count% contributeur |]1,Inf[ %count% contributeurs"
+                3: "[0,1] %count% nouveau contributeur |]1,Inf[ %count% nouveaux contributeurs"
+                4: "[0,1] %count% nouveau contributeur lors des 6 dernier mois |]1,Inf[ %count% nouveaux contributeurs lors des 6 dernier mois"
+
+    post_report:
+        subject: "Intervention signalée sur le forum Free-Work"
+        content:
+            paragraphs:
+                0: "Le Free-worker <b>%nickname%</b> vient de signaler un post ou un commentaire."
+                1: "Raison du signalement: "
+            button: "Voir le post"
+
+
+core:
+    sensible_content:
+        subject: "Contenu sensible détecté"
+        content:
+            paragraphs:
+                0: "Un contenu sensible a été détécté."
+            fields:
+                type: "Type"
+                content: "Contenu"
+            button: "Je confirme"
+
+    contact:
+        subject: "Demande de contact"
+        content:
+            paragraphs:
+                0: "Une demande de contact a été envoyée."
+            fields:
+                name: "Nom"
+                email: "E-mail"
+                service: "Service"
+                subject: "Sujet"
+                message: "Message"

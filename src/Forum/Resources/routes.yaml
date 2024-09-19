@@ -1,0 +1,3 @@
+app_forum_controllers:
+    resource: ../Controller/
+    type: annotation

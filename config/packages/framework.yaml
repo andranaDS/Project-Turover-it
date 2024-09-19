@@ -1,0 +1,47 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    #csrf_protection: true
+    #http_method_override: true
+
+    # Enables session support. Note that the session will ONLY be started if you read or write from it.
+    # Remove or comment this section to explicitly disable session support.
+    session:
+        handler_id: Symfony\Component\HttpFoundation\Session\Storage\Handler\RedisSessionHandler
+        cookie_secure: auto
+        cookie_samesite: lax
+        save_path: '%kernel.project_dir%/var/sessions/%kernel.environment%'
+        cookie_lifetime: 14400 # 4h https://app.clickup.com/t/26ba85w
+
+    #esi: true
+    #fragments: true
+    php_errors:
+        log: true
+
+    http_client:
+        max_host_connections: 10
+        default_options:
+            max_redirects: 3
+        scoped_clients:
+            hr_flow.client:
+                base_uri: '%env(HRFLOW_BASE_URI)%'
+                max_duration: 120
+                headers:
+                    Content-Type: 'application/json'
+                    x-api-key: '%env(HRFLOW_API_KEY)%'
+            insee.client:
+                base_uri: '%env(INSEE_URL)%'
+                headers:
+                    Authorization: 'Basic %env(INSEE_AUTHORIZATION_BASIC)%'
+            insee_sirene.client:
+                base_uri: '%env(INSEE_SIRENE_URL)%'
+                headers:
+                    Accept: 'application/json'
+            turnover_it.client:
+                base_uri: '%env(TURNOVER_IT_BASE_URI)%'
+                auth_bearer: '%env(TURNOVER_IT_API_KEY)%'
+
+    trusted_proxies: '%env(TRUSTED_PROXIES)%'
+    trusted_headers: ['x-forwarded-for', 'x-forwarded-host', 'x-forwarded-proto', 'x-forwarded-port']
+    trusted_hosts: '%env(TRUSTED_HOSTS)%'
+    messenger:
+        reset_on_message: true

@@ -1,0 +1,88 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'update_availability_with_notice') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.update_availability_with_notice.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.update_availability_with_notice.pre_header'|trans({}, 'emails')|raw }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    {% include 'emails/components/introduction_transition_freelance_info.html.twig'with {'nbDays': 45} %}
+
+                    <p>
+                        {{ 'user.update_availability_with_notice.content.paragraphs.0.0'|trans({'%date%': user.statusUpdatedAt|date('d/m/Y')}, 'emails')|raw|nl2br }}
+                        <u>
+                            {{ 'user.update_availability_with_notice.content.paragraphs.0.1'|trans({}, 'emails')|raw|nl2br }}
+                        </u>
+                    </p>
+
+                    <p>{{ 'user.update_availability_with_notice.content.paragraphs.1'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <center>
+                        <strong>
+                            {{ 'user.update_availability_with_notice.content.paragraphs.2'|trans({}, 'emails')|raw|nl2br }}
+                        </strong>
+                    </center>
+
+                    <spacer size="15"></spacer>
+
+                    <p>{{ 'user.update_availability_with_notice.content.paragraphs.3'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <p>
+                        <u>
+                            {{ 'user.update_availability_with_notice.content.paragraphs.4.0'|trans({}, 'emails')|raw|nl2br }}
+                        </u>
+                        {{ 'user.update_availability_with_notice.content.paragraphs.4.1'|trans({}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <spacer size="25"></spacer>
+
+                    <center>
+                        <strong>
+                            {{ 'user.update_availability_with_notice.content.paragraphs.5'|trans({}, 'emails')|raw|nl2br }}
+                        </strong>
+                    </center>
+
+                    <p>{{ 'user.update_availability_with_notice.content.paragraphs.6'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <spacer size="35"></spacer>
+
+                    <center>
+                        <button class="secondary large radius expanded"
+                                href="{{ url('candidates_profile_resume') }}?utm_source=email_transactionnel&utm_medium=email&utm_campaign=maj_dispo_en_poste">
+                            {{ 'user.update_availability_with_notice.content.button'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="35"></spacer>
+
+                    <p>
+                        <strong>
+                            {{ 'user.update_availability_with_notice.content.paragraphs.7.0'|trans({}, 'emails')|raw|nl2br }}
+                        </strong>
+                        {{ 'user.update_availability_with_notice.content.paragraphs.7.1'|trans({}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <spacer size="25"></spacer>
+
+                    {{ 'user.update_availability_with_notice.content.paragraphs.8'|trans({}, 'emails')|raw|nl2br }}
+
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

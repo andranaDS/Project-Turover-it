@@ -1,0 +1,16 @@
+snc_redis:
+    clients:
+        session:
+            type: predis
+            alias: session
+            dsn:
+                - redis://%env(REDIS_PASSWORD)%@%env(REDIS_DSN_0)%
+                - redis://%env(REDIS_PASSWORD)%@%env(REDIS_DSN_1)%
+                - redis://%env(REDIS_PASSWORD)%@%env(REDIS_DSN_2)%
+            options:
+                replication: sentinel
+                service: mymaster
+                parameters:
+                    database: 1
+                    password: '%env(REDIS_PASSWORD)%'
+

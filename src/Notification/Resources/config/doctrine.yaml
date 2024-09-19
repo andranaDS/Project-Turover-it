@@ -1,0 +1,11 @@
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    AppNotification:
+                        is_bundle: false
+                        type: annotation
+                        dir: '%kernel.project_dir%/src/Notification/Entity'
+                        prefix: 'App\Notification\Entity'
+                        alias: AppNotification

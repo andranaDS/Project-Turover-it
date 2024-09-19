@@ -1,0 +1,79 @@
+user:
+    nickname:
+        default: 'Free-Worker-%id%'
+
+    authentication:
+        error:
+            locked: "Votre compte est verrouillé."
+            disabled: "L'email de votre compte n'a pas été confirmé."
+            bad_credentials: "Vos identifiants sont invalides."
+            provider: "Une erreur s'est produite."
+
+    registration:
+        confirm:
+            error:
+                link_expired: "Le lien de confirmation est expiré."
+                link_corrupted: "Le lien de confirmation est corrompu."
+
+    forgotten_password:
+        reset:
+            error:
+                link_expired: "Le lien de réinitialisation est expiré."
+
+    change_email:
+        confirm:
+            error:
+                link_expired: "Le lien de confirmation est expiré."
+                link_corrupted: "Le lien de confirmation est corrompu."
+
+    availability:
+        confirm:
+            success: "Votre disponibilité a été mise à jour."
+            error:
+                link_expired: "Le lien est expiré"
+        immediate:
+            success: "Votre disponibilité a été mise à jour."
+            error:
+                link_expired: "Le lien est expiré"
+
+job_posting_search:
+    disable_one:
+        success: "L'alerte %alertName% a bien été désactivée."
+        error: "Le lien est expiré."
+    disable_all:
+        success: "Toutes les alertes ont bien été désactivées."
+        error: "Le lien est expiré."
+
+job_posting_share:
+    duration_period:
+        day: "jour(s)"
+        month: "mois"
+        year: "année(s)"
+
+recruiter:
+    authentication:
+        error:
+            disabled: "Votre compte n'est pas validé."
+            bad_credentials: "Vos identifiants sont invalides."
+
+    registration:
+        confirm:
+            error:
+                link_expired: "Le lien de confirmation est expiré."
+
+    forgotten_password:
+        reset:
+            error:
+                link_expired: "Le lien de réinitialisation est expiré."
+
+    change_email:
+        confirm:
+            error:
+                link_expired: "Le lien de confirmation est expiré."
+                link_corrupted: "Le lien de confirmation est corrompu."
+
+
+site:
+    delete:
+        error:
+            count_recruiter: "Le site ne doit plus avoir de compte liés."

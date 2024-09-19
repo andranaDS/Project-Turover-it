@@ -1,0 +1,9 @@
+{% if nbDays is defined %}
+    {% set deadline = date(freelance_info_launch_date)| date_modify("+" ~ nbDays ~ "day")  %}
+
+    {% if deadline|date("d/m/Y")  > "now"|date("d/m/Y")  %}
+        <p>
+            {{ 'components.introduction_transition_freelance_info'|trans({}, 'emails')|raw|nl2br }}
+        </p>
+    {% endif %}
+{% endif %}

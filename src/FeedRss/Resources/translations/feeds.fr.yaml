@@ -1,0 +1,21 @@
+experience_level:
+  junior: 'Débutant à 2 ans'
+  intermediate: '2 ans à 5 ans'
+  senior: '5 ans à 10 ans'
+  expert: '> 10 ans'
+
+neuvoo:
+  job_type:
+    full_time: 'Full time'
+    contract: 'Contract'
+    internship: 'Internship'
+    cdd: 'CDD'
+    cdi: 'CDI'
+    apprenticeship: 'Alternance'
+
+jobijoba:
+  salary:
+    currency:
+      eur: '€'
+      usd: '$'
+      gbp: '£'

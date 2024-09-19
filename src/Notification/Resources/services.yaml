@@ -1,0 +1,20 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $env: '%env(APP_ENV)%'
+            string $mailjetApiKeyPublic: '%env(MJ_APIKEY_PUBLIC)%'
+            string $mailjetApiKeyPrivate: '%env(MJ_APIKEY_PRIVATE)%'
+
+    App\Notification\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\Notification\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]

@@ -1,0 +1,46 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'reminder_profile_uncompleted') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.alert_user_profile_uncompleted.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.alert_user_profile_uncompleted.pre_header'|trans({}, 'emails')|nl2br }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    {% include 'emails/components/introduction_transition_freelance_info.html.twig'with {'nbDays': 25} %}
+
+                    <p>{{ 'user.alert_user_profile_uncompleted.content.paragraphs.0'|trans({'%date%': user.createdAt|date('d/m/Y')}, 'emails')|raw|nl2br }}</p>
+                    <p>{{ 'user.alert_user_profile_uncompleted.content.paragraphs.1'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <spacer size="25"></spacer>
+
+                    <center>
+                        <p><b>{{ 'user.alert_user_profile_uncompleted.content.paragraphs.2'|trans({}, 'emails')|raw|nl2br }}</b></p>
+
+                        <button class="large radius"
+                                href="{{ url('candidates_onboarding')}}?utm_source=email_transactionnel&utm_medium=email&utm_campaign=upload_cv">
+                            {{ 'user.alert_user_profile_uncompleted.content.button'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="25"></spacer>
+                    <p>{{ 'user.alert_user_profile_uncompleted.content.paragraphs.3'|trans({}, 'emails')|raw|nl2br }}</p>
+                    <p>{{ 'user.alert_user_profile_uncompleted.content.paragraphs.4'|trans({}, 'emails')|raw|nl2br }}</p>
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

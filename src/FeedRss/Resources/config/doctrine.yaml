@@ -1,0 +1,11 @@
+doctrine:
+  orm:
+    entity_managers:
+      default:
+        mappings:
+          AppFeedRss:
+            is_bundle: false
+            type: annotation
+            dir: '%kernel.project_dir%/src/FeedRss/Entity'
+            prefix: 'App\FeedRss\Entity'
+            alias: AppFeedRss

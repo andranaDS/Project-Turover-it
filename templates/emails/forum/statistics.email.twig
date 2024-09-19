@@ -1,0 +1,29 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'forum_statistics') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'forum.statistics.subject'|trans({'%date%': date|date('d/m/Y')}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    <ul>
+                        <li>{{ 'forum.statistics.content.paragraphs.0'|trans({'%count%': data.topicsCount}, 'emails')|raw|nl2br }}</li>
+                        <li>{{ 'forum.statistics.content.paragraphs.1'|trans({'%count%': data.postsCount}, 'emails')|raw|nl2br }}</li>
+                        <li>{{ 'forum.statistics.content.paragraphs.2'|trans({'%count%': data.contributorsCount}, 'emails')|raw|nl2br }}</li>
+                        <li>{{ 'forum.statistics.content.paragraphs.3'|trans({'%count%': data.newContributorsCount}, 'emails')|raw|nl2br }}</li>
+                        <li>{{ 'forum.statistics.content.paragraphs.4'|trans({'%count%': data.contributorsCountSixMonthsAgo}, 'emails')|raw|nl2br }}</li>
+                    </ul>
+
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

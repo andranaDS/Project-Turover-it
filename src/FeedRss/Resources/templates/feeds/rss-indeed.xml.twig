@@ -1,0 +1,26 @@
+<job>
+    <title>{{ jobPosting.title|raw }}</title>
+    <date>{{ jobPosting.date|raw }}></date>
+    <referencenumber>{{ jobPosting.referenceNumber|raw }}</referencenumber>
+    <url>{{ jobPosting.url|raw }}</url>
+    <company>{{ jobPosting.company|raw }}</company>
+    <sourcename>{{ jobPosting.sourceName|raw }}</sourcename>
+    <city>{{ jobPosting.city|raw }}</city>
+    <state>{{ jobPosting.state|raw }}</state>
+    <country>{{ jobPosting.country|raw }}</country>
+    {% if jobPosting.postalCode is not null %}
+        <postalcode>{{ jobPosting.postalCode|raw }}</postalcode>
+    {% endif %}
+    <description>{{ jobPosting.description|raw }}</description>
+    <salary>{{ jobPosting.salary|raw }}</salary>
+    <jobtype>{{ jobPosting.jobType|raw }}</jobtype>
+    {% if jobPosting.category is not null %}
+        <category>{{ jobPosting.category|raw }}></category>
+    {% endif %}
+    {% if jobPosting.experience is not null %}
+        <experience>{{ jobPosting.experience|raw }}</experience>
+    {% endif %}
+    {% if jobPosting.remoteType is not null %}
+        <remotetype>{{ jobPosting.remoteType|raw }}</remotetype>
+    {% endif %}
+</job>

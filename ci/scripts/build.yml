@@ -1,0 +1,47 @@
+###
+# In order to extend this script you'll have to pass one variable
+#
+# IMAGE_TAG -> The tag of your two images
+# NGINX_IMAGE_NAME -> The image name without the tag
+# PHP_IMAGE_NAME -> The image name without the tag
+#
+# Example : 
+#   NGINX_IMAGE_NAME: $NGINX_IMAGE_NAME:$IMAGE_TAG
+#   PHP_IMAGE_NAME: $PHP_IMAGE_NAME:$IMAGE_TAG
+#
+# Result : 
+#   $NGINX_IMAGE_NAME:$IMAGE_TAG for the nginx image
+#   $PHP_IMAGE_NAME:$IMAGE_TAG for the php api image
+#
+###
+
+.build:
+  stage: build
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  cache: {}
+  variables:
+    PHP_API_CACHE: $CI_REGISTRY_IMAGE/$CI_ENVIRONMENT_SLUG:cache
+    DOCKERFILE_PATH: ./ci/deployment/api/Dockerfile
+  script:
+    - mkdir -p /kaniko/.docker
+    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+    - >-
+      /kaniko/executor
+      --cache=true
+      --cache-repo=$CI_REGISTRY_IMAGE/kaniko
+      --context "${CI_PROJECT_DIR}"
+      --dockerfile "${DOCKERFILE_PATH}"
+      --destination "${PHP_IMAGE_NAME}"
+      --target api_platform_php
+    - >-
+      /kaniko/executor
+      --cache=true
+      --cache-repo=$CI_REGISTRY_IMAGE/kaniko
+      --context "${CI_PROJECT_DIR}"
+      --dockerfile "${DOCKERFILE_PATH}"
+      --destination "${NGINX_IMAGE_NAME}"
+      --target api_platform_nginx
+  environment:
+    action: prepare

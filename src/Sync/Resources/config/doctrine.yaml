@@ -1,0 +1,9 @@
+doctrine:
+    orm:
+        mappings:
+            AppSync:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Sync/Entity'
+                prefix: 'App\Sync\Entity'
+                alias: AppSync

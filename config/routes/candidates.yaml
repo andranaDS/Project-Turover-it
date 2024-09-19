@@ -1,0 +1,47 @@
+candidates_registration_email_confirm:
+    path: /register/confirm-email/{token}
+
+candidates_reset_password:
+    path: /password/reset/{token}
+
+candidates_change_email_confirm:
+    path: /account/confirm-email/{token}
+
+candidates_availability_confirm:
+    path: /availability/confirm
+
+candidates_forum_topic:
+    path: /forum/t/{slug}
+
+candidate_forum_topic_me_favorites:
+    path: /forum/me/favorites
+
+candidate_messageing_new_message:
+    path: /inbox
+
+candidates_onboarding:
+    path: /onboarding
+
+candidates_alert:
+    path: /alerts
+
+candidates_job_postings:
+    path: /tech-it/jobs
+
+candidates_job_posting:
+    path: /tech-it/{JobSlug}/job-mission/{jobPostingSlug}
+
+candidates_notifications:
+    path: /account/notifications
+
+candidates_applications:
+    path: /applications
+
+candidates_company:
+    path: /companies/{slug}
+
+candidates_profile_resume:
+    path: /resume
+
+candidates_availability_update:
+    path: /availability/update

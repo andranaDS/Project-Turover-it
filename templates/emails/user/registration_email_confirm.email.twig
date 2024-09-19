@@ -1,0 +1,35 @@
+{% block subject %}
+    {{ 'user.registration_email_confirm.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.registration_email_confirm.pre_header'|trans({}, 'emails')|nl2br }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    <p>{{ 'user.registration_email_confirm.content.paragraphs.0'|trans({}, 'emails')|nl2br }}</p>
+                    <p>{{ 'user.registration_email_confirm.content.paragraphs.1'|trans({'%email%': user.email}, 'emails')|nl2br }}</p>
+                    <p>{{ 'user.registration_email_confirm.content.paragraphs.2'|trans({}, 'emails')|nl2br }}</p>
+
+                    <spacer size="25"></spacer>
+
+                    <center>
+                        <button class="large radius"
+                                href="{{ registrationUrl }}">
+                            {{ 'user.registration_email_confirm.content.button'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="25"></spacer>
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

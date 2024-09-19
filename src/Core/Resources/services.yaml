@@ -1,0 +1,76 @@
+parameters:
+    cluster: '%env(APP_CLUSTER)%'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $projectDir: '%kernel.project_dir%'
+            string $env: '%env(APP_ENV)%'
+            string $mailerRecipientAdmin: '%env(MAILER_RECIPIENT_ADMIN)%'
+            string $contactRecipientAdmin: '%env(MAILER_RECIPIENT_CONTACT)%'
+            string $marketingRecipientMarketing: '%env(MAILER_RECIPIENT_MARKETING)%'
+            string $googleRecaptchaSecret: '%env(GOOGLE_RECAPTCHA_SECRET)%'
+            bool $googleRecaptchaEnabled: '%env(bool:GOOGLE_RECAPTCHA_ENABLED)%'
+            string $amazonS3Cloudfront: '%env(AMAZON_S3_CLOUDFRONT)%'
+            string $candidatesScheme: '%env(CANDIDATES_SCHEME)%'
+            string $candidatesBaseUrl: '%env(CANDIDATES_BASE_URL)%'
+            string $turnoverBaseUrl: '%env(API_TURNOVER_BASE_URL)%'
+            string $freeWorkBaseUrl: '%env(API_BASE_URL)%'
+            string $cluster: '%cluster%'
+
+    App\Core\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\Core\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+    App\Core\Naming\FileNamer:
+        public: true
+
+    App\Core\Naming\SlugNamer:
+        public: true
+
+    'App\Core\Serializer\LocationDeserializer':
+        tags:
+            - { name: 'kernel.event_listener', event: 'kernel.request', method: 'onKernelRequest', priority: 2 }
+        # Autoconfiguration must be disabled to set a custom priority
+        autoconfigure: false
+        decorates: 'api_platform.listener.request.deserialize'
+        arguments:
+            $decorated: '@App\Core\Serializer\LocationDeserializer.inner'
+
+    # normalizers item
+    App\Core\Serializer\ItemNormalizer:
+        decorates: 'api_platform.jsonld.normalizer.item'
+
+    'app.core.serializer.item_normalizer.item.json':
+        class: 'App\Core\Serializer\ItemNormalizer'
+        decorates: 'api_platform.serializer.normalizer.item'
+
+    'app.core.serializer.item_normalizer.item.object':
+        class: 'App\Core\Serializer\ItemNormalizer'
+        decorates: 'serializer.normalizer.object'
+
+    # normalizers datetime
+    serializer.normalizer.datetime:
+        class: App\Core\Serializer\DateTimeNormalizer
+        tags:
+            - { name: serializer.normalizer }
+
+    # enum
+    Greg0ire\Enum\Bridge\Symfony\Translator\GetLabel:
+        class: 'Greg0ire\Enum\Bridge\Symfony\Translator\GetLabel'
+
+    # doctrine event subscribers
+    App\Core\DoctrineEventSubscriber\:
+        resource: '../DoctrineEventSubscriber'
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"
+    ?>
+
+
+<source>
+
+            <publisher>Free-Work.com</publisher>
+            <publisherurl>https://front.freework.localhost</publisherurl>
+            <lastbuilddate>2022-10-19T09:59:01+02:00</lastbuilddate>
+    
+            <job>
+    <referencenumber><![CDATA[53]]></referencenumber>
+    <title><![CDATA[Développeur NuxtJS (H/F) (IT) / Freelance]]></title>
+    <company><![CDATA[Company 2]]></company>
+    <city><![CDATA[Bordeaux]]></city>
+    <state><![CDATA[Nouvelle-Aquitaine]]></state>
+    <country><![CDATA[France]]></country>
+    <dateposted><![CDATA[2022-09-17T21:34:41+02:00]]>></dateposted>
+    <url><![CDATA[https://front.freework.localhost/tech-it/api-developpeur/job-mission/developpeur-nuxtjs-h-f]]></url>
+    <description><![CDATA[Descriptif du poste : 
+
+En tant que développeur au sein d&rsquo;une équipe d&rsquo;une quinzaine personnes, vous serez responsable :
+
+   du développement
+   du packaging
+   des tests unitaires
+   des tests fonctionnels automatisés (niveau service ou IHM)
+
+ 
+
+Compétences et qualifications
+
+Principaux langages :
+
+- Java 1.7 -&gt; 1.8
+
+- Oracle SQL
+
+Framework :
+
+- SPRING 4 (core, security, mvc, jdbc, batch, boot)
+
+- Angular4 (appli RDM)
+
+- AngularJS
+
+Architecture Web Services :
+
+- REST / Jersey 
+
+Base de données :
+
+- Oracle 11g
+
+Usine Logicielle / outils de test et qualité :
+
+- Junit (Test unitaire)
+
+- Cucumber (Test fonctionnel)
+
+- Plate-forme de dev sur AWS (Cloud Formation)
+
+Craftmanship
+
+- Clean code
+
+- Code Review
+
+Avantages
+
+    Salaire attractif 
+    Possibilités d&rsquo;évolution]]></description>
+        <jobtype><![CDATA[Full time]]></jobtype>
+    <isremote><![CDATA[yes]]></isremote>
+    <category><![CDATA[IT]]></category>
+            <experience>
+                            <experience_max><![CDATA[10]]></experience_max>
+                                        <experience_min><![CDATA[5]]></experience_min>
+                        <period><![CDATA[year]]></period>
+        </experience>
+        <salary>
+                    <salary_max><![CDATA[550]]></salary_max>
+                            <salary_min><![CDATA[500]]></salary_min>
+                            <salary_currency><![CDATA[EUR]]></salary_currency>
+                            <period><![CDATA[day]]></period>
+                <type> <![CDATA[BASE_SALARY]]> </type>
+    </salary>
+</job>            <job>
+    <referencenumber><![CDATA[54]]></referencenumber>
+    <title><![CDATA[Développeur Zend 10 ans expériences  (H/F) (IT) / Freelance]]></title>
+    <company><![CDATA[Company 2]]></company>
+    <city><![CDATA[Le Touquet-Paris-Plage]]></city>
+    <state><![CDATA[Hauts-de-France]]></state>
+    <country><![CDATA[France]]></country>
+    <dateposted><![CDATA[2022-09-17T21:34:41+02:00]]>></dateposted>
+    <url><![CDATA[https://front.freework.localhost/tech-it/api-developpeur/job-mission/developpeur-zend-10-ans-experiences-h-f]]></url>
+    <description><![CDATA[Descriptif du poste : 
+
+En tant que développeur au sein d&rsquo;une équipe d&rsquo;une quinzaine personnes, vous serez responsable :
+
+   du développement
+   du packaging
+   des tests unitaires
+   des tests fonctionnels automatisés (niveau service ou IHM)
+
+ 
+
+Compétences et qualifications
+
+Principaux langages :
+
+- Java 1.7 -&gt; 1.8
+
+- Oracle SQL
+
+Framework :
+
+- SPRING 4 (core, security, mvc, jdbc, batch, boot)
+
+- Angular4 (appli RDM)
+
+- AngularJS
+
+Architecture Web Services :
+
+- REST / Jersey 
+
+Base de données :
+
+- Oracle 11g
+
+Usine Logicielle / outils de test et qualité :
+
+- Junit (Test unitaire)
+
+- Cucumber (Test fonctionnel)
+
+- Plate-forme de dev sur AWS (Cloud Formation)
+
+Craftmanship
+
+- Clean code
+
+- Code Review
+
+Avantages
+
+    Salaire attractif 
+    Possibilités d&rsquo;évolution]]></description>
+            <postal-code><![CDATA[62520]]></postal-code>
+        <jobtype><![CDATA[Full time]]></jobtype>
+    <isremote><![CDATA[yes]]></isremote>
+    <category><![CDATA[IT]]></category>
+            <experience>
+                            <experience_max><![CDATA[10]]></experience_max>
+                                        <experience_min><![CDATA[5]]></experience_min>
+                        <period><![CDATA[year]]></period>
+        </experience>
+        <salary>
+                    <salary_max><![CDATA[1000]]></salary_max>
+                            <salary_min><![CDATA[850]]></salary_min>
+                            <salary_currency><![CDATA[EUR]]></salary_currency>
+                            <period><![CDATA[day]]></period>
+                <type> <![CDATA[BASE_SALARY]]> </type>
+    </salary>
+</job>            <job>
+    <referencenumber><![CDATA[38]]></referencenumber>
+    <title><![CDATA[consultant informatique en Poste de travail F/H (IT) / Freelance]]></title>
+    <company><![CDATA[Company 2]]></company>
+    <city><![CDATA[Seyssinet-Pariset]]></city>
+    <state><![CDATA[Auvergne-Rhône-Alpes]]></state>
+    <country><![CDATA[France]]></country>
+    <dateposted><![CDATA[2021-04-20T17:25:12+02:00]]>></dateposted>
+    <url><![CDATA[https://front.freework.localhost/tech-it/consultant/job-mission/consultant-en-poste-de-travail-f-h]]></url>
+    <description><![CDATA[POSTE:
+
+Dans le cadre d&rsquo;un renfort d&rsquo;équipe pour l&rsquo;un de nos clients lyonnais, nous sommes à la recherche d&rsquo;un Consultant en Poste de travail (F/H). Votre mission principale sera de participer activement au MCO (run) de l&rsquo;équipe sur le périmètre poste de travail Windows, MDM/Android. Vous serez donc amener à traiter les incidents et demandes de niveau 2 et plus qui nous seront adressés par le support ou le service desk via l&rsquo;outils de ticket. La quasi-totalité des interventions se font à distance via des outils de prise en main que ce soit sur les tablettes ou les PC Windows.
+
+Vos activités sont les suivantes:
+ 	Traitement des demandes et incidents via l&rsquo;outil de ticket
+ 	Support avancé à distance aux utilisateurs sur leur environnement de travail Windows ou Android
+ 	Réalisation des actions techniques qui vous seront attribuées
+ 	Amélioration des processus, des supports de documentation et des bases de connaissance à destination du support.
+ 	Respect des procédure et de conformité du SI de l&rsquo;entreprise
+
+PROFIL:
+
+De formation supérieure en informatique, vous justifiez d&rsquo;une première expérience réussie sur un poste similaire d&rsquo;au moins trois années.
+L&rsquo;écoute et le dialogue font partie de vos atouts afin de bien comprendre les besoins utilisateurs.
+Les pannes n&rsquo;affecteront jamais votre bonne humeur. Calme dans toutes les situations, vous avez une bonne appréhension du risque.
+Avec l&rsquo;expérience vous avez appris que les problèmes viennent souvent de l&rsquo;interface chaise/clavier.
+ 
+Compétences attendues, par ordre d&rsquo;importance:
+ 	Windows client (Windows 7 / Windows 10 - installation et dépannage)
+ 	Devices Android et solution de MDM (idéalement Airwatch)
+ 	Office 365 (Messagerie / Teams / Sharepoint)
+ 	ActiveDirectory / GPO
+ 	Scripting (Vbscript/Powershell)
+ 	Outils poste de travail: SCCM/MDT, Antivirus
+ 	Windows Server
+ 	ITIL
+
+ ]]></description>
+            <postal-code><![CDATA[38170]]></postal-code>
+        <jobtype><![CDATA[Full time]]></jobtype>
+    <isremote><![CDATA[yes]]></isremote>
+    <category><![CDATA[IT]]></category>
+            <experience>
+                            <experience_max><![CDATA[5]]></experience_max>
+                                        <experience_min><![CDATA[2]]></experience_min>
+                        <period><![CDATA[year]]></period>
+        </experience>
+        <salary>
+                    <salary_max><![CDATA[450]]></salary_max>
+                            <salary_min><![CDATA[450]]></salary_min>
+                            <salary_currency><![CDATA[GBP]]></salary_currency>
+                            <period><![CDATA[day]]></period>
+                <type> <![CDATA[BASE_SALARY]]> </type>
+    </salary>
+</job>            <job>
+    <referencenumber><![CDATA[26]]></referencenumber>
+    <title><![CDATA[Team leader informatique (IT) / Freelance]]></title>
+    <company><![CDATA[Company 2]]></company>
+    <city><![CDATA[]]></city>
+    <state><![CDATA[Île-de-France]]></state>
+    <country><![CDATA[France]]></country>
+    <dateposted><![CDATA[2021-02-26T19:36:10+01:00]]>></dateposted>
+    <url><![CDATA[https://front.freework.localhost/tech-it/it-team-leader/job-mission/team-leader]]></url>
+    <description><![CDATA[POSTE :
+
+Le Responsable Opérationnel a en charge un portefeuille clients dont il est le point d&rsquo;entrée opérationnel.
+Il doit être en capacité d&rsquo;entretenir et développer une relation de confiance avec ses clients.
+Pour cela, il anime les instances techniques, s&rsquo;assure que les moyens mis à disposition permettent de respecter l&rsquo;ensemble des engagements clients.
+Principal acteur de l&rsquo;amélioration continue, il assure l&rsquo;interface entre SEA TPI et les grands comptes avec lesquels il collabore.
+
+Pour cela, son rôle consiste à :
+
+Piloter la prestation :
+ 	Analyser/consolider les tableaux de bord opérationnels mis en place afin de s&rsquo;assurer que l&rsquo;ensemble des SLA / Charge de travail soit respectés
+ 	Préparer et organiser les Comités Techniques / Comités Pilotage
+ 	Définir et mettre en place des axes d&rsquo;amélioration du service délivré
+ 	Garantir un suivi du plan de progrès et plan d&rsquo;actions en collaboration avec le client
+ 	S&rsquo;assurer de l&rsquo;avancement des actions mises en place pour les Non-conformité
+ 	Coordonner et Planifier l&rsquo;activité (répartition de la charge, priorisation des actions, pilotage, accompagnement/soutien technique)
+ 	Proposer, rédiger et améliorer les processus et procédures liés à l&rsquo;activité (gestion des incidents, interventions, gestion du parc, etc )
+ 	Gérer les projets techniques
+ 	Intervenir ponctuellement ou de manière récurrente chez les clients
+
+Manager l&rsquo;équipe :
+ 	Management des collaborateurs constituant l&rsquo;équipe (profils Techniciens Helpdesk) : suivi et accompagnement 
+ 	Recrutement, formation et intégration des nouveaux collaborateurs
+ 	Gestion du planning collaborateurs
+ 	Mise en place des objectifs et plan d&rsquo;action de l&rsquo;équipe
+
+Coordonner :
+ 	La gestion des incidents : analyse, amélioration continue et suivi de la bonne résolution
+ 	S&rsquo;assurer de la bonne coordination avec les différents services concernés par la prestation
+
+
+PROFIL RECHERCHE :
+De formation supérieure dans le domaine IT, vous justifiez d&rsquo;une expérience de 4 ans minimum en Helpdesk, avec connaissance du domaine de l&rsquo;Exploitation.
+Votre aisance relationnelle et votre leadership naturel vous permettront d&rsquo;établir une relation de confiance avec vos équipes et vos clients.
+Le sens du service est votre principal moteur, alors rejoignez une entreprise Dynamique, participez à cette aventure en apportant votre expertise.
+Rejoignez Nous !
+ ]]></description>
+        <jobtype><![CDATA[Contract]]></jobtype>
+    <isremote><![CDATA[yes]]></isremote>
+    <category><![CDATA[IT]]></category>
+        <salary>
+                    <salary_max><![CDATA[500]]></salary_max>
+                            <salary_min><![CDATA[500]]></salary_min>
+                            <salary_currency><![CDATA[GBP]]></salary_currency>
+                            <period><![CDATA[day]]></period>
+                <type> <![CDATA[BASE_SALARY]]> </type>
+    </salary>
+</job>    
+
+</source>

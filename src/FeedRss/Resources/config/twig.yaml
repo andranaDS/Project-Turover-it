@@ -1,0 +1,5 @@
+twig:
+  paths:
+    'src/FeedRss/Resources/templates': 'feedRss'
+    'public/build': 'build'
+    'public/build/images': 'images'

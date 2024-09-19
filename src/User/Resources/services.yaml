@@ -1,0 +1,61 @@
+parameters:
+    router.request_context.scheme: 'https'
+    asset.request_context.secure: true
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $jwtHpName: '%env(JWT_HP_NAME)%'
+            string $jwtSName: '%env(JWT_S_NAME)%'
+            string $refreshTokenName: '%env(REFRESH_TOKEN_NAME)%'
+            string $hrFlowSourceKey: '%env(HRFLOW_SOURCE_KEY)%'
+            int $passwordRequestTtl: '%env(int:PASSWORD_REQUEST_TTL)%'
+            int $emailRequestTtl: '%env(int:EMAIL_REQUEST_TTL)%'
+            int $emailConfirmTtl: '%env(int:EMAIL_CONFIRM_TOKEN_TTL)%'
+            Gesdinet\JWTRefreshTokenBundle\Service\RefreshToken: '@gesdinet.jwtrefreshtoken'
+            Lexik\Bundle\JWTAuthenticationBundle\Security\Http\Authentication\AuthenticationSuccessHandler: '@lexik_jwt_authentication.handler.authentication_success'
+            string $env: '%env(APP_ENV)%'
+            int $itemsPerPageDefault: '%env(int:APP_ITEMS_PER_PAGE)%'
+            string $turnoverItApiKey: '%env(TURNOVER_IT_API_KEY)%'
+            string $cluster: '%env(APP_CLUSTER)%'
+            string $launchDate: '%env(APP_LAUNCH_DATE)%'
+            int $emailImmediateAvailabilityConfirmationTtl: '%env(int:EMAIL_IMMEDIATE_AVAILABILITY_CONFIRMATION_TTL)%'
+            int $emailNoImmediateAvailabilityConfirmationTtl: '%env(int:EMAIL_NO_IMMEDIATE_AVAILABILITY_CONFIRMATION_TTL)%'
+            Symfony\Component\Security\Core\User\UserProviderInterface $userProvider: '@security.user.provider.concrete.app_user_provider'
+            string $contactRecipientAdmin: '%env(MAILER_RECIPIENT_CONTACT)%'
+            string $freelancecomApiKey: '%env(PARTNER_API_KEY_FREELANCECOM)%'
+
+    App\User\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\User\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+    # doctrine event subscribers
+    App\User\DoctrineEventSubscriber\:
+        resource: '../DoctrineEventSubscriber'
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }
+
+    App\User\Service\HrFlowResumeParser:
+        public: true
+
+    # services
+    App\User\EventSubscriber\UserEmailRequestedAtSubscriber:
+        tags:
+            - { name: 'kernel.event_listener', event: 'kernel.request', method: 'process', priority: 5 }
+        autoconfigure: false
+
+    App\User\EventSubscriber\UserMeSubscriber:
+        tags:
+            - { name: 'kernel.event_listener', event: 'kernel.request', method: 'resolveMe', priority: 6 }
+        autoconfigure: false
+

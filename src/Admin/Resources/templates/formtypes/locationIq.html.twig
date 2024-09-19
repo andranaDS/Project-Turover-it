@@ -1,0 +1,21 @@
+{% block locationiq_widget %}
+{#    <script type="module" src="{{ asset('assets/js/prose-editor.es.js') }}"></script>
+    <prose-editor contentHtml="{{ value }}"></prose-editor>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const proseTextarea = document.querySelector('.prose-textarea');
+            const jsonFieldName = proseTextarea.getAttribute('data-prose-json');
+            const jsonTextarea = document.querySelector('.'+jsonFieldName);
+            document
+                .querySelector('prose-editor')
+                .addEventListener('change', function (event) {
+                    proseTextarea.value = event.detail.html;
+                    jsonTextarea.value = JSON.stringify(event.detail.json);
+                });
+        });
+    </script>
+    <textarea style="display: none;" class="prose-textarea" {{ block('widget_attributes') }}>
+        {{ value }}
+    </textarea>#}
+    <h1>toto</h1>
+{% endblock %}

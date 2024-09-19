@@ -1,0 +1,21 @@
+{% apply inky_to_html|inline_css(source('@build/email.css')) %}
+    <container>
+        <spacer size="25"></spacer>
+
+        <row>
+            <columns>
+                <span class="preheader">{% block preheader %}{% endblock %}</span>
+                <a href="{{ 'components.website'|trans({}, 'emails') }}">
+                    <img width="225" src="{{ email.image('@images/email/logo-turnover.png') }}" class="logo-turnover"
+                         alt="Turnover-IT">
+                </a>
+            </columns>
+        </row>
+
+        <spacer size="30"></spacer>
+
+        {% block content %}{% endblock %}
+
+        <spacer size="9"></spacer>
+    </container>
+{% endapply %}

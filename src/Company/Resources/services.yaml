@@ -1,0 +1,36 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $env: '%env(APP_ENV)%'
+            int $itemsPerPageDefault: '%env(int:APP_ITEMS_PER_PAGE)%'
+
+    App\Company\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\Company\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+    # doctrine event subscribers
+    App\Company\DoctrineEventSubscriber\:
+        resource: '../DoctrineEventSubscriber'
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }
+
+    # services
+    App\Company\EventSubscriber\ResolveMineSubscriber:
+        tags:
+            - { name: 'kernel.event_listener', event: 'kernel.request', method: 'process', priority: 5 }
+        autoconfigure: false
+
+    App\Company\EventSubscriber\CompanyExistsSubscriber:
+        tags:
+            - { name: 'kernel.event_listener', event: 'kernel.request', method: 'process', priority: 4 }
+        autoconfigure: false

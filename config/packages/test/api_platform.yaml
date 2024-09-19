@@ -1,0 +1,10 @@
+api_platform:
+  http_cache:
+    public: ~
+    invalidation:
+      enabled: false
+      varnish_urls: []
+      request_options: []
+
+parameters:
+  ignore_env_error_dummy: '%env(VARNISH_URL)%'

@@ -1,0 +1,35 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'registration_welcome') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.registration_welcome.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.registration_welcome.pre_header'|trans({}, 'emails')|nl2br }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    <p>{{ 'user.registration_welcome.content.paragraphs.0'|trans({}, 'emails')|nl2br }}</p>
+                    <p>{{ 'user.registration_welcome.content.paragraphs.1'|trans({}, 'emails')|nl2br }}</p>
+                    <p>{{ 'user.registration_welcome.content.paragraphs.2'|trans({}, 'emails')|nl2br }}</p>
+                    <p>{{ 'user.registration_welcome.content.paragraphs.3'|trans({}, 'emails')|nl2br }}</p>
+                </columns>
+            </row>
+
+            <row>
+                <columns>
+                    <p>{{ 'user.registration_welcome.content.paragraphs.4'|trans({}, 'emails')|nl2br }}</p>
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock content %}
+    {% endembed %}
+{% endblock html %}

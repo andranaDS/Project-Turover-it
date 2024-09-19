@@ -1,0 +1,120 @@
+knp_gaufrette:
+    stream_wrapper: ~
+    adapters:
+        local_adapter:
+            local:
+                directory: public/uploads
+                create: true
+        user_avatar_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_user_avatar%'
+                    acl: 'public-read'
+        blog_post_image_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_blog_post_image%'
+                    acl: 'public-read'
+        user_document_file_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_user_document_file%'
+                    acl: 'public-read'
+        company_logo_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_company_logo%'
+                    acl: 'public-read'
+        company_picture_image_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_company_picture_image%'
+                    acl: 'public-read'
+        message_file_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_message_file%'
+                    acl: 'public-read'
+        blog_post_image_file_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_blog_post_image_file%'
+                    acl: 'public-read'
+        sitemap_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_sitemap%'
+                    acl: 'public-read'
+        company_video_file_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_company_video_file%'
+                    acl: 'public-read'
+        hr_flow_file_adapter:
+            aws_s3:
+                service_id: app.aws_s3.client
+                bucket_name: '%env(AMAZON_S3_BUCKET)%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: '%upload_path_hr_flow_file%'
+                    acl: 'public-read'
+    filesystems:
+        local_fs:
+            adapter: local_adapter
+        user_avatar_fs:
+            adapter: user_avatar_adapter
+        blog_post_image_fs:
+            adapter: blog_post_image_adapter
+        user_document_file_fs:
+            adapter: user_document_file_adapter
+        company_logo_fs:
+            adapter: company_logo_adapter
+        company_picture_image_fs:
+            adapter: company_picture_image_adapter
+        message_file_fs:
+            adapter: message_file_adapter
+        blog_post_image_file_fs:
+            adapter: blog_post_image_file_adapter
+        sitemap_fs:
+            adapter: sitemap_adapter
+        company_video_file_fs:
+            adapter: company_video_file_adapter
+        hr_flow_file_fs:
+            adapter: hr_flow_file_adapter

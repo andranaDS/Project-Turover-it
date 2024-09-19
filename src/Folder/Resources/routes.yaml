@@ -1,0 +1,3 @@
+#app_folder_controllers:
+#  resource: ../Controller/
+#  type: annotation

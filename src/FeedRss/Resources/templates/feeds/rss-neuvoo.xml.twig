@@ -1,0 +1,43 @@
+<job>
+    <referencenumber>{{ jobPosting.referenceNumber|raw }}</referencenumber>
+    <title>{{ jobPosting.title|raw }}</title>
+    <company>{{ jobPosting.company|raw }}</company>
+    <city>{{ jobPosting.city|raw }}</city>
+    <state>{{ jobPosting.state|raw }}</state>
+    <country>{{ jobPosting.country|raw }}</country>
+    <dateposted>{{ jobPosting.datePosted|raw }}></dateposted>
+    <url>{{ jobPosting.url|raw }}</url>
+    <description>{{ jobPosting.description|raw }}</description>
+    {% if jobPosting.postalCode is not null %}
+        <postal-code>{{ jobPosting.postalCode|raw }}</postal-code>
+    {% endif %}
+    <jobtype>{{ jobPosting.jobType|raw }}</jobtype>
+    <isremote>{{ jobPosting.remote|raw }}</isremote>
+    <category>{{ jobPosting.category|raw }}</category>
+    {% if jobPosting.experienceMin is not null or jobPosting.experienceMax is not null  %}
+        <experience>
+            {% if jobPosting.experienceMax is not null %}
+                <experience_max>{{ jobPosting.experienceMax|raw }}</experience_max>
+            {% endif %}
+            {% if jobPosting.experienceMin is not null %}
+                <experience_min>{{ jobPosting.experienceMin|raw }}</experience_min>
+            {% endif %}
+            <period>{{ jobPosting.experiencePeriod|raw }}</period>
+        </experience>
+    {% endif %}
+    <salary>
+        {% if jobPosting.salaryMax is not null %}
+            <salary_max>{{ jobPosting.salaryMax|raw }}</salary_max>
+        {% endif %}
+        {% if jobPosting.salaryMin is not null %}
+            <salary_min>{{ jobPosting.salaryMin|raw }}</salary_min>
+        {% endif %}
+        {% if jobPosting.salaryCurrency is not null %}
+            <salary_currency>{{ jobPosting.salaryCurrency|raw }}</salary_currency>
+        {% endif %}
+        {% if jobPosting.salaryPeriod is not null %}
+            <period>{{ jobPosting.salaryPeriod|raw }}</period>
+        {% endif %}
+        <type> <![CDATA[BASE_SALARY]]> </type>
+    </salary>
+</job>

@@ -1,0 +1,3 @@
+twig:
+  globals:
+    freelance_info_launch_date: '%env(APP_FREELANCE_INFO_LAUNCH_DATE)%'

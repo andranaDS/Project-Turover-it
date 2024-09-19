@@ -1,0 +1,81 @@
+security:
+    enable_authenticator_manager: true
+    hide_user_not_found: false
+    password_hashers:
+        freelance_info:
+            algorithm: bcrypt
+        carriere_info:
+            id: App\User\Security\Encoder\CarriereInfoPasswordEncoder
+        App\User\Entity\User:
+            algorithm: auto
+            migrate_from:
+                - freelance_info
+                - carriere_info
+        App\Recruiter\Entity\Recruiter:
+            algorithm: auto
+
+    providers:
+        app_user_provider:
+            entity:
+                class: App\User\Entity\User
+                property: email
+        app_recruiter_provider:
+            entity:
+                class: App\Recruiter\Entity\Recruiter
+                property: email
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        admin:
+            pattern: ^/
+            host: '%env(ADMIN_BASE_URL)%'
+            provider: app_user_provider
+            logout:
+                path: admin_logout
+                target: admin_login
+            form_login:
+                check_path: admin_login
+                login_path: admin_login
+                enable_csrf: true
+
+        api_free_work:
+            pattern: ^/
+            host: '%api_free_work_pattern_base_url_security%'
+            stateless: true
+            provider: app_user_provider
+            user_checker: App\User\Security\UserChecker
+            json_login:
+                check_path: api_user_freework_security_login
+                username_path: email
+                password_path: password
+                success_handler: lexik_jwt_authentication.handler.authentication_success
+                failure_handler: lexik_jwt_authentication.handler.authentication_failure
+            entry_point: App\User\Security\Guard\JWTTokenAuthenticator
+            custom_authenticators:
+                - App\User\Security\Guard\LegacyAuthenticator
+                - App\User\Security\Guard\JWTTokenAuthenticator
+                - App\User\Security\Guard\GoogleAuthenticator
+                - App\User\Security\Guard\LinkedInAuthenticator
+
+        api_turnover:
+            pattern: ^/
+            host: '%api_turnover_pattern_base_url_security%'
+            stateless: true
+            provider: app_recruiter_provider
+            custom_authenticators:
+                - App\Recruiter\Security\Guard\AccessTokenAuthenticator
+            json_login:
+                check_path: api_recruiter_turnover_authentication_login
+                username_path: email
+                password_path: password
+                success_handler: App\Recruiter\Security\AuthenticationSuccessHandler
+                failure_handler: App\Recruiter\Security\AuthenticationFailureHandler
+
+    access_control:
+        - { path: ^/, roles: PUBLIC_ACCESS, host: '%env(API_BASE_URL)%' }
+        - { path: ^/, roles: PUBLIC_ACCESS, host: '%env(API_TURNOVER_BASE_URL)%' }
+        - { path: ^/login, roles: PUBLIC_ACCESS, host: '%env(ADMIN_BASE_URL)%' }
+        - { path: ^/, roles: ROLE_ADMIN, host: '%env(ADMIN_BASE_URL)%' }

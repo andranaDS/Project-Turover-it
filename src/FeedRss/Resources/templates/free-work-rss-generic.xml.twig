@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"
+    {% if jobPostings.config.xmlParams is defined %}
+        {{ jobPostings.config.xmlParams|raw }}
+    {% endif %}
+?>
+
+
+{% set rootParams = jobPostings.config.rootNameParams is defined ? (' ' ~ jobPostings.config.rootNameParams ~ ' ') : '' %}
+{{ ( '<' ~ jobPostings.config.rootName ~ rootParams ~ '>')|raw }}
+
+{% if jobPostings.config.fieldsBeforeList is defined %}
+    {% for fieldBeforeList, value in jobPostings.config.fieldsBeforeList %}
+        {{ ( '<' ~ fieldBeforeList ~ '>')|raw }}{{  value|raw  }}{{ ( '</' ~ fieldBeforeList ~ '>')|raw }}
+    {% endfor %}
+{% endif %}
+
+{% if jobPostings.items|length > 0 %}
+    {% for jobPosting in jobPostings.items %}
+        {% include '@feedRss/feeds/rss-' ~ jobPostings.config.template ~ '.xml.twig' %}
+    {% endfor %}
+
+{% endif %}
+
+{{ ( '</' ~ jobPostings.config.rootName ~ '>')|raw }}

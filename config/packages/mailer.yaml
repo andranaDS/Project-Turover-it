@@ -1,0 +1,13 @@
+framework:
+    mailer:
+        dsn: '%env(MAILER_DSN)%'
+        headers:
+            from: '%env(MAILER_HEADERS_FROM)%'
+
+parameters:
+    mailer_headers_from_free_work_contact: '%env(MAILER_HEADERS_FROM_FREE_WORK_CONTACT)%'
+    mailer_headers_from_free_work_account: '%env(MAILER_HEADERS_FROM_FREE_WORK_ACCOUNT)%'
+    mailer_headers_from_free_work_profile: '%env(MAILER_HEADERS_FROM_FREE_WORK_PROFILE)%'
+    mailer_headers_from_free_work_job: '%env(MAILER_HEADERS_FROM_FREE_WORK_JOB)%'
+    mailer_headers_from_free_work_forum: '%env(MAILER_HEADERS_FROM_FREE_WORK_FORUM)%'
+    mailer_headers_from_turnover_contact: '%env(MAILER_HEADERS_FROM_TURNOVER_CONTACT)%'

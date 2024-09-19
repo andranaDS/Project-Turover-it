@@ -1,0 +1,10 @@
+vich_uploader:
+  db_driver: orm
+  storage: gaufrette
+  mappings:
+    user_document_file:
+      uri_prefix: '%env(AMAZON_S3_PREFIX)%/%env(AMAZON_S3_BUCKET)%/%upload_path_user_document_file%'
+      upload_destination: user_document_file_fs
+      namer:
+        service: App\Core\Naming\FileNamer
+        options: { filename: 'document' }

@@ -1,0 +1,5 @@
+app_recruiter_controllers:
+    resource: ../Controller/
+    type: annotation
+    host: "%api_turnover_base_url%"
+    schemes: ["%api_turnover_scheme%"]

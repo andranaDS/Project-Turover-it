@@ -1,0 +1,88 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'no_immediate_availability_confirmation') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.no_immediate_availability_confirmation.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.no_immediate_availability_confirmation.pre_header'|trans({}, 'emails')|raw }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    {% include 'emails/components/introduction_transition_freelance_info.html.twig'with {'nbDays': 90} %}
+
+                    <p>
+                        <strong>
+                            {{ 'user.no_immediate_availability_confirmation.content.paragraphs.0'|trans({'%date%': user.nextAvailabilityAt|date('d/m/Y')}, 'emails')|raw|nl2br }}
+                        </strong>
+                    </p>
+                    <p>
+                        {{ 'user.no_immediate_availability_confirmation.content.paragraphs.1'|trans({}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <spacer size="25"></spacer>
+
+                    <p>
+                        <strong>
+                            {{ 'user.no_immediate_availability_confirmation.content.paragraphs.2'|trans({}, 'emails')|raw|nl2br }}
+                        </strong>
+                    </p>
+
+                    <p>
+                            {{ 'user.no_immediate_availability_confirmation.content.paragraphs.3'|trans({}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <center>
+                        <button class="large radius expanded"
+                                href="{{ url_signed('api_user_freework_availability_immediate', {'userId': user.id}, false, urlSignedTll) }}& utm_source=email_transactionnel&utm_medium=email&utm_campaign=maj_dispo_mois_date">
+                            {{ 'user.no_immediate_availability_confirmation.content.buttons.1'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="45"></spacer>
+
+                    <p>
+                        <strong>
+                            {{ 'user.no_immediate_availability_confirmation.content.paragraphs.4'|trans({}, 'emails')|raw|nl2br }}
+                        </strong>
+                    </p>
+
+                    <p>{{ 'user.no_immediate_availability_confirmation.content.paragraphs.5'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <center>
+                        <button class="secondary large radius expanded"
+                                href="{{ url('candidates_profile_resume') }}?utm_source=email_transactionnel&utm_medium=email&utm_campaign=maj_dispo_mois_date">
+                            {{ 'user.no_immediate_availability_confirmation.content.buttons.2'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="75"></spacer>
+
+                    <p>
+                        <strong>
+                            {{ 'user.no_immediate_availability_confirmation.content.paragraphs.6.1'|trans({}, 'emails')|raw|nl2br }}
+                        </strong>
+                        {{ 'user.no_immediate_availability_confirmation.content.paragraphs.6.2'|trans({}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <spacer size="25"></spacer>
+
+                    {{ 'user.no_immediate_availability_confirmation.content.paragraphs.7'|trans({}, 'emails')|raw|nl2br }}
+
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

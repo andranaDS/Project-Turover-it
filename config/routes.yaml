@@ -1,0 +1,9 @@
+candidates:
+    resource: 'routes/candidates.yaml'
+    host: '%candidates_base_url%'
+    schemes: [ '%candidates_scheme%' ]
+
+turnover_front:
+    resource: 'routes/turnover_front.yaml'
+    host: '%turnover_front_base_url%'
+    schemes: [ '%turnover_front_scheme%' ]

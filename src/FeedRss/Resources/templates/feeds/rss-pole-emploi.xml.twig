@@ -1,0 +1,158 @@
+    <Partenaire>
+        <Par_cle>FREE-WORK</Par_cle>
+        <Par_nom>FREE-WORK</Par_nom>
+        <Par_ref_offre>{{ jobPosting.reference }}</Par_ref_offre>
+        <Par_URL_offre>{{ jobPosting.url }}</Par_URL_offre>
+    </Partenaire>
+    <Rome>
+        <Code_rome>{{ jobPosting.romeCode }}</Code_rome>
+        <Code_OGR>{{ jobPosting.ogrCode }}</Code_OGR>
+        <Libelle_metier_OGR>{{ jobPosting.ogrLabel }}</Libelle_metier_OGR>
+    </Rome>
+    <Description>{{ jobPosting.description }}</Description>
+    <Experience>
+        <Off_experience_commentaire></Off_experience_commentaire>
+        <Duree_experience>
+            <Off_experience_duree_min>{{ jobPosting.experience }}</Off_experience_duree_min>
+            <Off_experience_duree_max></Off_experience_duree_max>
+        </Duree_experience>
+        <Type_duree_experience>
+            <Dur_cle_experience>AN</Dur_cle_experience>
+            <Dur_libelle_experience></Dur_libelle_experience>
+        </Type_duree_experience>
+        <Exigence_experience>
+            <Exp_cle>E</Exp_cle>
+            <Exp_libelle></Exp_libelle>
+        </Exigence_experience>
+    </Experience>
+    <Qualification>
+        <Qua_cle></Qua_cle>
+        <Qua_libelle></Qua_libelle>
+    </Qualification>
+    <Secteur_NAF>
+        <SCN_cle></SCN_cle>
+        <SCN_libelle></SCN_libelle>
+    </Secteur_NAF>
+    <Formation>
+        <Type_formation>
+            <Tfm_cle></Tfm_cle>
+            <Tfm_libelle></Tfm_libelle>
+        </Type_formation>
+        <Domaine_formation>
+            <Dfm_cle></Dfm_cle>
+            <Dfm_libelle></Dfm_libelle>
+        </Domaine_formation>
+        <Exigence_formation>
+            <Dfm_exi_cle></Dfm_exi_cle>
+            <Dfm_exi_libelle></Dfm_exi_libelle>
+        </Exigence_formation>
+    </Formation>
+    <Langue>
+        <La_Langue>
+            <Lan_cle></Lan_cle>
+            <Lan_libelle></Lan_libelle>
+        </La_Langue>
+        <Niveau_langue>
+            <NVL_cle></NVL_cle>
+            <NVL_libelle></NVL_libelle>
+        </Niveau_langue>
+        <Exigence_langue>
+            <Lan_exi_cle></Lan_exi_cle>
+            <Lan_exi_libelle></Lan_exi_libelle>
+        </Exigence_langue>
+    </Langue>
+    <Salaire>
+        <Type_salaire>
+            <TSA_cle>{{ jobPosting.tsaCle }}</TSA_cle>
+            <TSA_libelle>{{ jobPosting.tsaLibelle }}</TSA_libelle>
+        </Type_salaire>
+        <Off_salaire_min>{{ jobPosting.salaireMin }}</Off_salaire_min>
+        <Off_salaire_max>{{ jobPosting.salaireMax }}</Off_salaire_max>
+        <Off_salaire_cpt_commentaire></Off_salaire_cpt_commentaire>
+        <Off_salaire_nb_mois></Off_salaire_nb_mois>
+        <Unite_monetaire>
+            <UMO_cle>{{ jobPosting.umoCLE }}</UMO_cle>
+            <UMO_libelle>{{ jobPosting.umoLibelle }}</UMO_libelle>
+        </Unite_monetaire>
+    </Salaire>
+    <Horaire>
+        <Type_horaire>
+            <THO_cle></THO_cle>
+            <THO_libelle></THO_libelle>
+            <Off_THO_commentaire></Off_THO_commentaire>
+        </Type_horaire>
+        <Duree_hebdomadaire>
+            <Off_travail_hebdo_nb_hh></Off_travail_hebdo_nb_hh>
+            <Off_travail_hebdo_nb_mi></Off_travail_hebdo_nb_mi>
+        </Duree_hebdomadaire>
+    </Horaire>
+    <Contrat>
+        <Type_contrat>
+            <TCO_cle>{{ jobPosting.typeContrat }}</TCO_cle>
+            <TCO_libelle></TCO_libelle>
+        </Type_contrat>
+        <Duree_contrat>
+            <Off_contrat_duree_JO></Off_contrat_duree_JO>
+            <Off_contrat_duree_MO>{{ jobPosting.duree }}</Off_contrat_duree_MO>
+        </Duree_contrat>
+        <Nature_contrat>
+            <NTC_cle>E1</NTC_cle>
+            <NTC_libelle></NTC_libelle>
+        </Nature_contrat>
+    </Contrat>
+    <Lieu_de_travail>
+        <Off_adr_id></Off_adr_id>
+        <Off_adr_norme></Off_adr_norme>
+        <Complement_adresse>
+            <Off_adr_compl></Off_adr_compl>
+        </Complement_adresse>
+        <Voie>
+            <Off_adr_no_voie></Off_adr_no_voie>
+            <Off_adr_nom_voie></Off_adr_nom_voie>
+        </Voie>
+        <CPO_cle></CPO_cle>
+        <Commune>
+            <COM_cle>{{ jobPosting.communeCLe }}</COM_cle>
+            <COM_libelle>{{ jobPosting.communeLibelle }}</COM_libelle>
+        </Commune>
+        <Departement>
+            <DEP_cle>{{ jobPosting.departementCle }}</DEP_cle>
+            <DEP_libelle></DEP_libelle>
+        </Departement>
+        <Region>
+            <REG_cle></REG_cle>
+            <REG_libelle></REG_libelle>
+        </Region>
+        <Pays>
+            <Pay_cle>01</Pay_cle>
+            <Pay_libelle></Pay_libelle>
+        </Pays>
+        <Continent>
+            <CON_cle></CON_cle>
+            <CON_libelle></CON_libelle>
+        </Continent>
+        <Geolocalisation>
+            <Coordonnee_geo_loc_1></Coordonnee_geo_loc_1>
+            <Coordonnee_geo_loc_2></Coordonnee_geo_loc_2>
+        </Geolocalisation>
+    </Lieu_de_travail>
+    <Permis>
+        <PCO_cle></PCO_cle>
+        <PCO_libelle></PCO_libelle>
+        <PCO_exi_cle></PCO_exi_cle>
+        <PCO_exi_libelle></PCO_exi_libelle>
+    </Permis>
+    <Off_date_creation>{{ jobPosting.dateCreation }}</Off_date_creation>
+    <Off_date_modification></Off_date_modification>
+    <OST_poste_restant_nb></OST_poste_restant_nb>
+    <Entreprise>
+        <Off_client_final_siret></Off_client_final_siret>
+        <Off_client_final_nom></Off_client_final_nom>
+        <Off_etab_enseigne>{{ jobPosting.company }}</Off_etab_enseigne>
+    </Entreprise>
+    <Collecteur>
+        <Col_cle></Col_cle>
+        <Col_nom></Col_nom>
+        <Col_URL_offre></Col_URL_offre>
+    </Collecteur>
+>

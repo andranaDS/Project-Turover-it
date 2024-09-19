@@ -1,0 +1,3 @@
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.yaml"
+    host: '%api_free_work_base_url%'

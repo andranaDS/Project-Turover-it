@@ -1,0 +1,11 @@
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    AppResource:
+                        is_bundle: false
+                        type: annotation
+                        dir: '%kernel.project_dir%/src/Resource/Entity'
+                        prefix: 'App\Resource\Entity'
+                        alias: AppResource

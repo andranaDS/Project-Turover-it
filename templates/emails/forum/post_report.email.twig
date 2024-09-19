@@ -1,0 +1,38 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'forum_post_report') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'forum.post_report.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' %}
+
+                    <p>
+                        {{ 'forum.post_report.content.paragraphs.0'|trans({'%nickname%': forumPostReport.user.nickname}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    {% if forumPostReport.content != '' %}
+                        <p>
+                            {{ 'forum.post_report.content.paragraphs.1'|trans({}, 'emails')|raw|nl2br }}
+                            {{ forumPostReport.content }}
+                        </p>
+                    {% endif %}
+
+                    <spacer size="25"></spacer>
+
+                    <button class="large radius"
+                            href="{{ forumPostReportAdminUrl }}">
+                        {{ 'forum.post_report.content.button'|trans({}, 'emails')|nl2br }}
+                    </button>
+
+                </columns>
+            </row>
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

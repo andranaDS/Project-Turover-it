@@ -1,0 +1,20 @@
+{# @var ea \EasyCorp\Bundle\EasyAdminBundle\Context\AdminContext #}
+{# @var field \EasyCorp\Bundle\EasyAdminBundle\Dto\FieldDto #}
+{# @var entity \EasyCorp\Bundle\EasyAdminBundle\Dto\EntityDto #}
+{% for userSkill in field.value %}
+    <div class="mb-2">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <b>Compétance:</b> {{ userSkill.skill.name }}
+            </li>
+            <li class="list-group-item field-boolean">
+                <b>Principal ? :</b>
+                {% if userSkill.main == 1 %}
+                    <span class="badge badge-boolean-true">Oui</span>
+                {% else %}
+                    <span class="badge badge-boolean-false">Non</span>
+                {% endif %}
+            </li>
+        </ul>
+    </div>
+{% endfor %}

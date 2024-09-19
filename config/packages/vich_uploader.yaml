@@ -1,0 +1,70 @@
+parameters:
+    upload_path_blog_post_image: 'blog/posts/images'
+    upload_path_user_avatar: 'users/avatars'
+    upload_path_company_logo: 'companies/logos'
+    upload_path_company_picture_image: 'companies/pictures'
+    upload_path_company_video_file: 'companies/videos'
+    upload_path_user_document_file: 'users/documents'
+    upload_path_message_file: 'message/documents'
+    upload_path_blog_post_image_file: 'blog/posts/more_images'
+    upload_path_sitemap: ''
+    upload_path_hr_flow_file: 'hr_flow/files'
+
+vich_uploader:
+    db_driver: orm
+    storage: gaufrette
+    mappings:
+        user_avatar:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_user_avatar%'
+            upload_destination: user_avatar_fs
+            namer:
+                service: App\Core\Naming\FileNamer
+                options: { filename: 'avatar' }
+        blog_post_image:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_blog_post_image%'
+            upload_destination: blog_post_image_fs
+            namer:
+                service: App\Core\Naming\SlugNamer
+                options: { property: 'title' }
+        user_document_file:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_user_document_file%'
+            upload_destination: user_document_file_fs
+            namer:
+                service: App\Core\Naming\FileNamer
+                options: { filename: 'document' }
+        company_logo:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_company_logo%'
+            upload_destination: company_logo_fs
+            namer:
+                service: App\Core\Naming\FileNamer
+                options: { filename: 'logo' }
+        company_picture_image:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_company_picture_image%'
+            upload_destination: company_picture_image_fs
+            namer:
+                service: App\Core\Naming\FileNamer
+                options: { filename: 'picture' }
+        message_file:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_message_file%'
+            upload_destination: message_file_fs
+            namer:
+                service: App\Core\Naming\FileNamer
+                options: { filename: 'document' }
+        blog_post_image_file:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_blog_post_image_file%'
+            upload_destination: blog_post_image_file_fs
+            namer:
+                service: App\Core\Naming\FileNamer
+                options: { filename: 'image' }
+        company_video_file:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_company_video_file%'
+            upload_destination: company_video_file_fs
+            namer:
+                service: App\Core\Naming\FileNamer
+                options: { filename: 'video' }
+        hr_flow_file:
+            uri_prefix: '%env(AMAZON_S3_CLOUDFRONT)%/%upload_path_hr_flow_file%'
+            upload_destination: hr_flow_file_fs
+            namer:
+                service: App\Core\Naming\FileNamer
+                options: { filename: 'document' }

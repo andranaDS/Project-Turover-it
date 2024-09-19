@@ -1,0 +1,15 @@
+# See the docs at https://github.com/geocoder-php/BazingaGeocoderBundle
+bazinga_geocoder:
+    # The local IP (127.0.0.1) will be replaced by the fake_ip
+    # see https://github.com/geocoder-php/BazingaGeocoderBundle/blob/5.0.0/Resources/doc/index.md#fake-local-ip
+    fake_ip: 123.123.123.123
+    providers:
+        locationIQ:
+            factory: Bazinga\GeocoderBundle\ProviderFactory\LocationIQFactory
+            options:
+                httplug_client: '@httplug.client' # When using HTTPlugBundle
+                api_key: "%env(LOCATIONIQ_API_KEY)%"
+                # TODO : Add and manage default locale
+                #cache: 'app.cache'
+                #cache_lifetime: 3600
+                #cache_precision: 4

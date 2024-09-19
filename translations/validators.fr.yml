@@ -1,0 +1,108 @@
+core:
+    forbidden_content: "La valeur est constitué d'élement(s) interdit: {{ content }}."
+    company_registration_number:
+        invalid: 'Le numéro de Siren {{ registrationNumber }} est invalide.'
+        length: 'Le numéro de Siren doit avoir {{ length }} chiffres.'
+    password_complexity: 'La force du mot de passe doit être au minimum "Bon".'
+    location:
+        invalid: 'Veuillez renseigner le pays.'
+    compare:
+        invalid: 'Veuillez vérifier les valeurs des salaires journaliers ou salaires annuels'
+    company_intracommunity_vat:
+        invalid: 'Le numéro de TVA intracommunautaire {{ intracommunityVat }} est invalide.'
+    choice_at_least:
+        invalid: "Le choix sélectionné n'est pas valide."
+
+user:
+    freelance_or_employee: 'Vous devez au moins sélectionner Salarié ou Freelance.'
+    nickname:
+        regex: "Le pseudo doit contenir au moins une lettre."
+    password:
+        old_password: "Le mot de passe actuel est incorrect."
+    signature:
+        max_lines: 'La signature ne peut avoir plus de {{ maxLines }} lignes.'
+    next_availability_at:
+        greater_than: 'Vous devez sélectionner une date dans le futur.'
+    jobs_and_mobilities:
+        count: 'Veuillez choisir les éléments obligatoirement dans la liste proposée.'
+    identity: "Vous ne pourrez continuer qu'après avoir validé votre adresse email."
+    terms_of_service:
+        is_true: "Les conditions générales d'utilisations doivent être acceptés."
+    location:
+        not_null: "Veuillez choisir une ville obligatoirement dans la liste proposée."
+    profile:
+        skills: "Vous pouvez mettre en avant jusqu'à 5 en les marquant avec une étoile."
+        languages: "Veuillez renseigner au minimum 1 langue."
+        soft_skills: "Veuillez renseigner au minimum 1 soft skill."
+        jobs: "Vous pouvez mettre en avant jusqu'à 3 métiers recherchés au maximum."
+    gross_annual_salary:
+        not_in_range_message: "Cette valeur doit être entre {{ min }} et {{ max }}. C'est un salaire annuel."
+    insurance:
+        number: "Veuillez renseigner votre numéro de police d'assurance."
+        expiration: "Veuillez renseigner la date d'échéance de contrat."
+        company: "Veuillez renseigner le nom de votre assurance."
+
+application:
+    no_resume_document: "Veuillez joindre un CV à votre candidature."
+    no_default_resume_document: "Votre CV partagé doit être joint à votre candidature."
+
+feed_rss:
+    type_partner_unique: "Il ne peut y avoir 2 flux de même type pour un même partenaire."
+    name_unique: "Le nom d'un flux doit être unique."
+    slug_unique: "Le slug d'un flux doit être unique."
+
+message:
+    mime_type: 'Le type du fichier est invalide. Les types autorisés sont .pdf, .jpeg, .png, .jpg.'
+
+generic:
+    not_null: 'Cette valeur ne doit pas être nulle.'
+    not_blank: 'Cette valeur ne doit pas être vide.'
+    email: "Cette valeur n'est pas une adresse email valide."
+    url: "Cette valeur n'est pas une URL valide."
+    positive: "Cette valeur doit être strictement positive."
+    positive_or_zero: "Cette valeur doit être  égale ou supérieure à 0."
+    json: 'Cette valeur doit être un JSON valide.'
+    ip: "Cette adresse IP n'est pas valide."
+    length:
+        min: "Cette chaîne est trop courte. Elle doit avoir au minimum {{ limit }} caractère.|Cette chaîne est trop courte. Elle doit avoir au minimum {{ limit }} caractères."
+        max: "Cette chaîne est trop longue. Elle doit avoir au maximum {{ limit }} caractère.|Cette chaîne est trop longue. Elle doit avoir au maximum {{ limit }} caractères."
+    range:
+        min: 'Cette valeur doit être supérieure ou égale à {{ limit }}.'
+        max: 'Cette valeur doit être inférieure ou égale à {{ limit }}.'
+        not_in_range_message: 'Cette valeur doit être entre {{ min }} et {{ max }}.'
+    file:
+        mime_type: 'Le type du fichier est invalide ({{ type }}). Les types autorisés sont {{ types }}.'
+        max_size: 'Le fichier est trop volumineux ({{ size }} {{ suffix }}). Sa taille ne doit pas dépasser {{ limit }} {{ suffix }}.'
+        image:
+            max_width: "La largeur de l'image est trop grande ({{ width }}px). La largeur maximale autorisée est de {{ max_width }}px."
+            min_width: "La largeur de l'image est trop petite ({{ width }}px). La largeur minimale attendue est de {{ min_width }}px."
+            max_height: "La hauteur de l'image est trop grande ({{ height }}px). La hauteur maximale autorisée est de {{ max_height }}px."
+            min_height: "La hauteur de l'image est trop petite ({{ height }}px). La hauteur minimale attendue est de {{ min_height }}px."
+    count:
+        max: 'Ce champ doit contenir {{ limit }} élément ou moins.|Cette collection doit contenir {{ limit }} éléments ou moins.'
+        min: 'Ce champ doit contenir {{ limit }} élément ou plus.|Ce champ doit contenir {{ limit }} éléments ou plus.'
+    enum:
+        message: "Cette valeur doit être l'un des choix proposés."
+        min: 'Vous devez sélectionner au moins {{ limit }} choix.|Vous devez sélectionner au moins {{ limit }} choix.'
+        max: 'Vous devez sélectionner au maximum {{ limit }} choix.|Vous devez sélectionner au maximum {{ limit }} choix.'
+        multiple: 'Une ou plusieurs des valeurs soumises sont invalides.'
+    phone:
+        valid: "Ce numéro de téléphone n'est pas valide."
+
+recruiter:
+    terms_of_service:
+        is_true: "Les conditions générales d'utilisations doivent être acceptés."
+    password:
+        old_password: "Le mot de passe actuel est incorrect."
+    teammate:
+        invalid: "Le compte n'appartient pas à votre entreprise."
+
+partner:
+    type_partner_unique: "Il ne peut y avoir 2 partenaires de même type."
+    distribution_invalid: "La répartition pour ce partenaire ne peut pas dépasser %value%."
+
+job_posting:
+    status:
+        equal_to_published: "L'offre n'est pas publiée."
+    contracts:
+        choice_at_least: "L'offre n'est pas de type intercontrat."

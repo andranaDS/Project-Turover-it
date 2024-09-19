@@ -1,0 +1,58 @@
+doctrine:
+    dbal:
+        default_connection: default
+        types:
+            phone_number: Misd\PhoneNumberBundle\Doctrine\DBAL\Types\PhoneNumberType
+        connections:
+            default:
+                url: '%env(resolve:DATABASE_URL)%'
+                server_version: 'mariadb-10.4.18'
+                charset: utf8mb4
+                default_table_options:
+                    charset: utf8mb4
+                    collate: utf8mb4_unicode_ci
+            turnover:
+                url: '%env(resolve:DATABASE_TURNOVER_URL)%'
+                server_version: 'mariadb-10.4.18'
+            carriere_info:
+                url: '%env(resolve:DATABASE_CARRIERE_INFO_URL)%'
+                server_version: 'mariadb-10.4.18'
+            freelance_info:
+                url: '%env(resolve:DATABASE_FREELANCE_INFO_URL)%'
+                server_version: 'mariadb-10.4.18'
+    orm:
+        auto_generate_proxy_classes: true
+        default_entity_manager: default
+        entity_managers:
+            default:
+                connection: default
+                naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
+                dql:
+                    numeric_functions:
+                        rand: DoctrineExtensions\Query\Mysql\Rand
+                        json_contains: DoctrineExtensions\Query\Mysql\JsonContains
+                    string_functions:
+                        field: DoctrineExtensions\Query\Mysql\Field
+                        ifelse: DoctrineExtensions\Query\Mysql\IfElse
+
+                filters:
+                    soft_deleteable:
+                        class: Gedmo\SoftDeleteable\Filter\SoftDeleteableFilter
+                        enabled: true
+                mappings:
+                    CronCronBundle: ~
+                    GedmoLoggable:
+                        type: annotation
+                        prefix: Gedmo\Loggable\Entity
+                        dir: "%kernel.project_dir%/vendor/gedmo/doctrine-extensions/src/Loggable/Entity"
+                        alias: GedmoLoggable
+                        is_bundle: false
+            turnover:
+                connection: turnover
+                naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
+            carriere_info:
+                connection: carriere_info
+                naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
+            freelance_info:
+                connection: freelance_info
+                naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware

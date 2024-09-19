@@ -1,0 +1,23 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'user_leads_summary') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.user_leads_summary.subject'|trans({'%date%': date|date('d/m/Y')}, 'emails')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    <p>
+                        {{ 'user.user_leads_summary.content.paragraphs.0'|trans({'%date%': date|date('d/m/Y')}, 'emails')|raw|nl2br }}
+                    </p>
+                </columns>
+            </row>
+            {% include 'emails/components/signature_team.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

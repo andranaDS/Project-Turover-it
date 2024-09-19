@@ -1,0 +1,107 @@
+core:
+    forbidden_content: "The value contains forbidden content(s): {{ content }}."
+    company_registration_number:
+        invalid: 'The company registration number {{ registrationNumber }} is invalid.'
+        length: 'The company registration number must have only {{ length }} digits.'
+    password_complexity: 'The password strength must be at least "Good".'
+    location:
+        invalid: 'Please fill in the country.'
+    compare:
+        invalid: 'Please check the values for daily wages or annual wages'
+    company_intracommunity_vat:
+        invalid: 'The company intracommunity VAT {{ intracommunityVat }} number is invalid'
+    choice_at_least:
+        invalid: 'The selected choice is invalid.'
+user:
+    freelance_or_employee: 'You must at least select freelance or employee.'
+    nickname:
+        regex: 'The nickname must contain at least one letter.'
+    password:
+        old_password: 'Wrong value for your current password.'
+    signature:
+        max_lines: 'The forum signature cannot have more than {{ maxLines }} lines.'
+    next_availability_at:
+        greater_than: 'You must select a date in the future.'
+    jobs_and_mobilities:
+        count: 'Please select the required items from the list provided.'
+    identity: "You will not be able to continue until you have validated your email address."
+    terms_of_service:
+        is_true: "Terms of service must be accepted."
+    location:
+        not_null: "Please choose a city from the list provided."
+    profile:
+        skills: "You can highlight up to 5 skills by marking them with a star."
+        languages: "Please fill in at least 1 language."
+        soft_skills: "Please enter at least 1 soft skill."
+        jobs: "You can put forward up to a maximum of 3 jobs."
+    gross_annual_salary:
+        not_in_range_message: "This value should be between {{ min }} and {{ max }}. It is an annual salary."
+    insurance:
+        number: "Veuillez renseigner votre numéro de police d'assurance."
+        expiration: "Veuillez renseigner la date d'échéance de contrat."
+        company: "Veuillez renseigner le nom de votre assurance."
+
+application:
+    no_resume_document: "Please attach a CV to your application."
+    no_default_resume_document: "Your shared CV must be attached to your application."
+
+feed_rss:
+    type_partner_unique: "There cannot be 2 flows of the same type for the same partner."
+    name_unique: "The name of a feed must be unique."
+    slug_unique: "The slug of a feed must be unique."
+
+message:
+    mime_type: 'The file type is invalid. Allowed types are .pdf, .jpeg, .png, .jpg.'
+
+generic:
+    not_null: 'This value should not be null.'
+    not_blank: 'This value should not be blank.'
+    email: 'This value is not a valid email address.'
+    url: 'This value is not a valid URL.'
+    positive: 'This value should be positive.'
+    positive_or_zero: 'This value must be equal to or greater than 0'
+    json: 'This value should be valid JSON.'
+    ip: 'This is not a valid IP address.'
+    length:
+        min: 'This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.'
+        max: 'This value is too long. It should have {{ limit }} character or less.|This value is too long. It should have {{ limit }} characters or less.": "This value is too long. It should have {{ limit }} character or less.|This value is too long. It should have {{ limit }} characters or less.'
+    range:
+        min: 'This value should be {{ limit }} or more.'
+        max: 'This value should be {{ limit }} or less.'
+        not_in_range_message: 'This value should be between {{ min }} and {{ max }}.'
+    file:
+        mime_type: 'The mime type of the file is invalid ({{ type }}). Allowed mime types are {{ types }}.'
+        max_size: 'The file is too large ({{ size }} {{ suffix }}). Allowed maximum size is {{ limit }} {{ suffix }}.'
+        image:
+            max_width: 'The image width is too big ({{ width }}px). Allowed maximum width is {{ max_width }}px.'
+            min_width: 'The image width is too small ({{ width }}px). Minimum width expected is {{ min_width }}px.'
+            max_height: 'The image height is too big ({{ height }}px). Allowed maximum height is {{ max_height }}px.'
+            min_height: 'The image height is too small ({{ height }}px). Minimum height expected is {{ min_height }}px.'
+    count:
+        max: 'This collection should contain {{ limit }} element or less.|This collection should contain {{ limit }} elements or less.'
+        min: 'This collection should contain {{ limit }} element or more.|This collection should contain {{ limit }} elements or more.'
+    enum:
+        message: 'The value you selected is not a valid choice.'
+        min: 'You must select at least {{ limit }} choice.|You must select at least {{ limit }} choices.'
+        max: 'You must select at most {{ limit }} choice.|You must select at most {{ limit }} choices.'
+        multiple: 'One or more of the given values is invalid.'
+    phone:
+        invalid: "Phone number is not valid."
+
+recruiter:
+    terms_of_service:
+        is_true: "Terms of service must be accepted."
+    password:
+        old_password: 'Wrong value for your current password.'
+    teammate:
+        invalid: "The account does not belong to your company."
+
+partner:
+    type_partner_unique: "There cannot be two partners of the same type."
+    distribution_invalid: "The distribution for this partner may not exceed %value%."
+
+job_posting:
+    status:
+        equal_to_published: "The job posting is not published."
+    contracts:
+        choice_at_least: "The job posting is not of the inter-contract type."

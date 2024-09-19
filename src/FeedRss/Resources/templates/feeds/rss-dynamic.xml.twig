@@ -1,0 +1,18 @@
+{{ ( '<' ~ jobPosting.paramNameElementFlux ~ '>')|raw }}
+    {% for field, value in jobPosting %}
+        {% if
+            field != "notRequiredFields" and
+            field != "paramNameElementFlux"
+            and (value != "<![CDATA[]]>" or value == "<![CDATA[]]>" and field not in jobPosting.notRequiredFields)
+        %}
+            {% if field == 'tag' %}
+                {{ ( '<' ~ value.tagName ~ '>')|raw }}{{  value.tagValue|raw  }}{{ ( '</' ~ value.tagName ~ '>')|raw }}
+            {% elseif field == 'salary' and value is iterable %}
+                {{ ( '<' ~ value.tagName ~ '>')|raw }}{{  value.tagValue|raw  }}{{ ( '</' ~ field ~ '>')|raw }}
+            {% else %}
+
+                {{ ( '<' ~ field ~ '>')|raw }}{{  value|raw  }}{{ ( '</' ~ field ~ '>')|raw }}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{{ ( '</' ~ jobPosting.paramNameElementFlux ~ '>')|raw }}

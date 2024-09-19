@@ -1,0 +1,9 @@
+doctrine:
+    orm:
+        mappings:
+            AppMessaging:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Messaging/Entity'
+                prefix: 'App\Messaging\Entity'
+                alias: AppMessaging

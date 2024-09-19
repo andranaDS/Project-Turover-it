@@ -1,0 +1,8 @@
+twig:
+  globals:
+    candidates_scheme: '%env(CANDIDATES_SCHEME)%'
+    candidates_base_url: '%env(CANDIDATES_BASE_URL)%'
+  paths:
+    'src/Admin/Resources/templates': 'admin'
+    'public/build': 'build'
+    'public/build/images': 'images'

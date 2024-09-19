@@ -1,0 +1,11 @@
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    AppUser:
+                        is_bundle: false
+                        type: annotation
+                        dir: '%kernel.project_dir%/src/User/Entity'
+                        prefix: 'App\User\Entity'
+                        alias: AppUser

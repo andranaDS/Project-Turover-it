@@ -1,0 +1,11 @@
+doctrine:
+  orm:
+    entity_managers:
+      default:
+        mappings:
+          AppPartner:
+            is_bundle: false
+            type: annotation
+            dir: '%kernel.project_dir%/src/Partner/Entity'
+            prefix: 'App\Partner\Entity'
+            alias: AppPartner

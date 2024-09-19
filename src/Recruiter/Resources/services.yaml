@@ -1,0 +1,29 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $env: '%env(APP_ENV)%'
+            int $accessTokenTtl: '%env(int:ACCESS_TOKEN_TTL)%'
+            int $accessTokenTtlRemember: '%env(int:ACCESS_TOKEN_TTL_REMEMBER)%'
+            int $emailConfirmTtl: '%env(int:EMAIL_CONFIRM_TOKEN_TTL)%'
+            int $emailRequestTtl: '%env(int:EMAIL_REQUEST_TTL)%'
+            int $passwordRequestTtl: '%env(int:PASSWORD_REQUEST_TTL)%'
+
+    App\Recruiter\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\Recruiter\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+    # doctrine event subscribers
+    App\Recruiter\DoctrineEventSubscriber\:
+        resource: '../DoctrineEventSubscriber'
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }

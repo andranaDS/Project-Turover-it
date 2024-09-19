@@ -1,0 +1,1250 @@
+jira,JIRA,jira-software
+kubernetes,Kubernetes,
+j2ee-java-ee,J2EE / Java EE,"java-j2ee, java-j-2-ee, java-jee, j2ee, jee, java-ee, javaee, j-2-ee"
+net,.NET,dotnet
+sap,SAP,"sap-ecc, sap-erp, sap-sd, ecc"
+sap-s4hana,SAP S/4HANA,"sap-s, sap-hana"
+devops,DevOps,
+angular,Angular,
+cloud,Cloud,cloud-computing
+aws-cloud,AWS Cloud,"aws, cloud-aws, amazon-aws, amazon-web-services"
+methode-agile,Méthode Agile,"agile-methodologies, agile-methodology, agiles, methodes-agiles, agile, methodologie-agile"
+spring,Spring,"spring-cloud, spring-framework"
+e-commerce,E-commerce,
+jenkins,Jenkins,
+azure,Azure,"cloud-azure, microsoft-azure, ms-azure"
+ansible,Ansible,
+scrum,Scrum,
+moa,MOA,
+linux,Linux,linux-server
+java,Java,java-1-1
+vuejs,Vue.js,vue-js
+windows-server,Windows Server,"server-2012, server-2016, server-2-0-0-3, windows-server-2-0-1-2-r-2, server-2-0-0-8, server-2-0-1-6, windows-server-2-0-0-3, windows-server-2-0-1-9, windows-server-2-0-0-8-r-2, windows-server-2-0-1-6, windows-server-2-0-0-8, windows-server-2-0-1-2, windows-serveur"
+microsoft-office,Microsoft Office,"microsoft-office-suite, pack-microsoft-office, pack-office-3-6-5, suite-microsoft-office, microsoft-office-3-6-5,  office-3-6-5, pack-office-microsoft, ms-office, office365, office, suite-office, pack-office, o365, suite-microsoft, o-3-6-5, microsoft-3-6-5"
+pl-sql,PL/SQL,"pl, plsql"
+microsoft-windows,Microsoft Windows,"windows-7, windows-9-8, windows-98, windows-8, windows-2-0-0-0, windows-7-1-0, windows, os-windows, windows-xp, ms-windows, vista, win-1-0, win-7"
+ipv4,IPv4,ipv-4
+api,API,
+administration-systemes-et-reseaux,Administration systèmes et réseaux,
+informatique,Informatique,
+architecture,Architecture,
+api-rest,API REST,"rest-apis, rest-api, restapi, restful-api, restful"
+es6,ES6,es-6
+bi,BI,
+infrastructure,Infrastructure,infrastructures
+node-js,Node.js,"node, nodejs"
+finance,Finance,
+cap-ft,CAP FT,capft
+javascript,Javascript,"java-script, js"
+active-directory,Active Directory,"active, activedirectory, ad"
+powershell,Powershell,power-shell
+i2c,I2C,i-2-c
+kotlin,Kotlin,
+amazon-elastic-compute-cloud-ec2,Amazon Elastic Compute Cloud (EC2),"ec2, amazon-ec2, ecs, ec-2"
+application-mobile,Application mobile,
+divi,Divi,
+redaction,Rédaction,
+swift,SWIFT,
+gns3,GNS3,gns-3
+archicad,Archicad,
+redux-toolkit,Redux Toolkit,
+pl-pgsql,PL/pgSQL,pgsql
+ciel-compta,Ciel Compta,ciel
+thymeleaf,Thymeleaf,
+imovie,iMovie,
+algorithmique,Algorithmique,algorithmie
+spark-streaming,Spark Streaming,
+sfml,SFML,
+terraform,Terraform,
+branding,Branding,
+adobe-creative-suite,Adobe Creative Suite,"suite-adobe, adobe-suite"
+apache-airflow,Apache Airflow,airflow
+raci,RACI,
+sap-bw,SAP BW,bw
+web-analytics,Web analytics,
+knime,KNIME,
+aps,APS,
+forms,Forms,
+minitab,Minitab,
+run,Run,
+kaizen,Kaizen,
+alm,ALM,
+sst,SST,
+code-blocks,Code Blocks,codeblocks
+architecture-arm,Architecture ARM,arm
+intel-quartus-prime,Intel Quartus Prime,quartus
+ioc,IOC,
+product-information-management-pim,Product Information Management (PIM),pim
+vanilla-js,Vanilla JS,vanilla
+sprint-planning,Sprint Planning,sprint
+adobe-campaign,Adobe Campaign,
+laravel,Laravel,
+vpn-ssl,VPN SSL,
+helm,Helm,
+rf,RF,
+project-portfolio-management-ppm,Project Portfolio Management (PPM),ppm
+red-hat-linux,Red Hat Linux,"linux-redhat, redhat, red-hat, rhel"
+lms-learning-management-system,LMS (Learning Management System),lms
+mfa,MFA,
+apache-sqoop,Apache Sqoop,sqoop
+apache-pig,Apache Pig,pig
+pop,POP,
+polycom,Polycom,
+smed,SMED,
+network-and-information-system-security-nis,Network and Information System Security (NIS),nis
+pentesting,Pentesting,pentest
+facebook-ads,Facebook Ads,
+net-core,.NET CORE,
+azure-data-factory,Azure Data Factory,
+wireframing,Wireframing,"wireframes, wireframe"
+logical-volume-management-lvm,Logical Volume Management (LVM),lvm
+sequelize,Sequelize,
+spotfire,Spotfire,
+revit,Revit,
+lumion,Lumion,
+lora,LoRa,
+motion-design,Motion design,
+sap-fiori,SAP Fiori,fiori
+domain-driven-design-ddd,Domain Driven Design (DDD),ddd
+vmware-esx,VMware ESX,"vmware-esxi, esx, esxi"
+software-development-lifecycle-sdlc,Software Development LifeCycle (SDLC),sdlc
+qt-creator,Qt Creator,
+regression-lineaire,Régression linéaire,
+maple,Maple,
+prezi,Prezi,
+technologies-web,Technologies Web,
+teradata,Teradata,
+shell-unix,Shell Unix,
+dev-c,Dev-C,
+wbs-work-breakdown-structure,WBS (Work Breakdown Structure),wbs
+testng,TestNG,
+amazon-dynamodb,Amazon DynamoDB,dynamodb
+fdma,FDMA,
+tdma,TDMA,
+tableau-croise-dynamique,Tableau croisé dynamique,tcd
+tkinter,Tkinter,
+r-langage,R (langage),"langage-r, r"
+canvas,Canvas,
+ganttproject,GanttProject,"gantt-project, gantt, gan"
+lstm,LSTM,
+middleware,Middleware,
+arima,ARIMA,
+spring-batch,Spring Batch,
+dat,DAT,
+siemens,Siemens,
+assembleur,Assembleur,assembly
+primefaces,PrimeFaces,
+neural-networks,Neural networks,
+time-series,Time series,
+sql-server-management-studio,SQL Server Management Studio,ssms
+cisco-ios,Cisco IOS,
+spyder,Spyder,
+catia,CATIA,catia-v5
+step-7,STEP 7,
+togaf,TOGAF,
+stack,Stack,
+ant-design,Ant Design,ant
+gradle,Gradle,
+csv,CSV,
+mdx,MDX,
+oracle-weblogic-server,Oracle WebLogic Server,weblogic
+neo4j,Neo4j,neo-4-j
+vegas-pro,Vegas Pro,sony-vegas
+bootstrap,Bootstrap,bootsrap
+fusioninventory,FusionInventory,
+ocs-inventory,OCS Inventory,ocs
+basic,BASIC,
+groovy,Groovy,
+semrush,Semrush,
+gretl,Gretl,
+entreprise-service-bus-esb,Enterprise Service Bus (ESB),esb
+ecm-entreprise-content-management,ECM (Enterprise Content Management),ecm
+ocr-optical-character-recognition,OCR (Optical Character Recognition),ocr
+fo,FO,
+icmp,ICMP,
+ip-virtuelle,IP virtuelle,vip
+f5,F5,f-5
+zimbra,Zimbra,
+glassfish,GlassFish,
+serveur-web,Serveur web,serveurs-web
+mes-manufacturing-execution-system,MES (Manufacturing Execution System),mes
+centos,CentOS,cent-os
+sage-100,Sage 100,sage-1-0-0
+tableau-desktop,Tableau Desktop,
+microsoft-dynamics,Microsoft Dynamics,"dynamics, navision"
+camtasia,Camtasia,
+invision,InVision,
+oracle-database,Oracle Database,"oracle-1-1-g, oracle-1-0-g, oracle-10g, oracle-11g, sql-oracle, oracle-db"
+network,Network,
+katalon-studio,Katalon Studio,katalon
+tia-portal,TIA Portal,
+scada,SCADA,
+waterfall,Waterfall,
+realite-augmentee,Réalité augmentée,ar
+qnap,QNAP,
+windows-internet-name-service-wins,Windows Internet Name Service (WINS),wins
+ivanti,Ivanti,
+modele-logique-des-donnees-mld,Modèle Logique des Données (MLD),mld
+ericsson,Ericsson,
+code-division-multiple-access-cdma,Code division multiple access (CDMA),cdma
+fibre-optique,Fibre optique ,fibre
+siebel,Siebel,
+microsoft-onenote,Microsoft OneNote,onenote
+mrp-material-requirements-planning,MRP (Material Requirements Planning),mrp
+google-search-console,Google Search Console,search-console
+jstl,JSTL,
+xamarin-forms,Xamarin.Forms,
+qhse,QHSE,
+amdec,AMDEC,
+geofibre,GéoFibre,
+ipon,IPON,
+dwdm,DWDM,
+pytest,pytest,
+dbase,dBase,
+picsart-photo-studio,PicsArt Photo Studio,picsart
+inshot,InShot,
+garageband,GarageBand,
+nexus,Nexus,
+retour-sur-investissement-roi,Retour sur investissement (ROI),roi
+linux-ubuntu,Linux Ubuntu,ubuntu
+qradar,QRadar,
+amazon-s3,Amazon S3,s3
+test-unitaire,Test unitaire,
+apache-struts,Apache Struts,struts
+entreprise-java-bean-ejb,Entreprise Java Bean (EJB),ejb
+xsl,XSL,
+mamp,MAMP,
+web-mobile,Web mobile,
+axure-rp,Axure RP,axure
+specifications-fonctionnelles-detaillees-sfd,Spécifications Fonctionnelles Détaillées (SFD),sfd
+routeurs-cisco,Routeurs Cisco,routeur-cisco
+oss,OSS,
+web-application-firewall-waf,Web Application Firewall (WAF),waf
+ids-ips,IDS/IPS,
+webi,Webi,
+ifrs,IFRS,
+tcpdump,tcpdump,
+vuex,Vuex,
+hbase,Hbase,
+apache-subversion,Apache Subversion,"subversion, svn"
+mern-stack,MERN Stack,mern
+websphere,WebSphere,
+draw-io,draw.io,
+fttx,FTTx,
+zyxel,Zyxel,
+sdh-synchronous-digital-hierarchy,SDH (Synchronous Digital Hierarchy),sdh
+pdh-plesiochronous-digital-hierarchy,PDH (Plesiochronous Digital Hierarchy),pdh
+smsi,SMSI,
+recurrent-neural-network-rnn,Recurrent Neural Network (RNN),rnn
+beautifulsoup,BeautifulSoup,
+bokeh,Bokeh,
+clarity,Clarity,
+benchmarking,Benchmarking,benchmark
+managed-service-provider-msp,Managed Service Provider (MSP),msp
+unreal-engine,Unreal Engine,
+check-point,Check Point,checkpoint
+pareto,Pareto,
+know-your-customer-kyc,Know your customer (KYC),kyc
+nuxt-js,Nuxt.js,nuxtjs
+streamlit,Streamlit,
+asana,Asana,
+elementor,Elementor,
+hfsql,HFSQL,
+sqlalchemy,SQLAlchemy,
+ares,Ares,
+isis,ISIS,
+objective-c,Objective-c,
+search-engine-marketing-sem,Search Engine Marketing (SEM),
+responsive-web-design,Responsive Web Design,"responsive, responsive-design"
+google-docs,Google Docs,docs
+symfony,Symfony,"symfony-3-4, php-symfony, symphony"
+pert,PERT,
+google-tag-manager,Google Tag Manager,gtm
+wrike,Wrike,
+watchguard,WatchGuard,
+raspberry-pi,Raspberry Pi,raspberry
+swiftui,SwiftUI,
+netapp,NetApp,
+netbackup,NetBackup,
+arcserve,Arcserve,
+imap,IMAP,
+ladder,Ladder,
+dataiku,Dataiku,
+dl-software,DL Software,dl
+cisco-asa,Cisco ASA,asa
+mapreduce,MapReduce,
+cloudera,Cloudera,
+mailjet,Mailjet,
+clickup,ClickUp,
+weka,Weka,
+single-sign-on-sso,Single Sign-on (SSO),sso
+plesk,Plesk,
+youtube,Youtube,
+webstorm,WebStorm,
+teamwork,Teamwork,
+sage-paie,Sage Paie,
+adp,ADP,
+agl,AGL,
+user-story,User story,user-stories
+impression-3d,Impression 3D,
+scilab,Scilab,
+routage-ip,Routage IP,
+avamar,Avamar,
+docker-swarm,Docker swarm,
+ibm-cloud,IBM Cloud,
+text-mining,Text mining,
+jhipster,JHipster,
+xmind,XMind,
+gpao,GPAO,
+panda-cloud-antivirus,Panda Cloud Antivirus,panda
+norton-security,Norton Security,norton
+natural-language-processing-nlp,Natural Language Processing (NLP),"nlp, natural-language-processing"
+responsabilite-societale-des-entreprises-rse,Responsabilité Sociétale des Entreprises (RSE),rse
+kicad,KiCad,
+bert,BERT,
+suricata,Suricata,
+haproxy,HAProxy,
+openldap,OpenLDAP,
+nutanix,Nutanix,
+mockito,Mockito,
+simulink,Simulink,matlab-simulink
+adobe-premiere-pro,Adobe Premiere Pro,"premier-pro, premiere, premiere-pro, adobe-premiere"
+fortran,Fortran,
+gpec,GPEC,
+sap-r,SAP R/3,
+ebios-rm,EBIOS RM,ebios
+diagramme-dishikawa,Diagramme d'Ishikawa,ishikawa
+pdca-plan-do-check-act,PDCA (Plan Do Check Act),pdca
+visual-c,Visual C++,
+microsoft-lync,Microsoft Lync,lync
+openoffice,OpenOffice,open-office
+bmc-remedy,BMC Remedy,
+dameware,Dameware,
+angular-material,Angular Material,
+sms,SMS,
+apache-hive,Apache Hive,hive
+databricks,Databricks,
+influxdb,InfluxDB,
+virtual-machine,Virtual machine,vm
+nessus,Nessus,
+ubiquiti,Ubiquiti,
+vpn-ipsec,VPN IPsec,
+gateway-load-balancing-protocol-glbp,Gateway Load Balancing Protocol (GLBP),glbp
+virtual-router-redundancy-protocol-vrrp,Virtual Router Redundancy Protocol (VRRP),vrrp
+lacp-link-aggregation-control-protocol,LACP (Link Aggregation Control Protocol),lacp
+cross-site-scripting-xss,Cross-site scripting (XSS),xss
+kali-linux,Kali Linux,kali
+wsdl-web-services-description-language,WSDL (Web Services Description Language),wsdl
+squid,Squid,
+ebp,EBP,
+spring-mvc,Spring MVC,
+pyspark,PySpark,
+stm32,Stm32,stm-3-2
+https,HTTPS,
+apache,Apache,
+recherche-v,RECHERCHEV,
+google-sheets,Google Sheets,
+crontab,Crontab,cron
+seven,Seven,
+dash,Dash,
+reverse-proxy,Reverse proxy,proxy-inverse
+x-langage,X++ (langage),x
+mqtt-message-queuing-telemetry-transport,MQTT (Message Queuing Telemetry Transport),mqtt
+acronis,Acronis,
+sophos,Sophos,
+jupyter-notebook,Jupyter Notebook,"jupiter, jupyter, notebook"
+lisp,Lisp,
+electronic-design-automation-eda,Electronic Design Automation (EDA),eda
+rational-rose,Rational Rose,
+crystal-reports,Crystal Reports,crystal-report
+selenium-webdriver,Selenium WebDriver,
+selenium-ide,Selenium IDE,
+object-relational-mapping-orm,Object-Relational Mapping (ORM),orm
+asset-center,Asset Center,
+eset,Eset,
+adfs,ADFS,
+veeam-backup-replication,Veeam Backup & Replication,veeam-backup
+vpc-virtual-private-cloud,VPC (Virtual Private Cloud),vpc
+hpe,HPE,
+iscsi,iSCSI,
+sphinx,Sphinx,
+final-cut-pro,Final Cut Pro,
+istqb,ISTQB,
+squash-tm,Squash TM,
+entity-framework,Entity Framework,
+windows-forms,Windows Forms,"winforms, winform"
+audacity,Audacity,
+solidity,Solidity,
+business-process-model-and-notation-bpmn,Business Process Model and Notation (BPMN),bpmn
+electron,Electron,
+lumen,Lumen,
+wlangage,WLangage,
+microsoft-power-bi,Microsoft Power BI,"powerbi, power-bi"
+cvs-concurrent-versions-system,CVS (Concurrent Versions System),cvs
+oracle-sql-developer,Oracle SQL Developer,"sql-oracle, oracle-sql, sql-developer, sql-developper"
+power-query,Power Query,
+gpu,GPU,
+cpu,CPU,
+rtp,RTP,
+syslog,Syslog,
+landesk,LANDesk,
+openssl,OpenSSL,
+cubase,Cubase,
+routing-switching-rs,Routing & Switching (R&S),"routing-switching, switching"
+domino,Domino,
+net-framework,.NET Framework,
+asp-net-core,ASP.NET Core,
+visualforce,Visualforce,
+klaxoon,Klaxoon,
+azure-active-directory,Azure Active Directory,azure-ad
+cloud-prive,Cloud privé,
+owasp,OWASP,
+antivirus,Antivirus,anti-virus
+microsoft-teams,Microsoft Teams,"ms-teams, teams"
+lua,Lua,
+create-read-update-delete-crud,Create Read Update Delete (CRUD),crud
+julia,Julia,
+lunix,LUnix,
+as-400,AS/400,"as400, as-4-0-0"
+interface-homme-machine-ihm,Interface Homme-Machine (IHM),ihm
+codename-one,Codename One,codenameone
+google-data-studio,Google Data Studio,data-studio
+alteryx,Alteryx,
+atoll,Atoll,
+address-resolution-protocol-arp,Address Resolution Protocol (ARP),arp
+ss7,SS7,
+lte,LTE,
+salesforce-sales-cloud,Salesforce Sales Cloud,"crm-salesforce, sales-cloud, salesforce"
+reseau-telephonique-commute-rtc,Réseau téléphonique commuté (RTC),rtc
+3g,3G,
+octave,Octave,
+ovhcloud,OVHcloud,ovh
+site-web,Site web,
+cucumber,Cucumber ,
+devexpress,DevExpress,
+web-api,Web API,
+cassandra,Cassandra,
+apache-spark,Apache Spark,spark
+google-earth,Google Earth,
+mapinfo,MapInfo,
+google-workspace,Google Workspace,"suite-google, google-suite, g-suite"
+twitter,Twitter,
+bluetooth,Bluetooth,
+google-maps,Google Maps,
+iso-27001,ISO 27001,iso-2-7-0-0-1
+5s,5S,
+dmaic,DMAIC,
+apache-tomcat,Apache Tomcat,tomcat
+servlet,Servlet,servlets
+spacy,SpaCy,
+robot-framework,Robot Framework,
+xivo,XiVO,
+plm-product-lifecycle-management,PLM (Product Lifecycle Management),plm
+hdfs-hadoop-distributed-file-system,HDFS (Hadoop Distributed File System),hdfs
+ibm-datastage,IBM DataStage,datastage
+google-drive,Google Drive,
+dbeaver,DBeaver,
+modele-conceptuel-des-donnees-mcd,Modèle Conceptuel des Données (MCD),mcd
+entreprise-application-integration-eai,Enterprise Application Integration (EAI),eai
+logstash,Logstash,
+power-bi-desktop,Power BI Desktop,
+snowflake,Snowflake,
+hp-quality-center,HP Quality Center,"hp-qc, quality-center"
+soapui,SoapUI,soap-ui
+odi-oracle-data-integrator,ODI Oracle Data Integrator,odi
+workflow,Workflow,
+generalized-linear-model,Generalized linear model,glm
+dbscan,DBSCAN,
+clustering,Clustering,cluster
+shiny,Shiny,"r-shiny, rshiny"
+dplyr,dplyr,
+eviews,EViews,
+stata,Stata,
+system-center-operations-manager-scom,System Center Operations Manager (SCOM),scom
+simple-directmedia-layer-sdl,Simple DirectMedia Layer (SDL),sdl
+instagram,Instagram,
+facebook,Facebook,
+wix,Wix,
+fme,FME,
+prolog,Prolog,
+snort,Snort,
+proxy,Proxy,
+full-stack,Full stack,fullstack
+tva,TVA,
+tresorerie,Trésorerie,
+tableau-de-bord,Tableau de bord,
+power-pivot,Power Pivot,
+fpga-field-programmable-gate-array,FPGA (Field-Programmable Gate Array),fpga
+modelsim,ModelSim,
+three-js,Three.js,
+vuetify,Vuetify,
+flex,Flex,
+ocaml,Ocaml,
+radio-identification-rfid,Radio-identification (RFID),rfid
+ghost,Ghost,
+dos,DOS,
+intune,Intune,
+master-data-management-mdm,Master Data Management (MDM),mdm
+qualys,Qualys,
+gensim,Gensim,
+naive-bayes,Naive Bayes,
+linear-discriminant-analysis-lda,Linear Discriminant Analysis (LDA),lda
+kaggle,Kaggle,
+data-cleaning,Data cleaning,
+sparql,SPARQL,
+resource-description-framework-rdf,Resource Description Framework (RDF),rdf
+nltk,NLTK,
+anova,ANOVA,
+regression,Régression,
+xgboost,XGBoost,
+random-forest,Random Forest,"randomforest, arbre-de-decision, decision-tree"
+support-vector-machine-svm,Support-Vector Machine (SVM),svm
+bitlocker,BitLocker,
+itop,ITop,
+thunderbird,Thunderbird,
+notion,Notion,
+windows-communication-foundation-wcf,Windows Communication Foundation (WCF),wcf
+azure-devops-server,Azure DevOps Server,tfs
+transact-sql,Transact-SQL,"tsql, t-sql"
+fog,FOG,
+openshift,Openshift,
+jmeter,JMeter,
+cordova,Cordova,
+psim,PSIM,
+cacti,Cacti,
+anydesk,AnyDesk,
+web-scraping,Web scraping,webscraping
+regression-logistique,Régression logistique,logistic-regression
+knn,KNN,
+classification-ascendante-hierarchique-cah,Classification Ascendante Hiérarchique (CAH),cah
+analyse-factorielle-des-correspondances-afc,Analyse Factorielle des Correspondances (AFC),afc
+analyse-en-composantes-principales-acp,Analyse en Composantes Principales (ACP),acp
+k-means,K-means,kmeans
+microsoft-publisher,Microsoft Publisher,publisher
+raster-imaging-processor-rip,Raster Imaging Processor (RIP),rip
+etherchannel,EtherChannel,
+anaconda,Anaconda,
+opencv,OpenCV,
+coheris-analytics-spad,Coheris Analytics SPAD,spad
+network-time-protocol-ntp,Network Time Protocol (NTP),ntp
+suse,SUSE,
+lotus-notes,Lotus Notes,"lotus, lotus-note"
+technologies-de-l-information-et-de-la-communication (TIC),Technologies de l'information et de la communication (TIC),tic
+microsoft-access,Microsoft Access,"ms-access, access"
+vsat,VSAT,
+easyphp,EasyPHP,
+toad,Toad,
+latex,Latex,
+airtable,Airtable,
+plotly,Plotly,
+seaborn,Seaborn,
+rxjs,RxJS,
+keycloak,Keycloak,
+spring-security,Spring Security,
+spring-data,Spring Data,
+jpa-java-persistence-api,JPA (Java Persistence API),jpa
+visual-paradigm,Visual Paradigm,
+data-center,Data Center,datacenter
+gps,GPS,
+hot-standby-router-protocol-hsrp,Hot Standby Router Protocol (HSRP),hsrp
+juniper,Juniper,
+palo-alto,Palo Alto,paloalto
+comite-de-pilotage-copil,Comité de pilotage (COPIL),copil
+sdn-software-defined-network,SDN (software defined network),sdn
+switch-cisco,Switch Cisco,switch
+mcafee,McAfee,
+symantec,Symantec,
+solarwinds,SolarWinds,
+prtg-network-monitor,PRTG Network Monitor,prtg
+inkscape,Inkscape,
+skype,Skype,
+libreoffice,LibreOffice,libre-office
+clonezilla,Clonezilla,
+iaas-infrastructure-as-a-service,IaaS (Infrastructure-as-a-Service),iaas
+paas-platform-as-a-service,PaaS (Platform-as-a-Service),paas
+workday,Workday,
+idoc,Idoc,
+legacy-system-migration-workbench-lsmw,Legacy System Migration Workbench (LSMW),lsmw
+sap-hana,SAP HANA,hana
+python,Python,"phyton, pyhton"
+eagle,Eagle,
+pascal,Pascal,
+kanban,Kanban,
+xray,Xray,
+gherkin,Gherkin,
+asp-net-mvc,ASP.NET MVC,
+winscp,WinSCP,
+xilinx,Xilinx,
+microsoft-project,Microsoft Project,"msproject, ms-project"
+zoho,Zoho,
+zendesk,Zendesk,
+emc,EMC,
+scrapy,Scrapy,
+swing-java,Swing (Java),"swing, java-swing"
+java-server-faces-jsf,Java Server Faces (JSF),jsf
+prometheus,Prometheus,
+gmail,Gmail,
+raid,RAID,
+quality-of-service-qos,Quality of service (QoS),qos
+stp,STP,
+nist,NIST,
+endpoint-detection-and-response-edr,Endpoint detection and response (EDR),edr
+sketchup,SketchUp,
+xslt,XSLT,
+xsd,XSD,
+pspice,PSpice,
+pgadmin,pgAdmin,
+cpanel,cPanel,
+mint,Mint,
+informix,Informix,
+virtual-private-server-vps,Virtual Private Server (VPS),vps
+uikit,UIkit,
+linq,LINQ,
+xamarin,Xamarin,
+adressage-ip,Adressage IP,
+proteus,Proteus,proteus-isis
+ntfs,NTFS,
+pabx,PABX,
+Réseau numérique à intégration de services,Réseau numérique à intégration de services,rnis
+3cx,3CX,3-cx
+vlan-trunking-protocol,VLAN Trunking Protocol,"vtp, trunk"
+pat,PAT,
+vlsm,VLSM,
+backup-exec,Backup Exec,
+das,DAS,
+gimp,GIMP,
+vcenter,vCenter,
+sharepoint-online,SharePoint Online,
+wlan,WLAN,
+material-ui,Material-UI,
+axios,Axios,
+socket,Socket,
+hooks,Hooks,
+cmd,Cmd,
+json-web-token-jwt,JSON Web Token (JWT),jwt
+java-se,Java SE,
+google-colab,Google Colab,collab
+chatbot,Chatbot,
+mpls-multiprotocol-label-switching,MPLS (MultiProtocol Label Switching),mpls
+wdm-wavelength-division-multiplexing,WDM (Wavelength Division Multiplexing),wdm
+user-acceptance-testing-uat,User acceptance testing (UAT),uat
+turbo-pascal,Turbo Pascal,
+ms-dos,MS-DOS,
+javafx,JavaFX,java-fx
+framework,Framework,frameworks
+burp-suite,Burp Suite,burpsuite
+transport-layer-security-tls,Transport Layer Security (TLS),tls
+secure-socket-layer-ssl,Secure Socket Layer (SSL),ssl
+osint,OSINT,
+metasploit,Metasploit,
+nmap,Nmap,
+active-directory-domain-services-ad-ds,Active Directory Domain Services (AD DS),"ad-ds, adds"
+cisco-packet-tracer,Cisco Packet Tracer,"tracer, packet-tracer"
+saas,SaaS,
+nas-synology,NAS Synology,
+sourcetree,Sourcetree,
+json,JSON,
+smo-social-media-optimization,SMO (Social Media Optimization),smo
+microsoft-visio,Microsoft Visio,"ms-visio, visio"
+soa-service-oriented-architecture,SOA (Service Oriented Architecture),soa
+3d,3D,
+microsoft-outlook,Microsoft Outlook,outlook
+rdbms-relational-database-management-system,RDBMS (Relational Database Management System),rdbms
+visual-tom,Visual TOM,vtom
+sybase,Sybase,
+tina,TINA,
+asm,ASM,
+ibm-tivoli-storage-manager-tsm,IBM Tivoli Storage Manager (TSM),tsm
+talentsoft,Talentsoft,
+rman,RMAN,
+ado-net,ADO.NET,
+microservices,Microservices,
+back-office,Back office,bo
+atlassian,Atlassian,
+advanced-design-system-ads,Advanced Design System (ADS),ads
+itil-v3,ITIL v3,itil-v-3
+centreon,Centreon,
+elk,ELK,
+aix-advanced-interactive-executive,AIX (Advanced Interactive eXecutive),aix
+hp-ux,HP-UX,
+solaris,Solaris,
+net-promoter-score-nps,Net Promoter Score (NPS),nps
+toip,ToIP,
+aruba,Aruba,
+xdsl,xDSL,
+ubuntu-server,Ubuntu Server,
+vbscript,VBScript,vbs
+altiris,Altiris,
+yammer,Yammer,
+exchange-online,Exchange Online,
+pycharm,PyCharm,
+xaml,XAML,
+mvvm-model-view-viewmodel,MVVM (Model View ViewModel),mvvm
+retrofit,Rétrofit,
+rxjava,RxJava,
+blockchain,Blockchain,
+data-warehouse,Data Warehouse,"data-warehousing, datawarehouse"
+convolutional-neural-network-cnn,Convolutional neural network (CNN),cnn
+artificial-neural-network-ann,Artificial neural network (ANN),ann
+keras,Keras,
+hubspot,HubSpot,
+sendinblue,Sendinblue,
+mailchimp,MailChimp,
+webflow,Webflow,
+javascript-es6,JavaScript ES6,javascript-es-6
+balsamiq,Balsamiq,
+adobe-indesign,Adobe InDesign,"in-design, indesign"
+microsoft-sql-server,Microsoft SQL Server,"sql-server, microsoft-sql, mssql, sql-server-2-0-0-8, ms-sql, sql-serveur, ms-sql-server, sqlserver"
+rstudio,RStudio,"logiciel-r, r-studio"
+pdf,PDF,
+lamp-linux-apache-mysql-php,LAMP (Linux Apache MySQL PHP),lamp
+php,PHP,"php7, php5"
+yarn,Yarn,
+yaml,YAML,
+xpath,Xpath,
+jsx,JSX,
+zone-demilitarisee-dmz,Zone démilitarisée (DMZ),dmz
+sla,SLA,slas
+plan-de-reprise-dactivite-pra,Plan de reprise d'activité (PRA),pra
+plan-de-continuite-dactivite-pca,Plan de continuité d'activité (PCA),pca
+politique-de-securite-du-systeme-dinformation-pssi,Politique de sécurité du système d'information (PSSI),pssi
+meraki,Meraki,
+splunk,Splunk,
+backup,Backup,
+kvm-kernel-based-virtual-machine,KVM (Kernel-based Virtual Machine),kvm
+jdbc-java-database-connectivity,JDBC (Java Database Connectivity),jdbc
+javaserver-pages-jsp,JavaServer Pages (JSP),jsp
+google-dashboard,Google Dashboard,
+bloomberg,Bloomberg,
+document-object-model-dom,Document Object Model (DOM) ,dom
+fastapi,FastAPI,
+bigquery,BigQuery,
+scipy,SciPy,
+numpy,Numpy,
+matplotlib,Matplotlib,
+microsoft-onedrive,Microsoft OneDrive,"one-drive, onedrive"
+easyvista,EasyVista,
+snow,Snow,
+gestion-de-maintenance-assistee-par-ordinateur-gmao,Gestion de maintenance assistée par ordinateur (GMAO),gmao
+wms-warehouse-management-system,WMS (Warehouse Management System),wms
+sea-search-engine-advertising,SEA (Search Engine Advertising),sea
+docker-compose,Docker Compose,
+grafcet,Grafcet,
+wampserver,WampServer,
+xhtml,XHTML,
+asp,ASP,
+uml,UML,
+iptables,Iptables,
+atom,Atom,
+jest,Jest,
+mongoose,Mongoose,
+bitbucket,Bitbucket,
+design-pattern,Design pattern,design-patterns
+wamp-windows-apache-mysql-php,WAMP (Windows Apache MySQL PHP),wamp
+mobaxterm,MobaXterm,
+gateway,Gateway,
+routage-statique,Routage Statique,
+produit-minimum-viable-mvp,Produit minimum viable (MVP),mvp
+miro,Miro,
+arcgis,ArcGIS,
+visual-basic-vb,Visual Basic (VB),"vb6, vb, visual-basic"
+security-information-event-management-siem,Security Information Event Management (SIEM),siem
+soc-security-operation-center,SOC (Security Operation Center),soc
+public-key-infrastructure-pki,Public Key Infrastructure (PKI),pki
+sonarqube,Sonarqube,sonar
+olap-online-analytical-processing,OLAP (Online Analytical Processing),olap
+zoom,Zoom,
+qlik-sense,Qlik Sense,qliksense
+asterisk,Asterisk,
+stormshield,Stormshield,
+soql,SOQL,
+service-cloud,Service Cloud,
+ged-gestion-electronique-des-documents,GED (Gestion Électronique des Documents),ged
+scm-supply-chain-management,SCM (Supply Chain Management),scm
+sciforma,Sciforma,
+frame-relay,Frame Relay,
+nextcloud,Nextcloud,
+proxmox,Proxmox,
+vmware-vsphere,VMware vSphere,vsphere
+openstack,OpenStack,
+pfsense,pfSense,
+alfresco,Alfresco,
+fl-studio,FL Studio,flstudio
+adobe-after-effects,Adobe After Effects,"after-effects, after-effect"
+maintien-en-condition-operationnelle-mco,Maintien en condition opérationnelle (MCO),mco
+usb,USB,
+mozilla-firefox,Mozilla Firefox,firefox
+google-chrome,Google Chrome,chrome
+filezilla,FileZilla,
+avaya,Avaya,
+swagger,Swagger,
+back-end,Back-end,backend
+methode-de-monte-carlo,Méthode de Monte-Carlo,monte-carlo
+rdp-remote-desktop-protocol,RDP (Remote Desktop Protocol) ,rdp
+versioning,Versioning,
+test-driven-development-tdd,Test-Driven Development (TDD),tdd
+ccna,CCNA,
+socket-io,Socket.IO,
+stripe,Stripe,
+application-web,Application web,
+postgis,PostGIS,
+adobe-lightroom,Adobe Lightroom,lightroom
+disaster-recovery-plan-drp,Disaster Recovery Plan (DRP),drp
+wimax,WiMAX,
+microsoft-edge,Microsoft Edge,edge
+umts,UMTS,
+gprs,GPRS,
+gsm,GSM,
+osi-open-systems-interconnection,OSI (Open Systems Interconnection),osi
+can-controller-area-network,CAN (Controller Area Network),can
+uart,UART,
+fedora,Fedora,
+sftp-secure-file-transfer-protocol,SFTP (Secure File Transfer Protocol),sftp
+smtp-simple-mail-transfer-protocol,SMTP (Simple Mail Transfer Protocol),smtp
+sgbdr,SGBDR,
+remedy,Remedy,
+ims,IMS,
+ipbx-internet-protocol-branch-exchange,IPBX (Internet Protocol Branch eXchange),ipbx
+wi-fi,Wi-Fi,wifi
+session-initiation-protocol-sip,Session Initiation Protocol (SIP),sip
+openvpn,OpenVPN,
+freebsd,FreeBSD,
+arch-linux,Arch Linux,arch
+gnu,GNU,
+windows-client,Windows Client,
+control-m,Control-M,
+cmdb,CMDB,
+developpement,Développement,developpement-informatique
+lxc,LXC,
+soap,Soap,
+perl-langage,Perl (langage),perl
+objet-de-strategie-de-groupe-gpo,Objet de stratégie de groupe (GPO),gpo
+notepad,Notepad++,
+environnement-de-developpement-integre-ide,Environnement de développement intégré (IDE),ide
+tailwind-css,Tailwind CSS,"tailwindcss, tailwind"
+mariadb,MariaDB,maria-db
+intellij-idea,IntelliJ IDEA,intellij
+six-sigma,Six Sigma,
+power-apps,Power Apps,powerapps
+sig-systemes-dinformation-geographique,SIG (Systèmes d'Information Géographique),sig
+merise,Merise,
+web-service,Web service,"webservice, web-services, webservices"
+internet-information-services-iis,Internet Information Services (IIS),iis
+linux-debian,Linux Debian,debian
+nagios,Nagios,
+sgbd,SGBD,
+ipsec,IPsec,
+fortigate,FortiGate,
+api-platform,API Platform,
+organisation-autonome-decentralisee-dao,Organisation autonome décentralisée (DAO),dao
+bpm-business-process-management,BPM (Business Process Management),bpm
+wildfly,WildFly,jboss
+pare-feu,Pare-feu,
+kaspersky,Kaspersky,
+udp-user-datagram-protocol,UDP (User Datagram Protocol),udp
+wan-wide-area-network,WAN (Wide Area Network),wan
+ethernet,Ethernet,
+http,HTTP,
+phpmyadmin,phpMyAdmin,
+web-marketing,Web marketing,webmarketing
+shopify,Shopify,
+slack,Slack,
+vmware-airwatch,VMware AirWatch,airwatch
+novell,Novell,
+discord,Discord,
+power-automate,Power Automate,
+grafana,Grafana,
+qlik,Qlik,
+cognos,Cognos,ibm-cognos
+pentaho,Pentaho,
+intranet,Intranet,
+cycle-en-v,Cycle en V,cycle-v
+zeplin,Zeplin,
+sublime-text,Sublime Text,
+boostrap,Boostrap,
+virtual-network-computing,Virtual Network Computing,vnc
+wsus-windows-server-update-services,WSUS (Windows Server Update Services),wsus
+oracle-vm-virtualbox,Oracle VM VirtualBox,"virtualbox, virtual-box"
+microsoft-word,Microsoft Word,"world, word, ms-word"
+business-analysis,Business Analysis,
+microsoft-excel,Microsoft Excel,"ms-excel, excel"
+next-generation-network-ngn,Next Generation Network (NGN),ngn
+4g,4G,
+protocole-aaa,Protocole AAA,aaa
+radius-remote-authentication-dial-in-user-service,RADIUS (Remote Authentication Dial-In User Service),radius
+cryptographie,Cryptographie,
+systeme-de-detection-dintrusion-ids,Système de détection d'intrusion (IDS),ids
+snmp-simple-network-management-protocol,SNMP (Simple Network Management Protocol),snmp
+point-to-point-protocol-ppp,Point-to-Point Protocol (PPP),ppp
+wireshark,Wireshark,
+staruml,StarUML,
+poweramc,PowerAMC,power-amc
+windev-mobile,WINDEV Mobile,
+adsl,ADSL,
+ipv6,IPv6,
+systeme-de-prevention-des-intrusions-ips,Système de prévention des intrusions (IPS),ips
+reseau-ftth,Réseau FTTH,ftth
+open-source-ticket-request-system-otrs,Open-source Ticket Request System (OTRS),otrs
+pc,PC,
+cics-customer-information-control-system,CICS (Customer Information Control System),cics
+windows-nt,Windows NT,nt
+z-os,z/OS,
+multiple-virtual-storage-mvs,Multiple Virtual Storage (MVS),mvs
+batch,Batch,
+reseau-de-stockage-san,Réseau de stockage SAN,san
+bgp-border-gateway-protocol,BGP (Border Gateway Protocol),bgp
+virtual-routing-and-forwarding-vrf,Virtual routing and forwarding (VRF),vrf
+mehari,MÉHARI ,
+iso-9001,ISO 9001,iso-9-0-0-1
+cmmi-capability-maturity-model-integration,CMMI (Capability Maturity Model Integration),cmmi
+cobit,COBIT,
+preuve-de-concept-poc,Preuve de concept (POC),poc
+capex,CAPEX,
+opex,OPEX,
+sd-wan,SD-WAN,sdwan
+woocommerce,WooCommerce,
+vmware-workstation,VMware Workstation,workstation
+putty,PuTTY,
+network-address-translation-nat,Network address translation (NAT),nat
+telnet,Telnet,
+secure-shell-ssh,Secure Shell (SSH),ssh
+vlan,VLAN,vlans
+spanning-tree-protocol,Spanning Tree Protocol,spanning-tree
+is-is,IS-IS,
+open-shortest-path-first-ospf,Open Shortest Path First (OSPF),ospf
+eigrp,EIGRP,
+kibana,Kibana,
+synology,Synology,
+netgear,Netgear,
+distributed-file-system-dfs,Distributed File System (DFS),dfs
+microsoft-deployment-toolkit-mdt,Microsoft Deployment Toolkit (MDT),mdt
+windows-deployment-services-wds,Windows Deployment Services (WDS),wds
+access-control-list-acl,Access Control List (ACL),acl
+internet-protocol-ip,Internet Protocol (IP),ip
+transmission-control-protocol-tcp,Transmission Control Protocol (TCP),tcp
+postfix,Postfix,
+bugzilla,Bugzilla,
+mantis,Mantis,
+xampp,XAMPP,
+zabbix,Zabbix,
+oracle-forms,Oracle forms,
+teamviewer,TeamViewer,team-viewer
+apache-kafka,Apache Kafka,kafka
+redmine,Redmine,
+mysql-workbench,MySQL Workbench,workbench
+phpstorm,PhpStorm,php-storm
+smarty,Smarty,
+twig,Twig,
+blade,BLADE,
+doctrine,Doctrine,
+redis,Redis,
+dreamweaver,Dreamweaver,
+adobe-flash,Adobe Flash,flash
+composer,Composer,
+ticketing,Ticketing,
+tierce-maintenance-applicative-tma,Tierce Maintenance Applicative (TMA),tma
+kpi,KPI,kpis
+linkedin,LinkedIn,
+smb-server-message-block,SMB (Server Message Block),smb
+nfs-network-file-system,NFS (Network File System),nfs
+samba,Samba,
+ftp-file-transfert-protocol,FTP (File Transfert Protocol),ftp
+ldap,LDAP,
+open-source,Open Source,
+cypress,Cypress,
+apache-solr,Apache Solr,solr
+less,Less,
+css,CSS,
+npm,npm,
+gsap,GSAP,
+gulp-js,Gulp.js,gulp
+webpack,webpack,
+firestore,Firestore,
+heroku,Heroku,
+next-js,Next.js,nextjs
+phpunit,PHPUnit,
+gitlab-ci,GitLab CI,
+nginx,Nginx,
+rabbitmq,RabbitMQ,
+silae,Silae,
+canva,Canva,
+spss,SPSS,
+publication-assistee-par-ordinateur-pao,Publication Assistée par Ordinateur (PAO),pao
+ltspice,LTspice,
+ressources-humaines,Ressources humaines,hr
+pandas,Pandas,
+react-native,React Native,"reactnative, native"
+flask,Flask,
+abap,ABAP,
+ci-cd,CI/CD,"cd, ci"
+vhdl,VHDL,
+support-informatique,Support informatique,
+data-analysis,Data analysis,"data-analyse, data-analytics, analyse-des-donnees, analyse-de-donnees"
+intelligence-artificielle,Intelligence artificielle,"artificial-intelligence, ia"
+android-studio,Android studio,androidstudio
+html,HTML,
+labview,LabVIEW,
+computer-vision,Computer vision,
+adobe-photoshop,Adobe Photoshop,photoshop
+adobe-illustrator,Adobe Illustrator,illustrator
+database,Database,"databases, db"
+qgis,QGIS,
+autocad,AutoCAD,
+express-js,Express.js,expressjs
+nestjs,NestJS,
+firebase,Firebase,
+safe,Safe,
+express,Express,
+developpement-web,Développement web,"webdev, web-development, programmation-web"
+dax,DAX,
+web-design,Web design,webdesign
+nosql,Nosql,no-sql
+routage,Routage,"router, routing, routeur, routeurs"
+support-technique,Support technique,
+pytorch,Pytorch,
+data-management,Data management,
+robot-operating-system-ros,Robot Operating System (ROS),ros
+arduino,Arduino,
+powerpoint,Powerpoint,"microsoft-powerpoint, ppt, power-point"
+redux,Redux,
+front-end,Front-end,"frontend, front"
+tensorflow,Tensorflow,
+msbi,MSBI,
+administration-linux,Administration linux,
+macos,macOS,"macos-x, mac-osx, mac-os-x, mac-os,osx"
+solidworks,SolidWorks,
+visual-studio-code,Visual Studio Code,"vs-code, visualstudio, visual, microsoft-visual-studio, visual-studio, visual-code, vsc, vscode"
+elasticsearch,Elasticsearch,elastic-search
+testlink,TestLink,
+cegid,Cegid,
+boot,Boot,
+github,Github,"git-hub, github-com"
+administration-windows,Administration Windows,
+dart-langage,Dart (langage),dart
+echange-de-donnees-informatise-edi,Échange de données informatisé (EDI),edi
+cms,CMS,
+scikit-learn,Scikit-learn,"scikit, scikitlearn, sklearn"
+graphisme,Graphisme,
+scss,SCSS,
+gitlab,Gitlab,
+tableau-software,Tableau software,tableau
+react,React,"reactjs, react-js"
+graphql,GraphQL,
+servicenow,ServiceNow,service-now
+stockage,Stockage,
+scripting,Scripting,script
+apex,Apex,
+ajax,Ajax,
+gouvernance,Gouvernance,
+delphi,Delphi,
+rgpd,Rgpd,gdpr
+electronique,Electronique,
+iot,IoT,
+blender,Blender,
+commerce,Commerce,
+ui-design,Ui design,ui
+reseaux-sociaux,Réseaux sociaux,social-media
+installation,Installation,
+hp-alm,HP ALM,
+rest,Rest,
+springboot,Springboot,spring-boot
+recrutement,Recrutement,
+support-utilisateurs,Support utilisateurs,support-utilisateur
+administration-reseaux,Administration réseaux,administration-reseau
+sass,Sass,
+modelisation,Modélisation,
+modele-vue-controleur-mvc,Modèle-vue-contrôleur (MVC),mvc
+data-visualisation,Data visualisation,"dataviz, data-visualization"
+deploiement,Déploiement,
+veeam,Veeam,
+hyper-v,Hyper-v,"microsoft-hyper-v, hyperv"
+rpa-robotic-process-automation,RPA (Robotic Process Automation),rpa
+unity,Unity,unity-3d
+marketing-digital,Marketing digital,digital-marketing
+google-ads,Google ads,google-adwords
+ux-design,UX design,ux
+uipath,UiPath,
+service-client,Service client,
+squash,Squash,
+sap-mm,SAP MM,
+programmation-orientee-objet-poo,Programmation Orientée Objet (POO),"oriente-objet, poo, oop"
+sauvegarde,Sauvegarde,
+voip,VoIP,telephonie-ip
+dhcp-dynamic-host-configuration-protocol,DHCP (Dynamic Host Configuration Protocol),dhcp
+dns,DNS,
+odoo,Odoo,
+agile-scrum,Agile Scrum,scrum-agile
+codeigniter,CodeIgniter,
+administration-systeme,Administration système,
+sql-server-reporting-services-ssrs,SQL Server Reporting Services (SSRS),ssrs
+microsoft-analysis-services-ssas,Microsoft Analysis Services (SSAS),ssas
+adobe-xd,Adobe XD,xd
+rpg-report-program-generator,RPG (Report Program Generator),rpg
+sas,SAS,
+transformation-digitale,Transformation digitale,
+change-management,Change management,
+strategie,Stratégie,
+vente,Vente,
+relation-client,Relation client,
+base-de-donnees,Base de données,"base-de-donnee, bases-de-donnees, bdd"
+microstrategy,Microstrategy,
+bash,Bash,scripting-bash
+etl-extract-transform-load,ETL (Extract-transform-load),etl
+tcp-ip,TCP/IP,
+comptabilite,Comptabilité,
+gestion-des-risques,Gestion des risques,
+typescript,TypeScript,"ts, type-script"
+qt,QT,
+ionic,Ionic,
+asp-net,ASP.NET,
+windows-presentation-foundation-wpf,Windows Presentation Foundation (WPF),wpf
+mac,MAC,
+prince2,Prince2,prince-2
+postman,Postman,
+sketch,Sketch,
+figma,Figma,
+fortinet,Fortinet,
+securite-informatique,Sécurité informatique,security
+google-analytics,Google Analytics,
+css3,CSS3,
+sage-x3,Sage x3,sage-x-3
+flutter,Flutter,
+software,Software,
+logistique,Logistique,
+animation,Animation,
+confluence,Confluence,
+glpi,GLPI,
+supervision,Supervision,
+commercial,Commercial,
+sirh,SIRH,
+lean,Lean,"lean-manufacturing, lean-management"
+cybersecurite,Cybersécurité,
+sap-bo,Sap BO,
+lan,LAN,
+sccm,SCCM,
+django,Django,
+planification,Planification,
+helpdesk,Helpdesk,help-desk
+maintenance-informatique,Maintenance informatique,
+citrix,Citrix,
+business,Business,
+qlikview,Qlikview,qlickview
+itsm,ITSM,
+itil,ITIL,
+bureautique,Bureautique,
+cao,CAO,
+coordination,Coordination,
+automatisation,Automatisation,
+jcl-job-control-language,JCL (Job Control Language),jcl
+hardware,Hardware,
+gestion-de-projet,Gestion de projet,"gestion-des-projets, gestion-projet, gestion-de-projets, pilotage-projet, pilotage-de-projet, pm direction-de-projet, management-de-projet, conduite-de-projet, projet, projets, project-management"
+amoa,AMOA,
+trello,Trello,
+microsoft-power,Microsoft Power,"flow, power"
+gestion-de-parc,Gestion de parc,
+analyse,Analyse,
+pilotage,Pilotage,
+reseaux,Réseaux,reseau
+integration,Intégration,
+windev,WinDev,
+visual-basic-net,Visual Basic .NET,vb-net
+organisation,Organisation,
+exploitation,Exploitation,
+utilisateurs,Utilisateurs,
+client,Client,
+direction,Direction,
+management,Management,management-dequipe
+xml,XML,
+xcode,Xcode,
+wordpress,Wordpress,cms-wordpress
+web,Web,internet
+vpn,VPN,
+vmware,VMware,vm-ware
+virtualisation,Virtualisation,
+vim,Vim,
+vba,VBA,"excel-vba, vba-excel"
+vagrant,Vagrant,
+unix,UNIX,
+telecom,Telecom,
+talend,Talend,"etl-talend, talend-open-studio"
+systeme-dexploitation,Système d'exploitation,os
+supply-chain,Supply Chain,
+statistiques,Statistiques,statistique
+microsoft-ssis,Microsoft SSIS,ssis
+sqlite,SQLite,
+sql,SQL,
+si,SI,
+shell,Shell,"shell-scripting, script-shell, shell-bash, scripting-shell, shell-script"
+sharepoint,SharePoint,
+serveur,Serveur,serveurs
+seo,SEO,
+selenium,Selenium,
+scala,Scala,
+rust,Rust,
+ruby-on-rails,Ruby on Rails,rails
+ruby,Ruby,
+reporting,Reporting,
+recette,Recette,
+puppet,Puppet,
+programmation,Programmation,
+prestashop,PrestaShop,
+postgresql,PostgreSQL,"postgre-sql, postgressql, postgres"
+oracle,Oracle,
+opengl,OpenGl,
+netbeans,NetBeans,
+nas,NAS,
+mysql,MySQL,"php-mysql, my-sql"
+monitoring,Monitoring,
+mongodb,Mongodb,"mongo, mongo-db, mangodb"
+moe,MOE,
+migration,Migration,
+apache-maven,Apache Maven,maven
+matlab,Matlab,
+marketing,Marketing,
+mainframe,Mainframe,
+magento,Magento,
+machine-learning,Machine Learning,ml
+load-balancing,Load Balancing,
+junit,JUnit,
+jquery,jQuery,
+joomla,Joomla,
+ios,iOS,
+informatica,Informatica,
+html5,HTML5,
+hr-access,HR Access,
+hibernate,Hibernate,
+haskell,Haskell,
+hadoop,Hadoop,
+google-cloud-platform,Google Cloud Platform,"google-cloud, gcp"
+go-langage,Go (langage),"go, golang"
+git,Git,
+formation,Formation,formateur
+firewall,Firewall,"firewalls, firewalling"
+microsoft-exchange-server,Microsoft Exchange Server,"exchange-server, exchange, ms-exchange, microsoft-exchange"
+erp,ERP,
+eclipse,Eclipse,
+drupal,Drupal,
+docker,Docker,
+design-system,Design system,
+design,Design,
+depannage,Dépannage,
+deep-learning,Deep Learning,
+ibm-db2,IBM Db2,db2
+data-science,Data science,
+data-mining,Data mining,datamining
+crm,CRM,
+coredata,CoreData,
+conduite-du-changement,Conduite du changement,
+conception,Conception,
+cobol,COBOL,
+cft-cross-file-transfer,CFT (Cross File Transfer),cft
+cakephp,CakePHP,
+c-c,C/C++,"csharp, c, langage-c"
+business-object,Business Object,business-objects
+business-intelligence,Business Intelligence,
+big-data,Big Data,"data, bigdata"
+audit,Audit,
+angularjs,AngularJS,angular-js
+android,Android,
+adobe,Adobe,pack-adobe
+azure-devops-services,Azure DevOps Services,azure-devops

@@ -1,0 +1,87 @@
+liip_imagine:
+    driver: "gd"
+    loaders:
+        user_avatar_loader:
+            stream:
+                wrapper: gaufrette://user_avatar_fs/
+        blog_post_image_loader:
+            stream:
+                wrapper: gaufrette://blog_post_image_fs/
+        company_logo_loader:
+            stream:
+                wrapper: gaufrette://company_logo_fs/
+        company_picture_image_loader:
+            stream:
+                wrapper: gaufrette://company_picture_image_fs/
+    cache: proxy
+    filter_sets:
+        user_avatar_x_small:
+            data_loader: user_avatar_loader
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 100, 100 ]
+                    mode: inset
+        user_avatar_small:
+            data_loader: user_avatar_loader
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 200, 200 ]
+                    mode: inset
+        user_avatar_medium:
+            data_loader: user_avatar_loader
+            format: jpeg
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 500, 500 ]
+                    mode: inset
+        blog_post_image_medium:
+            data_loader: blog_post_image_loader
+            format: jpeg
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 500, 375 ]
+                    mode: inset
+        blog_post_image_large:
+            data_loader: blog_post_image_loader
+            format: jpeg
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 800, 600 ]
+                    mode: inset
+        company_logo_small:
+            data_loader: company_logo_loader
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 100, 100 ]
+                    mode: inset
+        company_logo_medium:
+            data_loader: company_logo_loader
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 300, 300 ]
+                    mode: inset
+        company_picture_image_medium:
+            data_loader: company_picture_image_loader
+            format: jpeg
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 500, 375 ]
+                    mode: inset
+        company_picture_image_large:
+            data_loader: company_picture_image_loader
+            format: jpeg
+            quality: 90
+            filters:
+                thumbnail:
+                    size: [ 1600, 1200 ]
+                    mode: inset
+    twig:
+        mode: lazy

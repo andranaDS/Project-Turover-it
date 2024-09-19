@@ -1,0 +1,28 @@
+sentry:
+  dsn: '%env(string:SENTRY_DSN)%'
+  register_error_listener: false
+  options:
+    release: '%env(APP_VERSION)%'
+    environment: '%env(string:SENTRY_ENVIRONMENT)%'
+    integrations:
+      - 'Sentry\Integration\IgnoreErrorsIntegration'
+  messenger:
+    enabled: false
+  tracing:
+    enabled: true
+    dbal:
+      enabled: true
+    twig:
+      enabled: false
+    cache:
+      enabled: true
+
+services:
+  Sentry\Integration\IgnoreErrorsIntegration:
+    arguments:
+      $options:
+        ignore_exceptions:
+          - Symfony\Component\HttpKernel\Exception\NotFoundHttpException
+          - ApiPlatform\Core\Bridge\Symfony\Validator\Exception\ValidationException
+          - Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException
+          - Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException

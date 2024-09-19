@@ -1,0 +1,21 @@
+{% apply inky_to_html|inline_css(source('@build/email.css')) %}
+    <container>
+        <spacer size="25"></spacer>
+
+        <row>
+            <columns>
+                <span class="preheader">{% block preheader %}{% endblock %}</span>
+                <a href="{{ 'components.website'|trans({}, 'emails') }}">
+                    <img width="100" src="{{ email.image('@images/email/logo-free-work.png') }}" class="logo-free-work"
+                         alt="Free-Work">
+                </a>
+            </columns>
+        </row>
+
+        <spacer size="40"></spacer>
+
+        {% block content %}{% endblock %}
+
+        <spacer size="9"></spacer>
+    </container>
+{% endapply %}

@@ -1,0 +1,34 @@
+parameters:
+    router.request_context.scheme: 'https'
+    asset.request_context.secure: true
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $env: '%env(APP_ENV)%'
+            string $candidatesScheme:  '%env(CANDIDATES_SCHEME)%'
+            string $candidatesBaseUrl:  '%env(CANDIDATES_BASE_URL)%'
+            string $feedRSSPublisher:  '%env(FEED_RSS_PUBLISHER)%'
+            $projectDir: '%kernel.project_dir%'
+            iterable $feedRssServices: !tagged_iterator app.feed_rss_services
+
+    App\FeedRss\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\FeedRss\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+
+    _instanceof:
+        App\FeedRss\Handler\Templates\FeedRssTemplateInterface:
+            tags: [ 'app.feed_rss_services' ]
+
+

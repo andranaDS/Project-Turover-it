@@ -1,0 +1,17 @@
+turnover_front_home:
+    path: /
+
+turnover_front_login:
+    path: /login
+
+turnover_front_registration_email_confirm:
+    path: /register/confirm-email/{token}
+
+turnover_front_change_email_confirm:
+    path: /account/confirm-email/{token}/{email}
+
+turnover_front_reset_password:
+    path: /password/reset/{token}
+
+turnover_front_job_posting_share:
+    path: /todo

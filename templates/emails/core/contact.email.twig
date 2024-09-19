@@ -1,0 +1,42 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'contact') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'core.contact.subject'|trans({}, 'emails', 'fr')|raw }}
+{% endblock subject %}
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' %}
+                    <p>{{ 'core.contact.content.paragraphs.0'|trans({}, 'emails')|nl2br }}</p>
+                    <p>
+                        <strong>{{ 'core.contact.content.fields.name'|trans({}, 'emails')|nl2br }} : </strong><br/>
+                        {{ object.fullname }}
+                    </p>
+                    <p>
+                        <strong>{{ 'core.contact.content.fields.email'|trans({}, 'emails')|nl2br }} : </strong><br/>
+                        {{ object.email }}
+                    </p>
+                    <p>
+                        <strong>{{ 'core.contact.content.fields.service'|trans({}, 'emails')|nl2br }} : </strong><br/>
+                        {{ object.service }}
+                    </p>
+                    <p>
+                        <strong>{{ 'core.contact.content.fields.subject'|trans({}, 'emails')|nl2br }} : </strong><br/>
+                        {{ object.subject }}
+                    </p>
+                    <p>
+                        <strong>{{ 'core.contact.content.fields.message'|trans({}, 'emails')|nl2br }} : </strong><br/>
+                        {{ object.message|nl2br }}
+                    </p>
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_bot.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

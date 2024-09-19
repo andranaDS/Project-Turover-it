@@ -1,0 +1,52 @@
+{% block config %}
+    {% do email.addTextHeader('X-Mailjet-Campaign', 'confirmation_profile_not_visible') %}
+{% endblock config %}
+
+{% block subject %}
+    {{ 'user.confirmation_profile_not_visible.subject'|trans({}, 'emails')|raw }}
+{% endblock subject %}
+
+
+{% block html %}
+    {% embed "emails/base.html.twig" %}
+        {% block preheader %}
+            {{ 'user.confirmation_profile_not_visible.pre_header'|trans({}, 'emails')|raw }}
+        {% endblock preheader %}
+
+        {% block content %}
+            <row>
+                <columns>
+                    {% include 'emails/components/hello.html.twig' with {'firstName': user.firstName} %}
+
+                    {% include 'emails/components/introduction_transition_freelance_info.html.twig'with {'nbDays': 90} %}
+
+                    <p>
+                        <strong>
+                            {{ 'user.confirmation_profile_not_visible.content.paragraphs.0.0'|trans({}, 'emails')|raw|nl2br }}
+                        </strong>
+                        {{ 'user.confirmation_profile_not_visible.content.paragraphs.0.1'|trans({}, 'emails')|raw|nl2br }}
+                    </p>
+
+                    <p>{{ 'user.confirmation_profile_not_visible.content.paragraphs.1'|trans({}, 'emails')|raw|nl2br }}</p>
+
+                    <spacer size="35"></spacer>
+
+                    <center>
+                        <button class="secondary large radius expanded"
+                                href="{{ url('candidates_profile_resume') }}?utm_source=email_transactionnel&utm_medium=email&utm_campaign=profil_prive">
+                            {{ 'user.confirmation_profile_not_visible.content.button'|trans({}, 'emails')|nl2br }}
+                        </button>
+                    </center>
+
+                    <spacer size="35"></spacer>
+
+                    {{ 'user.confirmation_profile_not_visible.content.paragraphs.2'|trans({}, 'emails')|raw|nl2br }}
+
+                </columns>
+            </row>
+
+            {% include 'emails/components/signature_team.html.twig' %}
+            {% include 'emails/components/notification.html.twig' %}
+        {% endblock %}
+    {% endembed %}
+{% endblock html %}

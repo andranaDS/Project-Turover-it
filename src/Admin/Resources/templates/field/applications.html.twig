@@ -1,0 +1,49 @@
+{# @var ea \EasyCorp\Bundle\EasyAdminBundle\Context\AdminContext #}
+{# @var field \EasyCorp\Bundle\EasyAdminBundle\Dto\FieldDto #}
+{# @var entity \EasyCorp\Bundle\EasyAdminBundle\Dto\EntityDto #}
+{# this is a bit ugly, but Twig doesn't have a 'is numeric' test #}
+{% if field.formattedValue matches '/^\\d+$/' %}
+    {% if field.value|length > 0 %}
+        {% for application in field.value %}
+            <div class="mb-2">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <b>Etape: </b>
+                        {{ ('app_user_enum_step_' ~ application.step)|trans([], 'enums') }}
+                    </li>
+                    <li class="list-group-item">
+                        {% if application.jobPosting is not null %}
+                            <b>Offre: </b>
+                            <a href="{{ url('candidates_job_posting', {'JobSlug': application.jobPosting.job.slug, 'jobPostingSlug': application.jobPosting.slug}) }}" target="_blank">
+                                {{ application.jobPosting.title }}
+                            </a>
+                        {% else %}
+                            <b>Entreprise: </b>
+                            <a href="{{ url('candidates_company', {'slug': application.company.slug}) }}" target="_blank">
+                                {{ application.company.name }}
+                            </a>
+                        {% endif %}
+                    </li>
+                    {% if application.content %}
+                        <li class="list-group-item">
+                            <b>Message: </b>
+                            {{ application.content }}
+                        </li>
+                    {% endif %}
+                    <li class="list-group-item">
+                        <b>Date de création: </b>
+                        {{ application.createdAt|date }}
+                    </li>
+                    <li class="list-group-item">
+                        <b>Date de mise à jour: </b>
+                        {{ application.updatedAt|date }}
+                    </li>
+                </ul>
+            </div>
+        {% endfor %}
+    {% else %}
+        <span class="badge badge-secondary">Aucun(e)</span>
+    {% endif %}
+{% else %}
+    <span class="badge badge-secondary">Aucun(e)</span>
+{% endif %}

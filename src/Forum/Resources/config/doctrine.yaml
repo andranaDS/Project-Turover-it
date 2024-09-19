@@ -1,0 +1,11 @@
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    AppForum:
+                        is_bundle: false
+                        type: annotation
+                        dir: '%kernel.project_dir%/src/Forum/Entity'
+                        prefix: 'App\Forum\Entity'
+                        alias: AppForum

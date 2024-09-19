@@ -1,0 +1,36 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $env: '%env(APP_ENV)%'
+            int $appItemsPerPage: '%env(APP_ITEMS_PER_PAGE)%'
+            FOS\ElasticaBundle\Finder\PaginatedFinderInterface $appPaginatedFinder: "@fos_elastica.finder.app"
+
+    App\JobPosting\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\JobPosting\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+    # thanks front team 💩
+    'App\JobPosting\EventSubscriber\JobPostingSearchDeserializeSubscriber':
+        tags:
+            - { name: 'kernel.event_listener', event: 'kernel.request', method: 'onKernelRequest', priority: 2 }
+        # Autoconfiguration must be disabled to set a custom priority
+        autoconfigure: false
+        decorates: 'api_platform.listener.request.deserialize'
+        arguments:
+            $decorated: '@App\JobPosting\EventSubscriber\JobPostingSearchDeserializeSubscriber.inner'
+
+    # doctrine event subscribers
+    App\JobPosting\DoctrineEventSubscriber\:
+        resource: '../DoctrineEventSubscriber'
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }

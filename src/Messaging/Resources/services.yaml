@@ -1,0 +1,36 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $env: '%env(APP_ENV)%'
+            int $itemsPerPageDefault: '%env(int:APP_ITEMS_PER_PAGE)%'
+
+    App\Messaging\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\Messaging\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+    # doctrine event subscribers
+    App\Messaging\DoctrineEventSubscriber\:
+        resource: '../DoctrineEventSubscriber'
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }
+
+    App\Messaging\Serializer\FeedNormalizer:
+        decorates: 'api_platform.jsonld.normalizer.item'
+
+    'app.messaging.serializer.feed_normalizer.item.json':
+        class: 'App\Messaging\Serializer\FeedNormalizer'
+        decorates: 'api_platform.serializer.normalizer.item'
+
+    'app.messaging.serializer.feed_normalizer.item.object':
+        class: 'App\Messaging\Serializer\FeedNormalizer'
+        decorates: 'serializer.normalizer.object'

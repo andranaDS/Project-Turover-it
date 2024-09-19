@@ -1,0 +1,7 @@
+gesdinet_jwt_refresh_token:
+    user_provider: security.user.provider.concrete.app_user_provider
+    ttl: '%env(int:REFRESH_TOKEN_TTL)%'
+    ttl_remember: '%env(int:REFRESH_TOKEN_TTL_REMEMBER)%'
+    token_parameter_name: '%env(REFRESH_TOKEN_NAME)%'
+    cookie:
+        secure: '%env(bool:REFRESH_TOKEN_COOKIE_SECURE)%'

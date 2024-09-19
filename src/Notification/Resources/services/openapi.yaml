@@ -1,0 +1,13 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\Notification\OpenApi\NotificationsReadDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+
+    App\Notification\OpenApi\NotificationsUnreadCountDecorator:
+        decorates: 'api_platform.openapi.factory'
+        autoconfigure: false
+

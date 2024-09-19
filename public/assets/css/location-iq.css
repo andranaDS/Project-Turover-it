@@ -1,0 +1,22 @@
+.location-iq-container legend:not(.form-control-label) {
+    display: none;
+}
+
+.location-iq-container .form-group {
+    padding-top: 0;
+}
+
+.location-iq-container .choices-container {
+    border: 1px solid #bbb;
+    margin-top: 5px;
+}
+
+.location-iq-container .choice {
+    display: block;
+    padding: 3px 7px 4px;
+    cursor: pointer;
+}
+
+.location-iq-container .choice:hover {
+    background-color: #bbb;
+}

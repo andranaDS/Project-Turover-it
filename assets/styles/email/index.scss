@@ -1,0 +1,39 @@
+@import 'settings';
+@import 'node_modules/foundation-emails/scss/foundation-emails';
+
+.logo-free-work {
+  width: 100px !important;
+}
+
+.logo-turnover {
+  width: 225px !important;
+}
+
+.social {
+  width: 22px !important;
+}
+
+.preheader {
+  display: none !important;
+}
+
+.alerts a {
+  color: $global-font-color;
+}
+
+.alerts .worker {
+  color: $worker-color;
+}
+
+.alerts .contractor {
+  color: $contractor-color;
+}
+
+.alerts .title {
+  color: $primary-color;
+}
+
+.info {
+  width: 18px !important;
+}
+

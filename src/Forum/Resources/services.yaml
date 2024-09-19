@@ -1,0 +1,27 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $env: '%env(APP_ENV)%'
+            int $itemsPerPageDefault: '%env(int:APP_ITEMS_PER_PAGE)%'
+            string $contactRecipientAdmin: '%env(MAILER_RECIPIENT_CONTACT)%'
+            string $marketingRecipientMarketing: '%env(MAILER_RECIPIENT_MARKETING)%'
+
+    App\Forum\:
+        resource: '../'
+        exclude:
+            - '../DependencyInjection/'
+            - '../Entity/'
+            - '../Tests/'
+
+    # controllers
+    App\Forum\Controller\:
+        resource: '../Controller/'
+        tags: [ 'controller.service_arguments' ]
+
+    # doctrine event subscribers
+    App\Forum\DoctrineEventSubscriber\:
+        resource: '../DoctrineEventSubscriber'
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }
